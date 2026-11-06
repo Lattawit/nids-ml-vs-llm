@@ -1,0 +1,8 @@
+Class,Train_Real_Available,Real_In_Balanced,Synthetic_SMOTE,Balanced_Total,Pct_Synthetic,Undersampled
+Benign,8863713,200000,0,200000,0.0,True
+Bot,102538,102538,97462,200000,48.73,False
+Brute Force,72271,72271,127729,200000,63.86,False
+DoS/DDoS,905997,200000,0,200000,0.0,True
+Infiltration,97868,97868,102132,200000,51.07,False
+PortScan,63486,63486,136514,200000,68.26,False
+Web Attack,2103,2103,197897,200000,98.95,False

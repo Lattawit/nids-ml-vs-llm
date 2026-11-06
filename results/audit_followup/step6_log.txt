@@ -1,0 +1,84 @@
+
+======================================================================
+step4_7b_zero_shot  (n=700)
+======================================================================
+Fallback rows: 1/700
+Top 10 raw response strings among fallback rows:
+     1  'Flow Byts/s: 80000.0 and the high Packet Rate (Flow Pkts/s: 26666.66667) along with the large Packet Lengths (Pkt Len Max: 6.0) and the Down/'
+
+Accuracy (a) as scored           : 0.0900 (63/700)   Macro F1: 0.0435
+Accuracy (b) fallback=wrong       : 0.0900 (63/700)
+Accuracy (c) normalized variants  : 0.0900 (63/700)   Macro F1: 0.0435
+  rows whose predicted label changed under normalization: 0
+
+======================================================================
+step4_7b_few_shot  (n=700)
+======================================================================
+Fallback rows: 0/700
+Top 10 raw response strings among fallback rows:
+
+Accuracy (a) as scored           : 0.6186 (433/700)   Macro F1: 0.6049
+Accuracy (b) fallback=wrong       : 0.6186 (433/700)
+Accuracy (c) normalized variants  : 0.6186 (433/700)   Macro F1: 0.6049
+  rows whose predicted label changed under normalization: 0
+
+======================================================================
+step4_14B_zero_shot  (n=700)
+======================================================================
+Fallback rows: 0/700
+Top 10 raw response strings among fallback rows:
+
+Accuracy (a) as scored           : 0.1571 (110/700)   Macro F1: 0.0885
+Accuracy (b) fallback=wrong       : 0.1571 (110/700)
+Accuracy (c) normalized variants  : 0.1571 (110/700)   Macro F1: 0.0885
+  rows whose predicted label changed under normalization: 0
+
+======================================================================
+step4_14B_few_shot  (n=700)
+======================================================================
+Fallback rows: 0/700
+Top 10 raw response strings among fallback rows:
+
+Accuracy (a) as scored           : 0.6586 (461/700)   Macro F1: 0.6424
+Accuracy (b) fallback=wrong       : 0.6586 (461/700)
+Accuracy (c) normalized variants  : 0.6586 (461/700)   Macro F1: 0.6424
+  rows whose predicted label changed under normalization: 0
+
+======================================================================
+step5_7b_noprotocol  (n=700)
+======================================================================
+Fallback rows: 0/700
+Top 10 raw response strings among fallback rows:
+
+Accuracy (a) as scored           : 0.6229 (436/700)   Macro F1: 0.6117
+Accuracy (b) fallback=wrong       : 0.6229 (436/700)
+Accuracy (c) normalized variants  : 0.6229 (436/700)   Macro F1: 0.6117
+  rows whose predicted label changed under normalization: 0
+
+======================================================================
+step5_14B_noprotocol  (n=700)
+======================================================================
+Fallback rows: 0/700
+Top 10 raw response strings among fallback rows:
+
+Accuracy (a) as scored           : 0.6443 (450/700)   Macro F1: 0.6106
+Accuracy (b) fallback=wrong       : 0.6443 (451/700)
+Accuracy (c) normalized variants  : 0.6443 (451/700)   Macro F1: 0.6106
+  rows whose predicted label changed under normalization: 0
+
+
+======================================================================
+Saved: <repo>/results/audit_followup/step6_accuracy_summary.csv
+Saved: <repo>/results/audit_followup/step6_fallback_top_raw_responses.csv
+
+======================================================================
+Task 3: McNemar -- 14B 1-shot rerun vs 7B 1-shot rerun
+======================================================================
+table [[both, 14B_only],[7B_only, neither]] = [[420, 41], [13, 226]]
+b (14B-only correct) = 41
+c (7B-only correct)  = 13
+statistic=13.0000  p-value=0.000175127  (exact=True)
+
+Saved: <repo>/results/audit_followup/step6_mcnemar_14B_vs_7B_1shot_rerun.txt
+
+Done.

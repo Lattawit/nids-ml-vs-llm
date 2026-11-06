@@ -1,0 +1,8 @@
+Model,Class,Precision,Recall,F1-score,Support
+"LLM qwen2.5:14B (few-shot, 3shot, v4, run3)",Benign,0.5147058823529411,0.35,0.4166666666666667,100
+"LLM qwen2.5:14B (few-shot, 3shot, v4, run3)",Bot,0.8319327731092437,0.99,0.9041095890410958,100
+"LLM qwen2.5:14B (few-shot, 3shot, v4, run3)",Brute Force,0.811965811965812,0.95,0.8755760368663594,100
+"LLM qwen2.5:14B (few-shot, 3shot, v4, run3)",DoS/DDoS,0.6052631578947368,0.69,0.6448598130841121,100
+"LLM qwen2.5:14B (few-shot, 3shot, v4, run3)",Infiltration,0.4791666666666667,0.23,0.3108108108108108,100
+"LLM qwen2.5:14B (few-shot, 3shot, v4, run3)",PortScan,0.6711409395973155,1.0,0.8032128514056225,100
+"LLM qwen2.5:14B (few-shot, 3shot, v4, run3)",Web Attack,0.8470588235294118,0.72,0.7783783783783784,100

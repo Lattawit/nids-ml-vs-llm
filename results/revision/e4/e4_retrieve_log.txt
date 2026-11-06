@@ -1,0 +1,27 @@
+Real training rows: (10107976, 22)
+class 0 (Benign): 8,863,713 rows, 16.3s
+class 1 (Bot): 102,538 rows, 0.2s
+class 2 (Brute Force): 72,271 rows, 0.2s
+class 3 (DoS/DDoS): 905,997 rows, 1.8s
+class 4 (Infiltration): 97,868 rows, 0.2s
+class 5 (PortScan): 63,486 rows, 0.1s
+class 6 (Web Attack): 2,103 rows, 0.0s
+k-NN (real rows) done in 19.4s
+k-NN (SMOTE set) done in 7.4s
+seed 42  retrieval_1nn  acc=0.7643 macroF1=0.7403
+seed 42  knn5_real      acc=0.7543 macroF1=0.7218
+seed 42  knn5_smote     acc=0.8800 macroF1=0.8834
+seed 1   retrieval_1nn  acc=0.7529 macroF1=0.7189
+seed 1   knn5_real      acc=0.7600 macroF1=0.7300
+seed 1   knn5_smote     acc=0.8800 macroF1=0.8833
+seed 2   retrieval_1nn  acc=0.7614 macroF1=0.7356
+seed 2   knn5_real      acc=0.7514 macroF1=0.7179
+seed 2   knn5_smote     acc=0.8786 macroF1=0.8819
+seed 3   retrieval_1nn  acc=0.7486 macroF1=0.7185
+seed 3   knn5_real      acc=0.7414 macroF1=0.7085
+seed 3   knn5_smote     acc=0.8657 macroF1=0.8689
+seed 4   retrieval_1nn  acc=0.7529 macroF1=0.7249
+seed 4   knn5_real      acc=0.7629 macroF1=0.7339
+seed 4   knn5_smote     acc=0.8871 macroF1=0.8899
+
+Done in 56.6s

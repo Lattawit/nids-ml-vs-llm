@@ -1,0 +1,169 @@
+[zero-shot 14B (50 rows, default ctx)] row 1/50  7.76s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 2/50  0.67s  pred=PortScan
+[zero-shot 14B (50 rows, default ctx)] row 3/50  0.72s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 4/50  0.86s  pred=Brute Force
+[zero-shot 14B (50 rows, default ctx)] row 5/50  0.71s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 6/50  0.67s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 7/50  0.72s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 8/50  0.69s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 9/50  0.73s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 10/50  0.76s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 11/50  0.69s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 12/50  0.73s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 13/50  0.73s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 14/50  0.74s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 15/50  0.77s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 16/50  0.78s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 17/50  0.76s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 18/50  0.72s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 19/50  0.68s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 20/50  0.73s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 21/50  0.75s  pred=PortScan
+[zero-shot 14B (50 rows, default ctx)] row 22/50  0.68s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 23/50  0.72s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 24/50  0.69s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 25/50  0.75s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 26/50  0.75s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 27/50  0.70s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 28/50  0.75s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 29/50  0.69s  pred=PortScan
+[zero-shot 14B (50 rows, default ctx)] row 30/50  0.76s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 31/50  0.76s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 32/50  0.79s  pred=PortScan
+[zero-shot 14B (50 rows, default ctx)] row 33/50  0.79s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 34/50  0.75s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 35/50  0.71s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 36/50  0.73s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 37/50  0.76s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 38/50  0.74s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 39/50  0.67s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 40/50  0.72s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 41/50  0.75s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 42/50  0.70s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 43/50  0.73s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 44/50  0.71s  pred=PortScan
+[zero-shot 14B (50 rows, default ctx)] row 45/50  0.73s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 46/50  0.67s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 47/50  0.67s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 48/50  0.65s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 49/50  0.70s  pred=Benign
+[zero-shot 14B (50 rows, default ctx)] row 50/50  0.69s  pred=Benign
+
+--- zero-shot 14B (50 rows, default ctx) ---
+avg s/row: 0.866  (total 43.3s, 50 rows)
+ollama ps snapshot (after row1 load): {"models": [{"name": "qwen2.5:14B", "model": "qwen2.5:14B", "size": 9953733507, "digest": "7cdf5a0187d5c58cc5d369b255592f7841d1c4696d45a8c8a9489440385b22f6", "details": {"parent_model": "", "format": "gguf", "family": "qwen2", "families": ["qwen2"], "parameter_size": "14.8B", "quantization_level": "Q4_K_M"}, "expires_at": "2026-09-19T20:24:25.772304+07:00", "size_vram": 6203847474, "context_length": 4096}]}
+[1-shot 14B (50 rows, default ctx)] row 1/50  9.99s  pred=Infiltration
+[1-shot 14B (50 rows, default ctx)] row 2/50  0.85s  pred=PortScan
+[1-shot 14B (50 rows, default ctx)] row 3/50  0.88s  pred=Benign
+[1-shot 14B (50 rows, default ctx)] row 4/50  1.05s  pred=Brute Force
+[1-shot 14B (50 rows, default ctx)] row 5/50  0.86s  pred=PortScan
+[1-shot 14B (50 rows, default ctx)] row 6/50  0.85s  pred=Benign
+[1-shot 14B (50 rows, default ctx)] row 7/50  0.87s  pred=PortScan
+[1-shot 14B (50 rows, default ctx)] row 8/50  0.88s  pred=Benign
+[1-shot 14B (50 rows, default ctx)] row 9/50  0.88s  pred=Benign
+[1-shot 14B (50 rows, default ctx)] row 10/50  1.02s  pred=Infiltration
+[1-shot 14B (50 rows, default ctx)] row 11/50  0.86s  pred=PortScan
+[1-shot 14B (50 rows, default ctx)] row 12/50  0.87s  pred=Benign
+[1-shot 14B (50 rows, default ctx)] row 13/50  0.87s  pred=PortScan
+[1-shot 14B (50 rows, default ctx)] row 14/50  1.06s  pred=Brute Force
+[1-shot 14B (50 rows, default ctx)] row 15/50  1.03s  pred=Infiltration
+[1-shot 14B (50 rows, default ctx)] row 16/50  1.03s  pred=Infiltration
+[1-shot 14B (50 rows, default ctx)] row 17/50  1.06s  pred=Infiltration
+[1-shot 14B (50 rows, default ctx)] row 18/50  0.87s  pred=Benign
+[1-shot 14B (50 rows, default ctx)] row 19/50  1.13s  pred=DoS/DDoS
+[1-shot 14B (50 rows, default ctx)] row 20/50  0.89s  pred=PortScan
+[1-shot 14B (50 rows, default ctx)] row 21/50  1.02s  pred=Brute Force
+[1-shot 14B (50 rows, default ctx)] row 22/50  0.84s  pred=PortScan
+[1-shot 14B (50 rows, default ctx)] row 23/50  0.88s  pred=Benign
+[1-shot 14B (50 rows, default ctx)] row 24/50  0.84s  pred=PortScan
+[1-shot 14B (50 rows, default ctx)] row 25/50  0.90s  pred=Benign
+[1-shot 14B (50 rows, default ctx)] row 26/50  1.05s  pred=Infiltration
+[1-shot 14B (50 rows, default ctx)] row 27/50  1.02s  pred=Infiltration
+[1-shot 14B (50 rows, default ctx)] row 28/50  1.02s  pred=Infiltration
+[1-shot 14B (50 rows, default ctx)] row 29/50  0.85s  pred=PortScan
+[1-shot 14B (50 rows, default ctx)] row 30/50  0.88s  pred=Benign
+[1-shot 14B (50 rows, default ctx)] row 31/50  0.88s  pred=PortScan
+[1-shot 14B (50 rows, default ctx)] row 32/50  1.26s  pred=DoS/DDoS
+[1-shot 14B (50 rows, default ctx)] row 33/50  1.09s  pred=Brute Force
+[1-shot 14B (50 rows, default ctx)] row 34/50  0.91s  pred=Benign
+[1-shot 14B (50 rows, default ctx)] row 35/50  0.86s  pred=PortScan
+[1-shot 14B (50 rows, default ctx)] row 36/50  0.90s  pred=PortScan
+[1-shot 14B (50 rows, default ctx)] row 37/50  1.04s  pred=Infiltration
+[1-shot 14B (50 rows, default ctx)] row 38/50  1.03s  pred=Infiltration
+[1-shot 14B (50 rows, default ctx)] row 39/50  0.81s  pred=PortScan
+[1-shot 14B (50 rows, default ctx)] row 40/50  0.88s  pred=Benign
+[1-shot 14B (50 rows, default ctx)] row 41/50  0.93s  pred=Benign
+[1-shot 14B (50 rows, default ctx)] row 42/50  1.05s  pred=Infiltration
+[1-shot 14B (50 rows, default ctx)] row 43/50  0.90s  pred=PortScan
+[1-shot 14B (50 rows, default ctx)] row 44/50  1.03s  pred=Infiltration
+[1-shot 14B (50 rows, default ctx)] row 45/50  0.88s  pred=Benign
+[1-shot 14B (50 rows, default ctx)] row 46/50  0.85s  pred=PortScan
+[1-shot 14B (50 rows, default ctx)] row 47/50  0.85s  pred=PortScan
+[1-shot 14B (50 rows, default ctx)] row 48/50  0.84s  pred=PortScan
+[1-shot 14B (50 rows, default ctx)] row 49/50  0.88s  pred=Benign
+[1-shot 14B (50 rows, default ctx)] row 50/50  0.89s  pred=Benign
+
+--- 1-shot 14B (50 rows, default ctx) ---
+avg s/row: 1.118  (total 55.9s, 50 rows)
+ollama ps snapshot (after row1 load): {"models": [{"name": "qwen2.5:14B", "model": "qwen2.5:14B", "size": 9953733507, "digest": "7cdf5a0187d5c58cc5d369b255592f7841d1c4696d45a8c8a9489440385b22f6", "details": {"parent_model": "", "format": "gguf", "family": "qwen2", "families": ["qwen2"], "parameter_size": "14.8B", "quantization_level": "Q4_K_M"}, "expires_at": "2026-09-19T20:26:07.5932721+07:00", "size_vram": 6203847474, "context_length": 4096}]}
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 1/50  16.47s  pred=Infiltration
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 2/50  1.09s  pred=PortScan
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 3/50  1.13s  pred=Benign
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 4/50  1.42s  pred=Brute Force
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 5/50  1.25s  pred=PortScan
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 6/50  1.46s  pred=Infiltration
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 7/50  1.21s  pred=PortScan
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 8/50  1.42s  pred=Infiltration
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 9/50  1.25s  pred=Benign
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 10/50  1.52s  pred=Infiltration
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 11/50  1.22s  pred=PortScan
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 12/50  1.23s  pred=Benign
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 13/50  1.21s  pred=Benign
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 14/50  1.41s  pred=Brute Force
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 15/50  1.37s  pred=Infiltration
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 16/50  1.60s  pred=DoS/DDoS
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 17/50  1.57s  pred=DoS/DDoS
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 18/50  1.15s  pred=Benign
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 19/50  1.67s  pred=DoS/DDoS
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 20/50  1.20s  pred=PortScan
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 21/50  1.48s  pred=Infiltration
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 22/50  1.37s  pred=Infiltration
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 23/50  1.23s  pred=Benign
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 24/50  1.17s  pred=PortScan
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 25/50  1.17s  pred=Benign
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 26/50  1.57s  pred=DoS/DDoS
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 27/50  1.35s  pred=Infiltration
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 28/50  1.57s  pred=DoS/DDoS
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 29/50  1.10s  pred=Benign
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 30/50  1.17s  pred=Benign
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 31/50  1.16s  pred=PortScan
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 32/50  1.41s  pred=Infiltration
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 33/50  1.41s  pred=Brute Force
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 34/50  1.14s  pred=Benign
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 35/50  1.31s  pred=Infiltration
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 36/50  1.15s  pred=PortScan
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 37/50  1.40s  pred=Infiltration
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 38/50  1.36s  pred=Infiltration
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 39/50  1.27s  pred=Infiltration
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 40/50  1.16s  pred=Benign
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 41/50  0.97s  pred=Bot
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 42/50  1.55s  pred=DoS/DDoS
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 43/50  1.19s  pred=PortScan
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 44/50  1.35s  pred=Infiltration
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 45/50  1.13s  pred=Benign
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 46/50  1.10s  pred=PortScan
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 47/50  1.10s  pred=PortScan
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 48/50  1.09s  pred=PortScan
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 49/50  1.15s  pred=Benign
+[3-shot seed303 14B (50 rows, num_ctx=8192)] row 50/50  1.18s  pred=Benign
+
+--- 3-shot seed303 14B (50 rows, num_ctx=8192) ---
+avg s/row: 1.592  (total 79.6s, 50 rows)
+ollama ps snapshot (after row1 load): {"models": [{"name": "qwen2.5:14B", "model": "qwen2.5:14B", "size": 10775880005, "digest": "7cdf5a0187d5c58cc5d369b255592f7841d1c4696d45a8c8a9489440385b22f6", "details": {"parent_model": "", "format": "gguf", "family": "qwen2", "families": ["qwen2"], "parameter_size": "14.8B", "quantization_level": "Q4_K_M"}, "expires_at": "2026-09-19T20:28:15.5494664+07:00", "size_vram": 6342909623, "context_length": 8192}]}
+
+=== SUMMARY ===
+zero-shot:        0.866 s/row  (Table II implies 0.94)
+1-shot:           1.118 s/row  (Table II implies 4.52)
+3-shot(8192):     1.592 s/row
+
+Done.

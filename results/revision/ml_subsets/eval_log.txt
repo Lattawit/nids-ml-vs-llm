@@ -1,0 +1,32 @@
+v4_70feat            random_forest  seed=42  acc=0.9057 macroF1=0.9074 t=0.0357s
+v4_70feat            xgboost        seed=42  acc=0.9200 macroF1=0.9209 t=0.0038s
+v4_70feat            mlp            seed=42  acc=0.9029 macroF1=0.9036 t=0.0020s
+v4_70feat            random_forest  seed=1   acc=0.8743 macroF1=0.8767 t=0.0358s
+v4_70feat            xgboost        seed=1   acc=0.9214 macroF1=0.9223 t=0.0158s
+v4_70feat            mlp            seed=1   acc=0.8929 macroF1=0.8947 t=0.0124s
+v4_70feat            random_forest  seed=2   acc=0.9029 macroF1=0.9050 t=0.0358s
+v4_70feat            xgboost        seed=2   acc=0.9286 macroF1=0.9290 t=0.0036s
+v4_70feat            mlp            seed=2   acc=0.9000 macroF1=0.8998 t=0.0079s
+v4_70feat            random_forest  seed=3   acc=0.8957 macroF1=0.8985 t=0.0361s
+v4_70feat            xgboost        seed=3   acc=0.9157 macroF1=0.9168 t=0.0045s
+v4_70feat            mlp            seed=3   acc=0.9029 macroF1=0.9046 t=0.0019s
+v4_70feat            random_forest  seed=4   acc=0.9100 macroF1=0.9117 t=0.0361s
+v4_70feat            xgboost        seed=4   acc=0.9300 macroF1=0.9308 t=0.0038s
+v4_70feat            mlp            seed=4   acc=0.8986 macroF1=0.8997 t=0.0080s
+e2_22feat            random_forest  seed=42  acc=0.9257 macroF1=0.9261 t=0.0355s
+e2_22feat            xgboost        seed=42  acc=0.9243 macroF1=0.9251 t=0.0029s
+e2_22feat            mlp            seed=42  acc=0.8871 macroF1=0.8883 t=0.0159s
+e2_22feat            random_forest  seed=1   acc=0.8843 macroF1=0.8861 t=0.0375s
+e2_22feat            xgboost        seed=1   acc=0.9000 macroF1=0.9017 t=0.0329s
+e2_22feat            mlp            seed=1   acc=0.8814 macroF1=0.8833 t=0.0079s
+e2_22feat            random_forest  seed=2   acc=0.9157 macroF1=0.9164 t=0.0363s
+e2_22feat            xgboost        seed=2   acc=0.9200 macroF1=0.9208 t=0.0051s
+e2_22feat            mlp            seed=2   acc=0.9000 macroF1=0.8997 t=0.0159s
+e2_22feat            random_forest  seed=3   acc=0.8986 macroF1=0.9004 t=0.0361s
+e2_22feat            xgboost        seed=3   acc=0.9043 macroF1=0.9062 t=0.0093s
+e2_22feat            mlp            seed=3   acc=0.8957 macroF1=0.8970 t=0.0164s
+e2_22feat            random_forest  seed=4   acc=0.9257 macroF1=0.9268 t=0.0363s
+e2_22feat            xgboost        seed=4   acc=0.9200 macroF1=0.9213 t=0.0074s
+e2_22feat            mlp            seed=4   acc=0.8886 macroF1=0.8890 t=0.0063s
+skip e5_nosmote_weighted: models not found in results/revision/e5/models_nosmote_weighted
+Saved: results/revision/ml_subsets

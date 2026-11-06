@@ -1,0 +1,44 @@
+Step 2 -- 3-shot ablation rerun at num_ctx=8192, full 700 rows, 3 seeds (101/202/303), qwen2.5:14B,
+temperature=0, num_predict=60. Script: results/audit_followup/llm_classification_few_shot_v4_3shot_ablation_ctx8192.py
+(copy of research/llm_classification_few_shot_v4_3shot_ablation.py with num_ctx=8192 added and raw
+response + fallback flag + per-row seconds logged). Outputs: results/audit_followup/step2_ctx8192_qwen2.5_14B_fewshot_3shot_run{1,2,3}/
+
+Run            Accuracy         Macro F1   Fallback  Avg s/row  Inference time
+run1 (seed101) 68.00% (476/700) 0.6603     0         1.240      868.10s
+run2 (seed202) 73.86% (517/700) 0.7171     0         1.233      863.02s
+run3 (seed303) 70.43% (493/700) 0.6762     0         1.217      852.07s
+
+Per-class recall:
+Class          run1   run2   run3
+Benign         0.37   0.34   0.35
+Bot            0.96   0.96   0.99
+Brute Force    0.94   0.96   0.95
+DoS/DDoS       0.59   0.73   0.69
+Infiltration   0.18   0.26   0.23
+PortScan       1.00   1.00   1.00
+Web Attack     0.72   0.92   0.72
+
+Predicted-label counts:
+run1: PortScan 168, Brute Force 115, Benign 110, Bot 97, DoS/DDoS 97, Web Attack 78, Infiltration 35
+run2: PortScan 158, Web Attack 116, Brute Force 115, Bot 97, DoS/DDoS 81, Benign 73, Infiltration 60
+run3: PortScan 149, Bot 119, Brute Force 117, DoS/DDoS 114, Web Attack 85, Benign 68, Infiltration 48
+
+TABLE VI RANGE (min-max across 3 runs):
+  Accuracy: 68.00-73.86
+  Macro F1: 66.03-71.71
+
+McNemar: best 3-shot run (run2/seed202, ctx8192, acc=73.86%) vs saved 1-shot 14B baseline (acc=65.71%,
+results/llm_results_v4/qwen2.5_14B_few_shot/llm_few_predictions.csv), row order verified identical:
+  table [[both_correct, 3shot_only],[1shot_only, neither]] = [[451, 66],[9, 174]]
+  b (3-shot-only correct) = 66
+  c (1-shot-only correct) = 9
+  statistic = 9.0, p = 7.66e-12 (exact binomial, discordant pairs < 25)
+
+CONCLUSION: once the context-window truncation bug (see Step 1 / earlier ctx_probe_output.txt) is fixed
+with num_ctx=8192, the 3-shot ablation's result INVERTS relative to what is currently reported: 3-shot
+(68-74% accuracy, macro F1 66-72) significantly OUTPERFORMS 1-shot (65.71% accuracy, macro F1 64.11),
+p=7.66e-12. This is the opposite of "Experiment B" as currently written (tripling examples causes a
+severe, reproducible collapse to zero recall on 4/7 classes). The zero-recall collapse was real under the
+conditions actually run, but its cause was a code bug (missing num_ctx), not a property of the
+few-shot-example-count itself, and the correct-context result contradicts the paper's stated conclusion
+in direction, not just magnitude.

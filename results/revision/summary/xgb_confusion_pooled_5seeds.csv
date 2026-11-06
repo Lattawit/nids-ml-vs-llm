@@ -1,0 +1,8 @@
+,Benign,Bot,Brute Force,DoS/DDoS,Infiltration,PortScan,Web Attack
+Benign,375,0,0,0,125,0,0
+Bot,1,498,0,0,1,0,0
+Brute Force,0,0,500,0,0,0,0
+DoS/DDoS,0,0,0,500,0,0,0
+Infiltration,120,0,0,0,380,0,0
+PortScan,0,0,0,0,0,500,0
+Web Attack,20,0,0,0,2,0,478

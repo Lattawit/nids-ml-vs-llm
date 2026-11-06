@@ -1,0 +1,2 @@
+OK: 700 zero-shot and 700 few-shot prompts byte-identical to the originals.
+Seed-42 reference rows (train positions): {'0': 7327889, '1': 9572184, '2': 1774181, '3': 1426715, '4': 9275930, '5': 273973, '6': 989429}

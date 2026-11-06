@@ -1,0 +1,29 @@
+=== Protocol sensitivity run started Sat Sep 19 19:33:54 2026 ===
+Loading X_train_smote.csv / y_train_smote.csv...
+Training shape (with Protocol): (1400000, 70)
+Training shape (Protocol dropped): (1400000, 69)
+Loading held-out test set (natural distribution)...
+Held-out test shape: (4331990, 69)
+Loading 700-row LLM subset...
+Subset shape: (700, 69)
+
+=== Training Random Forest (no Protocol) ===
+RF trained in 70.3s
+[700-subset] Random Forest (no Protocol): acc=0.9029 weighted_F1=0.9049 macro_F1=0.9049
+[held-out] Random Forest (no Protocol): acc=0.8682 weighted_F1=0.9197 macro_F1=0.7742
+
+=== Training XGBoost (no Protocol) ===
+XGBoost trained in 113.4s
+[700-subset] XGBoost (no Protocol): acc=0.9271 weighted_F1=0.9276 macro_F1=0.9276
+[held-out] XGBoost (no Protocol): acc=0.8330 weighted_F1=0.8987 macro_F1=0.7425
+
+=== RF + XGBoost done at Sat Sep 19 19:38:25 2026; saved intermediate results. Starting MLP. ===
+
+=== Training MLP (no Protocol) ===
+MLP trained in 1814.7s
+[700-subset] MLP (no Protocol): acc=0.9057 weighted_F1=0.9067 macro_F1=0.9067
+[held-out] MLP (no Protocol): acc=0.7040 weighted_F1=0.8114 macro_F1=0.7137
+
+=== ALL DONE at Sat Sep 19 20:09:01 2026 ===
+Saved: results/audit_followup/protocol_ablation_overall_results.csv
+Saved: results/audit_followup/protocol_ablation_class_results.csv

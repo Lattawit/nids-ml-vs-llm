@@ -1,0 +1,8 @@
+Class,Recall_num_ctx_8192,Recall_default_ctx
+Benign,0.45,0.1
+Bot,1.0,0.0
+Brute Force,1.0,0.0
+DoS/DDoS,0.7,0.0
+Infiltration,0.3,0.0
+PortScan,1.0,1.0
+Web Attack,0.6,1.0

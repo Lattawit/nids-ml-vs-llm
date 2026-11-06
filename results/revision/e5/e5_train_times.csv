@@ -1,0 +1,3 @@
+model,train_seconds
+random_forest,20.6
+xgboost,45.11

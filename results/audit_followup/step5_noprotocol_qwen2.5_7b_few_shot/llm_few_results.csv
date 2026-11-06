@@ -1,0 +1,2 @@
+Model,Accuracy,Weighted_Precision,Weighted_Recall,Weighted_F1,Macro_Precision,Macro_Recall,Macro_F1,Inference Time (s),Avg_Seconds_Per_Row,Num_Fallback_Rows,Diff_Vs_Saved_Original
+"LLM qwen2.5:7b (few-shot, no-Protocol, 21feat)",0.6228571428571429,0.6283169720031195,0.6228571428571429,0.6116735991013158,0.6283169720031194,0.6228571428571429,0.6116735991013157,143.7,0.2053,0,78

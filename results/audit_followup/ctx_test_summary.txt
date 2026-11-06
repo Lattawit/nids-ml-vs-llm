@@ -1,0 +1,52 @@
+3-shot (seed 303) ablation, stratified 20-rows/class subset (n=140) from llm_subset_v4.csv,
+qwen2.5:14B, temperature=0, num_predict=60 -- identical prompt construction to
+llm_classification_few_shot_v4_3shot_ablation.py, only num_ctx varied.
+
+=== Per-class recall ===
+
+Class          num_ctx=8192   default (4096, truncated)   700-row saved run (default, seed303)
+Benign         0.45           0.10                         0.18  (run3)
+Bot            1.00           0.00                         0.00
+Brute Force    1.00           0.00                         0.00
+DoS/DDoS       0.70           0.00                         0.00
+Infiltration   0.30           0.00                         0.00
+PortScan       1.00           1.00                         1.00
+Web Attack     0.60           1.00                         1.00
+
+Overall accuracy (n=140): num_ctx=8192 = 0.7214 (101/140); default = 0.30 (42/140).
+The default-ctx column here reproduces the full 700-row saved run's collapse pattern almost exactly
+(same 4 classes at exactly 0% recall, same PortScan/Web Attack near-ceiling), confirming the 140-row
+subset is representative and the effect is not sample-size noise.
+
+=== CONCLUSION ===
+Raising num_ctx from the (unset, auto-selected) default of 4096 to 8192 -- enough to hold the full
+~6.5k-token 3-shot prompt without truncation -- RECOVERS Bot and Brute Force to perfect recall and
+substantially recovers DoS/DDoS (0->0.70) and Infiltration (0->0.30). The previously reported "3-shot
+collapse" (CLAUDE.md, Sep 11-12 entries) is overwhelmingly a context-window truncation artifact, not
+(primarily) a "more few-shot examples confuses the model" effect. Every actual saved 3-shot-ablation run
+(v3 and v4, all 6 runs across both dataset versions) used the untruncated default and is therefore
+reporting a truncation artifact, not the intended ablation.
+
+Benign recall also moves (0.10 -> 0.45) and Web Attack drops (1.00 -> 0.60) at num_ctx=8192 -- with full
+context, Web Attack's dominance among predictions weakens (the model is no longer defaulting to
+whichever example survived nearest the end of the truncated prompt) while a wider spread of classes gets
+predicted, at the cost of some Web Attack recall.
+
+=== Timing ===
+num_ctx=8192 pass: 1.95 s/row avg (273.5s / 140 rows)
+default-ctx pass (this session):  4.83 s/row avg (676.6s / 140 rows)
+NOTE: the original saved 700-row 3-shot runs (run1/2/3, default ctx) averaged 1.9-2.5 s/row -- close to
+this session's num_ctx=8192 timing, NOT this session's default-ctx timing. The 4.83s/row figure measured
+here is likely inflated by an environmental confound during this run (thermal/background load on a
+partial-CPU-offload GPU), not evidence that num_ctx=8192 is inherently faster than default. Treat the
+per-row timings as noisy; the recall/accuracy comparison (same session, back-to-back, same hardware
+state modulo drift) is the reliable result.
+
+=== 700-row estimate at num_ctx=8192 (NOT RUN) ===
+Using this session's num_ctx=8192 rate (1.95 s/row): 700 rows -> ~1,367s -> ~0.38 h (~23 min).
+Using the historical default-ctx rate from the actual saved ablation runs (1.9-2.5 s/row, likely more
+representative of steady-state throughput than this session's anomalous 4.83s/row default pass):
+700 rows -> ~1,330-1,750s -> ~0.37-0.49 h (~22-29 min).
+Either way, a full 700-row num_ctx=8192 rerun is expected to take roughly the same wall-clock time as the
+original (truncated) runs -- no meaningful throughput penalty for fixing the truncation.
+Not started, per instructions.

@@ -1,0 +1,8 @@
+Class,Encoded
+Benign,0
+Bot,1
+Brute Force,2
+DoS/DDoS,3
+Infiltration,4
+PortScan,5
+Web Attack,6

@@ -1,0 +1,701 @@
+True Label,Predicted Label,Raw Response,Fallback,Seconds
+Benign,Web Attack,Web Attack,0,1.4371228218078613
+Benign,PortScan,PortScan,0,0.2061922550201416
+Benign,Benign,Benign,0,0.22186684608459473
+Benign,Brute Force,Brute Force,0,0.2558104991912842
+Benign,PortScan,PortScan,0,0.1949019432067871
+Benign,Infiltration,Infiltration,0,0.2141435146331787
+Benign,PortScan,PortScan,0,0.1867964267730713
+Benign,Infiltration,Infiltration,0,0.20636916160583496
+Benign,DoS/DDoS,DoS/DDoS,0,0.23644614219665527
+Benign,Infiltration,Infiltration,0,0.23090314865112305
+Benign,PortScan,PortScan,0,0.19347643852233887
+Benign,Benign,Benign,0,0.20608949661254883
+Benign,Benign,Benign,0,0.2083146572113037
+Benign,PortScan,PortScan,0,0.22358274459838867
+Benign,Web Attack,Web Attack,0,0.21033501625061035
+Benign,Infiltration,Infiltration,0,0.2320244312286377
+Benign,Infiltration,Infiltration,0,0.23382306098937988
+Benign,Benign,Benign,0,0.20869779586791992
+Benign,DoS/DDoS,DoS/DDoS,0,0.23505520820617676
+Benign,Bot,Bot,0,0.18279123306274414
+Benign,PortScan,PortScan,0,0.2126626968383789
+Benign,Bot,Bot,0,0.17081069946289062
+Benign,Benign,Benign,0,0.21527814865112305
+Benign,PortScan,PortScan,0,0.19398164749145508
+Benign,Benign,Benign,0,0.21491003036499023
+Benign,Benign,Benign,0,0.20520853996276855
+Benign,Benign,Benign,0,0.2089238166809082
+Benign,PortScan,PortScan,0,0.2042849063873291
+Benign,Bot,Bot,0,0.1716458797454834
+Benign,Benign,Benign,0,0.20672178268432617
+Benign,PortScan,PortScan,0,0.214447021484375
+Benign,Infiltration,Infiltration,0,0.2478013038635254
+Benign,PortScan,PortScan,0,0.22658300399780273
+Benign,Benign,Benign,0,0.21485280990600586
+Benign,PortScan,PortScan,0,0.19771075248718262
+Benign,DoS/DDoS,DoS/DDoS,0,0.28122878074645996
+Benign,Infiltration,Infiltration,0,0.24905681610107422
+Benign,Infiltration,Infiltration,0,0.24023103713989258
+Benign,Infiltration,Infiltration,0,0.21521902084350586
+Benign,Benign,Benign,0,0.2868804931640625
+Benign,Benign,Benign,0,0.24750876426696777
+Benign,Infiltration,Infiltration,0,0.22795629501342773
+Benign,DoS/DDoS,DoS/DDoS,0,0.2541043758392334
+Benign,PortScan,PortScan,0,0.21127009391784668
+Benign,Benign,Benign,0,0.21027135848999023
+Benign,PortScan,PortScan,0,0.20448994636535645
+Benign,Bot,Bot,0,0.178497314453125
+Benign,Bot,Bot,0,0.17777180671691895
+Benign,Benign,Benign,0,0.21997857093811035
+Benign,Benign,Benign,0,0.20620012283325195
+Benign,Benign,Benign,0,0.20340847969055176
+Benign,Infiltration,Infiltration,0,0.24532437324523926
+Benign,Bot,Bot,0,0.1688992977142334
+Benign,Benign,Benign,0,0.21670746803283691
+Benign,Bot,Bot,0,0.1718454360961914
+Benign,PortScan,PortScan,0,0.24219679832458496
+Benign,Infiltration,Infiltration,0,0.23758769035339355
+Benign,Benign,Benign,0,0.20738458633422852
+Benign,PortScan,PortScan,0,0.19478321075439453
+Benign,Benign,Benign,0,0.23072314262390137
+Benign,PortScan,PortScan,0,0.2443540096282959
+Benign,Infiltration,Infiltration,0,0.24406647682189941
+Benign,Benign,Benign,0,0.21347951889038086
+Benign,PortScan,PortScan,0,0.2180771827697754
+Benign,Benign,Benign,0,0.20981979370117188
+Benign,Benign,Benign,0,0.22083020210266113
+Benign,Benign,Benign,0,0.20918917655944824
+Benign,Benign,Benign,0,0.20934128761291504
+Benign,Infiltration,Infiltration,0,0.2718369960784912
+Benign,Infiltration,Infiltration,0,0.2173607349395752
+Benign,Infiltration,Infiltration,0,0.21733641624450684
+Benign,PortScan,PortScan,0,0.21045589447021484
+Benign,Benign,Benign,0,0.21968626976013184
+Benign,Bot,Bot,0,0.20045876502990723
+Benign,Bot,Bot,0,0.1965498924255371
+Benign,Bot,Bot,0,0.20225167274475098
+Benign,Benign,Benign,0,0.2234792709350586
+Benign,Infiltration,Infiltration,0,0.2507662773132324
+Benign,PortScan,PortScan,0,0.227308988571167
+Benign,PortScan,PortScan,0,0.21438908576965332
+Benign,DoS/DDoS,DoS/DDoS,0,0.2492077350616455
+Benign,PortScan,PortScan,0,0.19803309440612793
+Benign,Infiltration,Infiltration,0,0.21570229530334473
+Benign,PortScan,PortScan,0,0.21134448051452637
+Benign,Bot,Bot,0,0.17601561546325684
+Benign,Infiltration,Infiltration,0,0.25125598907470703
+Benign,PortScan,PortScan,0,0.19455718994140625
+Benign,PortScan,PortScan,0,0.20667743682861328
+Benign,Benign,Benign,0,0.21048951148986816
+Benign,Benign,Benign,0,0.20657038688659668
+Benign,Benign,Benign,0,0.20275545120239258
+Benign,Benign,Benign,0,0.18918824195861816
+Benign,Benign,Benign,0,0.19600486755371094
+Benign,PortScan,PortScan,0,0.19229507446289062
+Benign,PortScan,PortScan,0,0.18952345848083496
+Benign,Infiltration,Infiltration,0,0.21630311012268066
+Benign,Bot,Bot,0,0.16485929489135742
+Benign,Benign,Benign,0,0.20607876777648926
+Benign,PortScan,PortScan,0,0.21488261222839355
+Benign,Benign,Benign,0,0.20537185668945312
+Bot,Bot,Bot,0,0.19166922569274902
+Bot,PortScan,PortScan,0,0.19651484489440918
+Bot,Bot,Bot,0,0.18500065803527832
+Bot,Bot,Bot,0,0.18688464164733887
+Bot,Bot,Bot,0,0.16982245445251465
+Bot,Bot,Bot,0,0.17329668998718262
+Bot,Bot,Bot,0,0.1726970672607422
+Bot,Bot,Bot,0,0.1713085174560547
+Bot,Bot,Bot,0,0.16556072235107422
+Bot,Bot,Bot,0,0.17302680015563965
+Bot,Bot,Bot,0,0.17084169387817383
+Bot,Bot,Bot,0,0.17322635650634766
+Bot,Bot,Bot,0,0.17315149307250977
+Bot,Bot,Bot,0,0.1824803352355957
+Bot,Bot,Bot,0,0.19934582710266113
+Bot,Bot,Bot,0,0.19421958923339844
+Bot,Bot,Bot,0,0.1879892349243164
+Bot,Bot,Bot,0,0.1840839385986328
+Bot,Bot,Bot,0,0.19013571739196777
+Bot,Bot,Bot,0,0.1743314266204834
+Bot,Bot,Bot,0,0.18038511276245117
+Bot,Bot,Bot,0,0.1916496753692627
+Bot,Bot,Bot,0,0.1868913173675537
+Bot,Bot,Bot,0,0.17510771751403809
+Bot,Bot,Bot,0,0.17595911026000977
+Bot,Bot,Bot,0,0.1715550422668457
+Bot,Bot,Bot,0,0.1752336025238037
+Bot,Bot,Bot,0,0.17121028900146484
+Bot,Bot,Bot,0,0.17993950843811035
+Bot,Bot,Bot,0,0.17761611938476562
+Bot,Bot,Bot,0,0.17714262008666992
+Bot,Bot,Bot,0,0.17171072959899902
+Bot,Bot,Bot,0,0.17503070831298828
+Bot,Bot,Bot,0,0.17670869827270508
+Bot,Bot,Bot,0,0.1732628345489502
+Bot,Bot,Bot,0,0.1718277931213379
+Bot,Bot,Bot,0,0.1756598949432373
+Bot,Bot,Bot,0,0.19444561004638672
+Bot,Bot,Bot,0,0.18099117279052734
+Bot,Bot,Bot,0,0.17044830322265625
+Bot,Bot,Bot,0,0.17171716690063477
+Bot,Bot,Bot,0,0.16806840896606445
+Bot,Bot,Bot,0,0.16891074180603027
+Bot,Bot,Bot,0,0.17508816719055176
+Bot,Bot,Bot,0,0.17122149467468262
+Bot,Bot,Bot,0,0.1740126609802246
+Bot,Bot,Bot,0,0.17080354690551758
+Bot,Bot,Bot,0,0.17772936820983887
+Bot,Bot,Bot,0,0.17503142356872559
+Bot,Bot,Bot,0,0.17058897018432617
+Bot,Bot,Bot,0,0.18215465545654297
+Bot,Bot,Bot,0,0.18757295608520508
+Bot,Bot,Bot,0,0.18656587600708008
+Bot,Bot,Bot,0,0.17597413063049316
+Bot,Bot,Bot,0,0.17413830757141113
+Bot,Bot,Bot,0,0.17461943626403809
+Bot,Bot,Bot,0,0.1724562644958496
+Bot,Bot,Bot,0,0.17659401893615723
+Bot,Bot,Bot,0,0.199690580368042
+Bot,Bot,Bot,0,0.1865687370300293
+Bot,Bot,Bot,0,0.1908891201019287
+Bot,Bot,Bot,0,0.1924440860748291
+Bot,Bot,Bot,0,0.20627903938293457
+Bot,Bot,Bot,0,0.18443608283996582
+Bot,Bot,Bot,0,0.16379165649414062
+Bot,Bot,Bot,0,0.18561148643493652
+Bot,Bot,Bot,0,0.1860182285308838
+Bot,Bot,Bot,0,0.19382691383361816
+Bot,Bot,Bot,0,0.16890645027160645
+Bot,Bot,Bot,0,0.17197394371032715
+Bot,Bot,Bot,0,0.17397117614746094
+Bot,Bot,Bot,0,0.17296075820922852
+Bot,Bot,Bot,0,0.17385292053222656
+Bot,Bot,Bot,0,0.1715700626373291
+Bot,Bot,Bot,0,0.16836333274841309
+Bot,Bot,Bot,0,0.17247438430786133
+Bot,Bot,Bot,0,0.17287874221801758
+Bot,Bot,Bot,0,0.17066526412963867
+Bot,Bot,Bot,0,0.1757643222808838
+Bot,Bot,Bot,0,0.17510437965393066
+Bot,Bot,Bot,0,0.1792919635772705
+Bot,Bot,Bot,0,0.18682432174682617
+Bot,Bot,Bot,0,0.1662132740020752
+Bot,Bot,Bot,0,0.17350125312805176
+Bot,Bot,Bot,0,0.17252707481384277
+Bot,Bot,Bot,0,0.16920852661132812
+Bot,Bot,Bot,0,0.17493104934692383
+Bot,Bot,Bot,0,0.1720409393310547
+Bot,Bot,Bot,0,0.17129921913146973
+Bot,Bot,Bot,0,0.17389273643493652
+Bot,Bot,Bot,0,0.17416906356811523
+Bot,Bot,Bot,0,0.17365336418151855
+Bot,Bot,Bot,0,0.18575572967529297
+Bot,Bot,Bot,0,0.19002532958984375
+Bot,Bot,Bot,0,0.17255520820617676
+Bot,Bot,Bot,0,0.17620062828063965
+Bot,Bot,Bot,0,0.17385649681091309
+Bot,Bot,Bot,0,0.1733231544494629
+Bot,Bot,Bot,0,0.1685771942138672
+Bot,Bot,Bot,0,0.16571903228759766
+Brute Force,PortScan,PortScan,0,0.20599961280822754
+Brute Force,PortScan,PortScan,0,0.21047163009643555
+Brute Force,PortScan,PortScan,0,0.19716477394104004
+Brute Force,PortScan,PortScan,0,0.2285323143005371
+Brute Force,PortScan,PortScan,0,0.22459888458251953
+Brute Force,PortScan,PortScan,0,0.2297971248626709
+Brute Force,Brute Force,Brute Force,0,0.24782896041870117
+Brute Force,Brute Force,Brute Force,0,0.23565936088562012
+Brute Force,PortScan,PortScan,0,0.17565250396728516
+Brute Force,Brute Force,Brute Force,0,0.23255562782287598
+Brute Force,Brute Force,Brute Force,0,0.24425196647644043
+Brute Force,Brute Force,Brute Force,0,0.22447657585144043
+Brute Force,Brute Force,Brute Force,0,0.23526406288146973
+Brute Force,Brute Force,Brute Force,0,0.23751282691955566
+Brute Force,Brute Force,Brute Force,0,0.23247528076171875
+Brute Force,Brute Force,Brute Force,0,0.22738051414489746
+Brute Force,Brute Force,Brute Force,0,0.2379159927368164
+Brute Force,Brute Force,Brute Force,0,0.22859525680541992
+Brute Force,Brute Force,Brute Force,0,0.2325453758239746
+Brute Force,Brute Force,Brute Force,0,0.23783278465270996
+Brute Force,Brute Force,Brute Force,0,0.2300260066986084
+Brute Force,Brute Force,Brute Force,0,0.23171496391296387
+Brute Force,Brute Force,Brute Force,0,0.23042702674865723
+Brute Force,Brute Force,Brute Force,0,0.22500228881835938
+Brute Force,Brute Force,Brute Force,0,0.23158860206604004
+Brute Force,Brute Force,Brute Force,0,0.2292158603668213
+Brute Force,Brute Force,Brute Force,0,0.23070883750915527
+Brute Force,Brute Force,Brute Force,0,0.2358236312866211
+Brute Force,Brute Force,Brute Force,0,0.22831153869628906
+Brute Force,Brute Force,Brute Force,0,0.2332465648651123
+Brute Force,Brute Force,Brute Force,0,0.23076915740966797
+Brute Force,Brute Force,Brute Force,0,0.22673559188842773
+Brute Force,Brute Force,Brute Force,0,0.22953391075134277
+Brute Force,Brute Force,Brute Force,0,0.23343133926391602
+Brute Force,Brute Force,Brute Force,0,0.23329925537109375
+Brute Force,Brute Force,Brute Force,0,0.23044824600219727
+Brute Force,Brute Force,Brute Force,0,0.23433136940002441
+Brute Force,Brute Force,Brute Force,0,0.23946785926818848
+Brute Force,Brute Force,Brute Force,0,0.25371432304382324
+Brute Force,Brute Force,Brute Force,0,0.25343799591064453
+Brute Force,Brute Force,Brute Force,0,0.25484299659729004
+Brute Force,Brute Force,Brute Force,0,0.23743104934692383
+Brute Force,Brute Force,Brute Force,0,0.23605704307556152
+Brute Force,Brute Force,Brute Force,0,0.23687243461608887
+Brute Force,Brute Force,Brute Force,0,0.2338409423828125
+Brute Force,Brute Force,Brute Force,0,0.2312633991241455
+Brute Force,Brute Force,Brute Force,0,0.22635102272033691
+Brute Force,Brute Force,Brute Force,0,0.23027253150939941
+Brute Force,Brute Force,Brute Force,0,0.23176980018615723
+Brute Force,Brute Force,Brute Force,0,0.23433303833007812
+Brute Force,Brute Force,Brute Force,0,0.23901128768920898
+Brute Force,Brute Force,Brute Force,0,0.23219084739685059
+Brute Force,Brute Force,Brute Force,0,0.22722578048706055
+Brute Force,Brute Force,Brute Force,0,0.23234844207763672
+Brute Force,Brute Force,Brute Force,0,0.23559832572937012
+Brute Force,Brute Force,Brute Force,0,0.23595309257507324
+Brute Force,Brute Force,Brute Force,0,0.2365114688873291
+Brute Force,Brute Force,Brute Force,0,0.2353663444519043
+Brute Force,Brute Force,Brute Force,0,0.22694945335388184
+Brute Force,Brute Force,Brute Force,0,0.23328256607055664
+Brute Force,Brute Force,Brute Force,0,0.2325301170349121
+Brute Force,Brute Force,Brute Force,0,0.23073863983154297
+Brute Force,Brute Force,Brute Force,0,0.23209547996520996
+Brute Force,Brute Force,Brute Force,0,0.23942065238952637
+Brute Force,Brute Force,Brute Force,0,0.22735142707824707
+Brute Force,Brute Force,Brute Force,0,0.23700785636901855
+Brute Force,Brute Force,Brute Force,0,0.2330646514892578
+Brute Force,Brute Force,Brute Force,0,0.22905230522155762
+Brute Force,Brute Force,Brute Force,0,0.23322129249572754
+Brute Force,Brute Force,Brute Force,0,0.22302818298339844
+Brute Force,Brute Force,Brute Force,0,0.22910404205322266
+Brute Force,Brute Force,Brute Force,0,0.23038244247436523
+Brute Force,Brute Force,Brute Force,0,0.24775433540344238
+Brute Force,Brute Force,Brute Force,0,0.24794888496398926
+Brute Force,Brute Force,Brute Force,0,0.24546456336975098
+Brute Force,Brute Force,Brute Force,0,0.2425832748413086
+Brute Force,Brute Force,Brute Force,0,0.22959470748901367
+Brute Force,Brute Force,Brute Force,0,0.2307121753692627
+Brute Force,Brute Force,Brute Force,0,0.22953367233276367
+Brute Force,Brute Force,Brute Force,0,0.23800253868103027
+Brute Force,Brute Force,Brute Force,0,0.23155832290649414
+Brute Force,Brute Force,Brute Force,0,0.22639870643615723
+Brute Force,Brute Force,Brute Force,0,0.2348802089691162
+Brute Force,Brute Force,Brute Force,0,0.23491954803466797
+Brute Force,Brute Force,Brute Force,0,0.22207355499267578
+Brute Force,Brute Force,Brute Force,0,0.231553316116333
+Brute Force,Brute Force,Brute Force,0,0.2330641746520996
+Brute Force,Brute Force,Brute Force,0,0.23226141929626465
+Brute Force,Brute Force,Brute Force,0,0.23198652267456055
+Brute Force,Brute Force,Brute Force,0,0.23835444450378418
+Brute Force,Brute Force,Brute Force,0,0.23086285591125488
+Brute Force,Brute Force,Brute Force,0,0.23544692993164062
+Brute Force,Brute Force,Brute Force,0,0.2314155101776123
+Brute Force,Brute Force,Brute Force,0,0.2255089282989502
+Brute Force,Brute Force,Brute Force,0,0.23421549797058105
+Brute Force,Brute Force,Brute Force,0,0.22725152969360352
+Brute Force,Brute Force,Brute Force,0,0.23488116264343262
+Brute Force,Brute Force,Brute Force,0,0.2404341697692871
+Brute Force,Brute Force,Brute Force,0,0.23281025886535645
+Brute Force,Brute Force,Brute Force,0,0.2285914421081543
+DoS/DDoS,Infiltration,Infiltration,0,0.21497583389282227
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.25022244453430176
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.24987435340881348
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.23993754386901855
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.250443696975708
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.25656938552856445
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.262545108795166
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.2794966697692871
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.24940991401672363
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.2563049793243408
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.2535717487335205
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.22746586799621582
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.21663880348205566
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.25478410720825195
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.24835562705993652
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.2574303150177002
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.2526531219482422
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.2517249584197998
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.2521097660064697
+DoS/DDoS,Bot,Bot,0,0.1735067367553711
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.2526283264160156
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.250225305557251
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.24544358253479004
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.25385141372680664
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.24820828437805176
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.25113391876220703
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.25545763969421387
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.2556192874908447
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.21300745010375977
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.23276710510253906
+DoS/DDoS,Infiltration,Infiltration,0,0.21942806243896484
+DoS/DDoS,Benign,Benign,0,0.20841312408447266
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.21137285232543945
+DoS/DDoS,Benign,Benign,0,0.17351675033569336
+DoS/DDoS,Benign,Benign,0,0.19420289993286133
+DoS/DDoS,Benign,Benign,0,0.2041013240814209
+DoS/DDoS,Benign,Benign,0,0.17088007926940918
+DoS/DDoS,Benign,Benign,0,0.17911887168884277
+DoS/DDoS,Benign,Benign,0,0.1706697940826416
+DoS/DDoS,Benign,Benign,0,0.18439102172851562
+DoS/DDoS,Benign,Benign,0,0.21821951866149902
+DoS/DDoS,Benign,Benign,0,0.22444939613342285
+DoS/DDoS,Benign,Benign,0,0.22765445709228516
+DoS/DDoS,Benign,Benign,0,0.22183513641357422
+DoS/DDoS,Benign,Benign,0,0.21361136436462402
+DoS/DDoS,Benign,Benign,0,0.20861530303955078
+DoS/DDoS,Benign,Benign,0,0.203049898147583
+DoS/DDoS,Benign,Benign,0,0.1986532211303711
+DoS/DDoS,Benign,Benign,0,0.20739197731018066
+DoS/DDoS,Benign,Benign,0,0.20779156684875488
+DoS/DDoS,Benign,Benign,0,0.2040250301361084
+DoS/DDoS,Benign,Benign,0,0.2066807746887207
+DoS/DDoS,Benign,Benign,0,0.20600128173828125
+DoS/DDoS,Benign,Benign,0,0.21376800537109375
+DoS/DDoS,Benign,Benign,0,0.2042689323425293
+DoS/DDoS,Benign,Benign,0,0.20069098472595215
+DoS/DDoS,Infiltration,Infiltration,0,0.21350693702697754
+DoS/DDoS,Infiltration,Infiltration,0,0.21440649032592773
+DoS/DDoS,Benign,Benign,0,0.2051699161529541
+DoS/DDoS,Infiltration,Infiltration,0,0.21460819244384766
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.23302388191223145
+DoS/DDoS,Infiltration,Infiltration,0,0.21300458908081055
+DoS/DDoS,Infiltration,Infiltration,0,0.21026253700256348
+DoS/DDoS,Benign,Benign,0,0.20752334594726562
+DoS/DDoS,Benign,Benign,0,0.19820022583007812
+DoS/DDoS,Benign,Benign,0,0.21383142471313477
+DoS/DDoS,Infiltration,Infiltration,0,0.21201539039611816
+DoS/DDoS,Benign,Benign,0,0.20782160758972168
+DoS/DDoS,Infiltration,Infiltration,0,0.21147894859313965
+DoS/DDoS,Infiltration,Infiltration,0,0.21204638481140137
+DoS/DDoS,Benign,Benign,0,0.20953869819641113
+DoS/DDoS,DoS/DDoS,DoS/DDoS,0,0.23034262657165527
+DoS/DDoS,Infiltration,Infiltration,0,0.21022391319274902
+DoS/DDoS,Benign,Benign,0,0.20897483825683594
+DoS/DDoS,Infiltration,Infiltration,0,0.21718192100524902
+DoS/DDoS,Benign,Benign,0,0.2108137607574463
+DoS/DDoS,Infiltration,Infiltration,0,0.21114134788513184
+DoS/DDoS,Benign,Benign,0,0.20451045036315918
+DoS/DDoS,Infiltration,Infiltration,0,0.22205829620361328
+DoS/DDoS,Infiltration,Infiltration,0,0.22788119316101074
+DoS/DDoS,Infiltration,Infiltration,0,0.23322486877441406
+DoS/DDoS,Infiltration,Infiltration,0,0.22931265830993652
+DoS/DDoS,Infiltration,Infiltration,0,0.2245168685913086
+DoS/DDoS,Infiltration,Infiltration,0,0.21268606185913086
+DoS/DDoS,Infiltration,Infiltration,0,0.21653103828430176
+DoS/DDoS,Infiltration,Infiltration,0,0.20812106132507324
+DoS/DDoS,Infiltration,Infiltration,0,0.21225261688232422
+DoS/DDoS,Infiltration,Infiltration,0,0.2084197998046875
+DoS/DDoS,Benign,Benign,0,0.17401480674743652
+DoS/DDoS,Benign,Benign,0,0.20548367500305176
+DoS/DDoS,Benign,Benign,0,0.20795536041259766
+DoS/DDoS,Benign,Benign,0,0.17606472969055176
+DoS/DDoS,Benign,Benign,0,0.19582104682922363
+DoS/DDoS,Benign,Benign,0,0.19506549835205078
+DoS/DDoS,Benign,Benign,0,0.19562005996704102
+DoS/DDoS,Benign,Benign,0,0.21467185020446777
+DoS/DDoS,Benign,Benign,0,0.21024608612060547
+DoS/DDoS,Benign,Benign,0,0.2132718563079834
+DoS/DDoS,Benign,Benign,0,0.2088913917541504
+DoS/DDoS,Benign,Benign,0,0.21262884140014648
+Infiltration,Web Attack,Web Attack,0,0.20241618156433105
+Infiltration,Web Attack,Web Attack,0,0.21238207817077637
+Infiltration,Bot,Bot,0,0.174882173538208
+Infiltration,Benign,Benign,0,0.20964550971984863
+Infiltration,Benign,Benign,0,0.1965494155883789
+Infiltration,Benign,Benign,0,0.1921069622039795
+Infiltration,Benign,Benign,0,0.19718575477600098
+Infiltration,PortScan,PortScan,0,0.2120499610900879
+Infiltration,PortScan,PortScan,0,0.2026827335357666
+Infiltration,Benign,Benign,0,0.21314597129821777
+Infiltration,Benign,Benign,0,0.19342327117919922
+Infiltration,Infiltration,Infiltration,0,0.23412275314331055
+Infiltration,Infiltration,Infiltration,0,0.2319176197052002
+Infiltration,Benign,Benign,0,0.20481204986572266
+Infiltration,Infiltration,Infiltration,0,0.2400498390197754
+Infiltration,Web Attack,Web Attack,0,0.19281792640686035
+Infiltration,Benign,Benign,0,0.22799277305603027
+Infiltration,Infiltration,Infiltration,0,0.23222088813781738
+Infiltration,Benign,Benign,0,0.2231733798980713
+Infiltration,PortScan,PortScan,0,0.22582054138183594
+Infiltration,Infiltration,Infiltration,0,0.24573874473571777
+Infiltration,Bot,Bot,0,0.15587353706359863
+Infiltration,Infiltration,Infiltration,0,0.23261404037475586
+Infiltration,Infiltration,Infiltration,0,0.22912859916687012
+Infiltration,Infiltration,Infiltration,0,0.213270902633667
+Infiltration,Benign,Benign,0,0.2063298225402832
+Infiltration,Benign,Benign,0,0.19144630432128906
+Infiltration,Infiltration,Infiltration,0,0.20804262161254883
+Infiltration,Benign,Benign,0,0.21459150314331055
+Infiltration,Infiltration,Infiltration,0,0.23128128051757812
+Infiltration,Infiltration,Infiltration,0,0.2318897247314453
+Infiltration,Infiltration,Infiltration,0,0.23004651069641113
+Infiltration,Infiltration,Infiltration,0,0.228590726852417
+Infiltration,Benign,Benign,0,0.20546627044677734
+Infiltration,Bot,Bot,0,0.17012763023376465
+Infiltration,Benign,Benign,0,0.21117568016052246
+Infiltration,Infiltration,Infiltration,0,0.2160964012145996
+Infiltration,Benign,Benign,0,0.20951628684997559
+Infiltration,Bot,Bot,0,0.17151832580566406
+Infiltration,Benign,Benign,0,0.2091825008392334
+Infiltration,Benign,Benign,0,0.19142580032348633
+Infiltration,Infiltration,Infiltration,0,0.20378708839416504
+Infiltration,Infiltration,Infiltration,0,0.23855304718017578
+Infiltration,Benign,Benign,0,0.20549368858337402
+Infiltration,Benign,Benign,0,0.19405579566955566
+Infiltration,PortScan,PortScan,0,0.20561909675598145
+Infiltration,Infiltration,Infiltration,0,0.22735309600830078
+Infiltration,Infiltration,Infiltration,0,0.23080873489379883
+Infiltration,Benign,Benign,0,0.20982909202575684
+Infiltration,Benign,Benign,0,0.1966099739074707
+Infiltration,PortScan,PortScan,0,0.19491910934448242
+Infiltration,PortScan,PortScan,0,0.19076108932495117
+Infiltration,Bot,Bot,0,0.1581721305847168
+Infiltration,Benign,Benign,0,0.19413518905639648
+Infiltration,Bot,Bot,0,0.18923163414001465
+Infiltration,PortScan,PortScan,0,0.20453977584838867
+Infiltration,PortScan,PortScan,0,0.2056586742401123
+Infiltration,PortScan,PortScan,0,0.22538995742797852
+Infiltration,Bot,Bot,0,0.18577837944030762
+Infiltration,Benign,Benign,0,0.2023763656616211
+Infiltration,DoS/DDoS,DoS/DDoS,0,0.24925827980041504
+Infiltration,Benign,Benign,0,0.19730234146118164
+Infiltration,PortScan,PortScan,0,0.1969296932220459
+Infiltration,Infiltration,Infiltration,0,0.23395943641662598
+Infiltration,DoS/DDoS,DoS/DDoS,0,0.2545912265777588
+Infiltration,PortScan,PortScan,0,0.2138514518737793
+Infiltration,Infiltration,Infiltration,0,0.23336458206176758
+Infiltration,Web Attack,Web Attack,0,0.20963001251220703
+Infiltration,Infiltration,Infiltration,0,0.22804880142211914
+Infiltration,DoS/DDoS,DoS/DDoS,0,0.23501062393188477
+Infiltration,Benign,Benign,0,0.205796480178833
+Infiltration,PortScan,PortScan,0,0.1947343349456787
+Infiltration,Benign,Benign,0,0.2180037498474121
+Infiltration,Brute Force,Brute Force,0,0.23781728744506836
+Infiltration,Benign,Benign,0,0.2064976692199707
+Infiltration,Infiltration,Infiltration,0,0.22851967811584473
+Infiltration,Benign,Benign,0,0.20390772819519043
+Infiltration,Bot,Bot,0,0.1666097640991211
+Infiltration,PortScan,PortScan,0,0.21069788932800293
+Infiltration,PortScan,PortScan,0,0.2109510898590088
+Infiltration,Benign,Benign,0,0.204606294631958
+Infiltration,Benign,Benign,0,0.20995664596557617
+Infiltration,Benign,Benign,0,0.2087259292602539
+Infiltration,Bot,Bot,0,0.1722583770751953
+Infiltration,PortScan,PortScan,0,0.19170236587524414
+Infiltration,PortScan,PortScan,0,0.18863391876220703
+Infiltration,PortScan,PortScan,0,0.18627190589904785
+Infiltration,PortScan,PortScan,0,0.194533109664917
+Infiltration,Benign,Benign,0,0.20268774032592773
+Infiltration,PortScan,PortScan,0,0.18910455703735352
+Infiltration,Bot,Bot,0,0.17621231079101562
+Infiltration,Bot,Bot,0,0.16865754127502441
+Infiltration,PortScan,PortScan,0,0.20951485633850098
+Infiltration,Bot,Bot,0,0.18100523948669434
+Infiltration,PortScan,PortScan,0,0.20628666877746582
+Infiltration,PortScan,PortScan,0,0.2084362506866455
+Infiltration,Bot,Bot,0,0.18461012840270996
+Infiltration,Infiltration,Infiltration,0,0.24923062324523926
+Infiltration,Web Attack,Web Attack,0,0.20543193817138672
+Infiltration,Infiltration,Infiltration,0,0.2335662841796875
+PortScan,PortScan,PortScan,0,0.20988774299621582
+PortScan,PortScan,PortScan,0,0.19074082374572754
+PortScan,PortScan,PortScan,0,0.19723916053771973
+PortScan,PortScan,PortScan,0,0.19538593292236328
+PortScan,PortScan,PortScan,0,0.2015984058380127
+PortScan,PortScan,PortScan,0,0.1965324878692627
+PortScan,PortScan,PortScan,0,0.19269418716430664
+PortScan,DoS/DDoS,DoS/DDoS,0,0.23243355751037598
+PortScan,PortScan,PortScan,0,0.1903524398803711
+PortScan,PortScan,PortScan,0,0.1899118423461914
+PortScan,PortScan,PortScan,0,0.19509100914001465
+PortScan,PortScan,PortScan,0,0.19511818885803223
+PortScan,DoS/DDoS,DoS/DDoS,0,0.2419741153717041
+PortScan,PortScan,PortScan,0,0.19425654411315918
+PortScan,DoS/DDoS,DoS/DDoS,0,0.23521709442138672
+PortScan,PortScan,PortScan,0,0.19374704360961914
+PortScan,PortScan,PortScan,0,0.19299697875976562
+PortScan,PortScan,PortScan,0,0.19290804862976074
+PortScan,PortScan,PortScan,0,0.18864941596984863
+PortScan,PortScan,PortScan,0,0.19973421096801758
+PortScan,PortScan,PortScan,0,0.18735170364379883
+PortScan,PortScan,PortScan,0,0.19012451171875
+PortScan,PortScan,PortScan,0,0.20099472999572754
+PortScan,PortScan,PortScan,0,0.19534802436828613
+PortScan,PortScan,PortScan,0,0.19780564308166504
+PortScan,PortScan,PortScan,0,0.19407939910888672
+PortScan,PortScan,PortScan,0,0.19750070571899414
+PortScan,PortScan,PortScan,0,0.19321179389953613
+PortScan,PortScan,PortScan,0,0.2009594440460205
+PortScan,DoS/DDoS,DoS/DDoS,0,0.2350938320159912
+PortScan,PortScan,PortScan,0,0.20564579963684082
+PortScan,PortScan,PortScan,0,0.19241905212402344
+PortScan,PortScan,PortScan,0,0.1985323429107666
+PortScan,PortScan,PortScan,0,0.2095043659210205
+PortScan,PortScan,PortScan,0,0.20859384536743164
+PortScan,PortScan,PortScan,0,0.20555496215820312
+PortScan,Bot,Bot,0,0.18376874923706055
+PortScan,PortScan,PortScan,0,0.20715022087097168
+PortScan,PortScan,PortScan,0,0.20600557327270508
+PortScan,DoS/DDoS,DoS/DDoS,0,0.2310190200805664
+PortScan,PortScan,PortScan,0,0.19497323036193848
+PortScan,PortScan,PortScan,0,0.19339489936828613
+PortScan,PortScan,PortScan,0,0.1895911693572998
+PortScan,PortScan,PortScan,0,0.19822168350219727
+PortScan,PortScan,PortScan,0,0.18846726417541504
+PortScan,PortScan,PortScan,0,0.20294761657714844
+PortScan,PortScan,PortScan,0,0.1945195198059082
+PortScan,PortScan,PortScan,0,0.18988752365112305
+PortScan,PortScan,PortScan,0,0.1979219913482666
+PortScan,PortScan,PortScan,0,0.19214725494384766
+PortScan,PortScan,PortScan,0,0.19541096687316895
+PortScan,PortScan,PortScan,0,0.18959546089172363
+PortScan,PortScan,PortScan,0,0.19292759895324707
+PortScan,PortScan,PortScan,0,0.19353103637695312
+PortScan,PortScan,PortScan,0,0.1918163299560547
+PortScan,PortScan,PortScan,0,0.1961963176727295
+PortScan,PortScan,PortScan,0,0.19170713424682617
+PortScan,PortScan,PortScan,0,0.1945514678955078
+PortScan,PortScan,PortScan,0,0.19466662406921387
+PortScan,PortScan,PortScan,0,0.20216083526611328
+PortScan,PortScan,PortScan,0,0.1958632469177246
+PortScan,PortScan,PortScan,0,0.19374513626098633
+PortScan,PortScan,PortScan,0,0.19129729270935059
+PortScan,PortScan,PortScan,0,0.1959085464477539
+PortScan,PortScan,PortScan,0,0.1983945369720459
+PortScan,PortScan,PortScan,0,0.1968395709991455
+PortScan,PortScan,PortScan,0,0.1922609806060791
+PortScan,PortScan,PortScan,0,0.1949756145477295
+PortScan,PortScan,PortScan,0,0.20280885696411133
+PortScan,PortScan,PortScan,0,0.19988083839416504
+PortScan,PortScan,PortScan,0,0.19505834579467773
+PortScan,PortScan,PortScan,0,0.1919097900390625
+PortScan,PortScan,PortScan,0,0.19497036933898926
+PortScan,PortScan,PortScan,0,0.1990656852722168
+PortScan,PortScan,PortScan,0,0.20777153968811035
+PortScan,PortScan,PortScan,0,0.20391249656677246
+PortScan,PortScan,PortScan,0,0.21037530899047852
+PortScan,PortScan,PortScan,0,0.21234965324401855
+PortScan,PortScan,PortScan,0,0.20605063438415527
+PortScan,PortScan,PortScan,0,0.1924440860748291
+PortScan,PortScan,PortScan,0,0.19594717025756836
+PortScan,PortScan,PortScan,0,0.19814014434814453
+PortScan,DoS/DDoS,DoS/DDoS,0,0.23506593704223633
+PortScan,PortScan,PortScan,0,0.19240117073059082
+PortScan,PortScan,PortScan,0,0.19279026985168457
+PortScan,PortScan,PortScan,0,0.19730472564697266
+PortScan,PortScan,PortScan,0,0.19294977188110352
+PortScan,PortScan,PortScan,0,0.20270204544067383
+PortScan,PortScan,PortScan,0,0.19549083709716797
+PortScan,PortScan,PortScan,0,0.19684076309204102
+PortScan,PortScan,PortScan,0,0.18938016891479492
+PortScan,DoS/DDoS,DoS/DDoS,0,0.24285340309143066
+PortScan,PortScan,PortScan,0,0.19388294219970703
+PortScan,PortScan,PortScan,0,0.19222235679626465
+PortScan,PortScan,PortScan,0,0.18422460556030273
+PortScan,DoS/DDoS,DoS/DDoS,0,0.23733258247375488
+PortScan,PortScan,PortScan,0,0.1930985450744629
+PortScan,Bot,Bot,0,0.17392706871032715
+PortScan,PortScan,PortScan,0,0.18995308876037598
+PortScan,PortScan,PortScan,0,0.19785213470458984
+Web Attack,Web Attack,Web Attack,0,0.19008612632751465
+Web Attack,Web Attack,Web Attack,0,0.18704915046691895
+Web Attack,Web Attack,Web Attack,0,0.1945183277130127
+Web Attack,Web Attack,Web Attack,0,0.19170141220092773
+Web Attack,Web Attack,Web Attack,0,0.1748182773590088
+Web Attack,Web Attack,Web Attack,0,0.1781628131866455
+Web Attack,Web Attack,Web Attack,0,0.19192886352539062
+Web Attack,Web Attack,Web Attack,0,0.19082164764404297
+Web Attack,Web Attack,Web Attack,0,0.19083929061889648
+Web Attack,Web Attack,Web Attack,0,0.19275569915771484
+Web Attack,Web Attack,Web Attack,0,0.17539763450622559
+Web Attack,Web Attack,Web Attack,0,0.18826842308044434
+Web Attack,Web Attack,Web Attack,0,0.19007658958435059
+Web Attack,Web Attack,Web Attack,0,0.21087050437927246
+Web Attack,Web Attack,Web Attack,0,0.20663785934448242
+Web Attack,Web Attack,Web Attack,0,0.1916050910949707
+Web Attack,Web Attack,Web Attack,0,0.20615506172180176
+Web Attack,Web Attack,Web Attack,0,0.20339322090148926
+Web Attack,Web Attack,Web Attack,0,0.20467734336853027
+Web Attack,Web Attack,Web Attack,0,0.19527173042297363
+Web Attack,Web Attack,Web Attack,0,0.1934666633605957
+Web Attack,Web Attack,Web Attack,0,0.1833515167236328
+Web Attack,Web Attack,Web Attack,0,0.19412994384765625
+Web Attack,Web Attack,Web Attack,0,0.17694616317749023
+Web Attack,Web Attack,Web Attack,0,0.20294475555419922
+Web Attack,Benign,Benign,0,0.19315147399902344
+Web Attack,Web Attack,Web Attack,0,0.19251346588134766
+Web Attack,Web Attack,Web Attack,0,0.19750618934631348
+Web Attack,Web Attack,Web Attack,0,0.1870276927947998
+Web Attack,Web Attack,Web Attack,0,0.19141340255737305
+Web Attack,Web Attack,Web Attack,0,0.19470500946044922
+Web Attack,DoS/DDoS,DoS/DDoS,0,0.2540605068206787
+Web Attack,Web Attack,Web Attack,0,0.1918017864227295
+Web Attack,Web Attack,Web Attack,0,0.1930079460144043
+Web Attack,Web Attack,Web Attack,0,0.19014239311218262
+Web Attack,Web Attack,Web Attack,0,0.20043730735778809
+Web Attack,Web Attack,Web Attack,0,0.19222259521484375
+Web Attack,Web Attack,Web Attack,0,0.19979500770568848
+Web Attack,Web Attack,Web Attack,0,0.19295477867126465
+Web Attack,DoS/DDoS,DoS/DDoS,0,0.24968910217285156
+Web Attack,Web Attack,Web Attack,0,0.20246315002441406
+Web Attack,Web Attack,Web Attack,0,0.19350981712341309
+Web Attack,DoS/DDoS,DoS/DDoS,0,0.22173357009887695
+Web Attack,Web Attack,Web Attack,0,0.19402170181274414
+Web Attack,DoS/DDoS,DoS/DDoS,0,0.2467641830444336
+Web Attack,Web Attack,Web Attack,0,0.18841195106506348
+Web Attack,Web Attack,Web Attack,0,0.19074249267578125
+Web Attack,DoS/DDoS,DoS/DDoS,0,0.21334004402160645
+Web Attack,Web Attack,Web Attack,0,0.19949722290039062
+Web Attack,Web Attack,Web Attack,0,0.17293262481689453
+Web Attack,Web Attack,Web Attack,0,0.19068169593811035
+Web Attack,Web Attack,Web Attack,0,0.19294524192810059
+Web Attack,Web Attack,Web Attack,0,0.188920259475708
+Web Attack,Web Attack,Web Attack,0,0.17395353317260742
+Web Attack,Web Attack,Web Attack,0,0.20774316787719727
+Web Attack,Web Attack,Web Attack,0,0.2059316635131836
+Web Attack,Web Attack,Web Attack,0,0.20598745346069336
+Web Attack,Web Attack,Web Attack,0,0.19962263107299805
+Web Attack,Web Attack,Web Attack,0,0.20808029174804688
+Web Attack,Web Attack,Web Attack,0,0.21365070343017578
+Web Attack,Web Attack,Web Attack,0,0.19193553924560547
+Web Attack,Web Attack,Web Attack,0,0.17517352104187012
+Web Attack,Web Attack,Web Attack,0,0.19383597373962402
+Web Attack,Web Attack,Web Attack,0,0.17609906196594238
+Web Attack,Web Attack,Web Attack,0,0.1846003532409668
+Web Attack,Web Attack,Web Attack,0,0.20352673530578613
+Web Attack,Web Attack,Web Attack,0,0.19369053840637207
+Web Attack,Web Attack,Web Attack,0,0.19384002685546875
+Web Attack,Web Attack,Web Attack,0,0.1878798007965088
+Web Attack,DoS/DDoS,DoS/DDoS,0,0.2201230525970459
+Web Attack,DoS/DDoS,DoS/DDoS,0,0.25363588333129883
+Web Attack,Benign,Benign,0,0.21114063262939453
+Web Attack,Benign,Benign,0,0.20782995223999023
+Web Attack,DoS/DDoS,DoS/DDoS,0,0.2521390914916992
+Web Attack,Benign,Benign,0,0.21646356582641602
+Web Attack,Brute Force,Brute Force,0,0.19757604598999023
+Web Attack,Benign,Benign,0,0.17187142372131348
+Web Attack,Benign,Benign,0,0.17468619346618652
+Web Attack,DoS/DDoS,DoS/DDoS,0,0.24984145164489746
+Web Attack,DoS/DDoS,DoS/DDoS,0,0.250683069229126
+Web Attack,Brute Force,Brute Force,0,0.19062209129333496
+Web Attack,DoS/DDoS,DoS/DDoS,0,0.2542111873626709
+Web Attack,Benign,Benign,0,0.20458698272705078
+Web Attack,Benign,Benign,0,0.20053887367248535
+Web Attack,DoS/DDoS,DoS/DDoS,0,0.25612735748291016
+Web Attack,DoS/DDoS,DoS/DDoS,0,0.22143030166625977
+Web Attack,Benign,Benign,0,0.2074129581451416
+Web Attack,Infiltration,Infiltration,0,0.23238587379455566
+Web Attack,Benign,Benign,0,0.20871782302856445
+Web Attack,Infiltration,Infiltration,0,0.22507286071777344
+Web Attack,Infiltration,Infiltration,0,0.21520519256591797
+Web Attack,DoS/DDoS,DoS/DDoS,0,0.2713816165924072
+Web Attack,PortScan,PortScan,0,0.1806631088256836
+Web Attack,Infiltration,Infiltration,0,0.26041245460510254
+Web Attack,Benign,Benign,0,0.22958612442016602
+Web Attack,Infiltration,Infiltration,0,0.25209522247314453
+Web Attack,Brute Force,Brute Force,0,0.22253894805908203
+Web Attack,DoS/DDoS,DoS/DDoS,0,0.2542555332183838
+Web Attack,DoS/DDoS,DoS/DDoS,0,0.25684309005737305
+Web Attack,DoS/DDoS,DoS/DDoS,0,0.21370148658752441

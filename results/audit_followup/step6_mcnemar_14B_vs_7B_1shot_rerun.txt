@@ -1,0 +1,5 @@
+McNemar: 14B 1-shot rerun (step4) vs 7B 1-shot rerun (step4)
+table [[both, 14B_only],[7B_only, neither]] = [[420, 41], [13, 226]]
+b (14B-only correct) = 41
+c (7B-only correct)  = 13
+statistic=13.0000  p-value=0.000175127

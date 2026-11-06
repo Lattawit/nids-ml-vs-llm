@@ -1,0 +1,8 @@
+Model,Class,Precision,Recall,F1-score,Support
+LLM qwen2.5:7b (zero-shot),Benign,0.13688212927756654,0.36,0.19834710743801653,100
+LLM qwen2.5:7b (zero-shot),Bot,0.0,0.0,0.0,100
+LLM qwen2.5:7b (zero-shot),Brute Force,0.0,0.0,0.0,100
+LLM qwen2.5:7b (zero-shot),DoS/DDoS,0.0,0.0,0.0,100
+LLM qwen2.5:7b (zero-shot),Infiltration,0.0,0.0,0.0,100
+LLM qwen2.5:7b (zero-shot),PortScan,0.06585365853658537,0.27,0.10588235294117647,100
+LLM qwen2.5:7b (zero-shot),Web Attack,0.0,0.0,0.0,100

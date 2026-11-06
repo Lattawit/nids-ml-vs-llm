@@ -1,0 +1,701 @@
+True Label,Predicted Label
+Benign,Infiltration
+Benign,PortScan
+Benign,Benign
+Benign,Brute Force
+Benign,PortScan
+Benign,Infiltration
+Benign,PortScan
+Benign,Infiltration
+Benign,DoS/DDoS
+Benign,Infiltration
+Benign,PortScan
+Benign,Benign
+Benign,Benign
+Benign,PortScan
+Benign,Web Attack
+Benign,Infiltration
+Benign,Infiltration
+Benign,Benign
+Benign,DoS/DDoS
+Benign,Bot
+Benign,PortScan
+Benign,Bot
+Benign,Benign
+Benign,PortScan
+Benign,Benign
+Benign,Benign
+Benign,Benign
+Benign,PortScan
+Benign,Bot
+Benign,Benign
+Benign,PortScan
+Benign,Infiltration
+Benign,PortScan
+Benign,Benign
+Benign,PortScan
+Benign,DoS/DDoS
+Benign,Infiltration
+Benign,Infiltration
+Benign,Infiltration
+Benign,Benign
+Benign,Benign
+Benign,Infiltration
+Benign,DoS/DDoS
+Benign,PortScan
+Benign,Benign
+Benign,PortScan
+Benign,Bot
+Benign,Bot
+Benign,Benign
+Benign,Benign
+Benign,Benign
+Benign,Infiltration
+Benign,Bot
+Benign,Benign
+Benign,Bot
+Benign,PortScan
+Benign,Infiltration
+Benign,Benign
+Benign,DoS/DDoS
+Benign,Benign
+Benign,PortScan
+Benign,Infiltration
+Benign,Benign
+Benign,Infiltration
+Benign,Benign
+Benign,Benign
+Benign,Benign
+Benign,Benign
+Benign,Infiltration
+Benign,Infiltration
+Benign,Infiltration
+Benign,PortScan
+Benign,Benign
+Benign,Bot
+Benign,Bot
+Benign,Bot
+Benign,Benign
+Benign,Infiltration
+Benign,PortScan
+Benign,PortScan
+Benign,DoS/DDoS
+Benign,PortScan
+Benign,Infiltration
+Benign,PortScan
+Benign,Bot
+Benign,Infiltration
+Benign,Infiltration
+Benign,PortScan
+Benign,Benign
+Benign,Benign
+Benign,Benign
+Benign,Benign
+Benign,Benign
+Benign,PortScan
+Benign,Infiltration
+Benign,Infiltration
+Benign,Bot
+Benign,Benign
+Benign,PortScan
+Benign,Benign
+Bot,Bot
+Bot,PortScan
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Bot,Bot
+Brute Force,PortScan
+Brute Force,PortScan
+Brute Force,Brute Force
+Brute Force,PortScan
+Brute Force,PortScan
+Brute Force,PortScan
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,PortScan
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+Brute Force,Brute Force
+DoS/DDoS,Infiltration
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,Infiltration
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,Bot
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,Benign
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,Bot
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Infiltration
+DoS/DDoS,Infiltration
+DoS/DDoS,Benign
+DoS/DDoS,Infiltration
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,Infiltration
+DoS/DDoS,Infiltration
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Infiltration
+DoS/DDoS,Benign
+DoS/DDoS,Infiltration
+DoS/DDoS,Infiltration
+DoS/DDoS,Benign
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,Infiltration
+DoS/DDoS,Benign
+DoS/DDoS,Infiltration
+DoS/DDoS,Benign
+DoS/DDoS,Infiltration
+DoS/DDoS,Benign
+DoS/DDoS,Infiltration
+DoS/DDoS,Infiltration
+DoS/DDoS,Infiltration
+DoS/DDoS,Infiltration
+DoS/DDoS,Infiltration
+DoS/DDoS,Infiltration
+DoS/DDoS,Infiltration
+DoS/DDoS,Infiltration
+DoS/DDoS,Infiltration
+DoS/DDoS,Infiltration
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Benign
+DoS/DDoS,Bot
+DoS/DDoS,Bot
+DoS/DDoS,Benign
+DoS/DDoS,Bot
+DoS/DDoS,Benign
+DoS/DDoS,Bot
+DoS/DDoS,DoS/DDoS
+DoS/DDoS,Benign
+Infiltration,Web Attack
+Infiltration,Web Attack
+Infiltration,Bot
+Infiltration,Benign
+Infiltration,Benign
+Infiltration,Benign
+Infiltration,Benign
+Infiltration,PortScan
+Infiltration,PortScan
+Infiltration,DoS/DDoS
+Infiltration,Benign
+Infiltration,Infiltration
+Infiltration,Infiltration
+Infiltration,Benign
+Infiltration,Infiltration
+Infiltration,Web Attack
+Infiltration,Benign
+Infiltration,Infiltration
+Infiltration,Benign
+Infiltration,PortScan
+Infiltration,Infiltration
+Infiltration,Bot
+Infiltration,Web Attack
+Infiltration,Web Attack
+Infiltration,Infiltration
+Infiltration,DoS/DDoS
+Infiltration,Benign
+Infiltration,Infiltration
+Infiltration,Benign
+Infiltration,Infiltration
+Infiltration,Infiltration
+Infiltration,Infiltration
+Infiltration,Infiltration
+Infiltration,Benign
+Infiltration,Bot
+Infiltration,Benign
+Infiltration,Infiltration
+Infiltration,Benign
+Infiltration,Bot
+Infiltration,Benign
+Infiltration,Benign
+Infiltration,Infiltration
+Infiltration,Infiltration
+Infiltration,Benign
+Infiltration,Benign
+Infiltration,PortScan
+Infiltration,Infiltration
+Infiltration,PortScan
+Infiltration,Benign
+Infiltration,Benign
+Infiltration,PortScan
+Infiltration,PortScan
+Infiltration,Bot
+Infiltration,Benign
+Infiltration,Bot
+Infiltration,PortScan
+Infiltration,PortScan
+Infiltration,PortScan
+Infiltration,Bot
+Infiltration,Benign
+Infiltration,DoS/DDoS
+Infiltration,Benign
+Infiltration,Bot
+Infiltration,Infiltration
+Infiltration,DoS/DDoS
+Infiltration,PortScan
+Infiltration,Infiltration
+Infiltration,Web Attack
+Infiltration,Infiltration
+Infiltration,DoS/DDoS
+Infiltration,Benign
+Infiltration,PortScan
+Infiltration,Benign
+Infiltration,Brute Force
+Infiltration,Benign
+Infiltration,Infiltration
+Infiltration,Benign
+Infiltration,Bot
+Infiltration,PortScan
+Infiltration,PortScan
+Infiltration,Benign
+Infiltration,Benign
+Infiltration,Benign
+Infiltration,Bot
+Infiltration,PortScan
+Infiltration,PortScan
+Infiltration,PortScan
+Infiltration,PortScan
+Infiltration,Benign
+Infiltration,PortScan
+Infiltration,Bot
+Infiltration,PortScan
+Infiltration,PortScan
+Infiltration,Bot
+Infiltration,PortScan
+Infiltration,PortScan
+Infiltration,PortScan
+Infiltration,Infiltration
+Infiltration,Infiltration
+Infiltration,Infiltration
+PortScan,PortScan
+PortScan,PortScan
+PortScan,DoS/DDoS
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,DoS/DDoS
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,DoS/DDoS
+PortScan,PortScan
+PortScan,DoS/DDoS
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,DoS/DDoS
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,Bot
+PortScan,PortScan
+PortScan,PortScan
+PortScan,DoS/DDoS
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,DoS/DDoS
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,DoS/DDoS
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,DoS/DDoS
+PortScan,PortScan
+PortScan,PortScan
+PortScan,PortScan
+PortScan,DoS/DDoS
+PortScan,PortScan
+PortScan,Bot
+PortScan,PortScan
+PortScan,PortScan
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Benign
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,DoS/DDoS
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,DoS/DDoS
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,DoS/DDoS
+Web Attack,Web Attack
+Web Attack,DoS/DDoS
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,DoS/DDoS
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,Web Attack
+Web Attack,DoS/DDoS
+Web Attack,DoS/DDoS
+Web Attack,Benign
+Web Attack,Benign
+Web Attack,DoS/DDoS
+Web Attack,Benign
+Web Attack,DoS/DDoS
+Web Attack,DoS/DDoS
+Web Attack,DoS/DDoS
+Web Attack,DoS/DDoS
+Web Attack,DoS/DDoS
+Web Attack,Brute Force
+Web Attack,DoS/DDoS
+Web Attack,Benign
+Web Attack,Benign
+Web Attack,DoS/DDoS
+Web Attack,DoS/DDoS
+Web Attack,Benign
+Web Attack,Infiltration
+Web Attack,Benign
+Web Attack,Infiltration
+Web Attack,Infiltration
+Web Attack,DoS/DDoS
+Web Attack,PortScan
+Web Attack,Infiltration
+Web Attack,Benign
+Web Attack,Infiltration
+Web Attack,DoS/DDoS
+Web Attack,DoS/DDoS
+Web Attack,DoS/DDoS
+Web Attack,Brute Force

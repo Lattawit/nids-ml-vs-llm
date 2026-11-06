@@ -1,0 +1,24 @@
+  1,000,000 / 10,107,976 scanned
+  2,000,000 / 10,107,976 scanned
+  3,000,000 / 10,107,976 scanned
+  4,000,000 / 10,107,976 scanned
+  5,000,000 / 10,107,976 scanned
+  6,000,000 / 10,107,976 scanned
+  7,000,000 / 10,107,976 scanned
+  8,000,000 / 10,107,976 scanned
+  9,000,000 / 10,107,976 scanned
+  10,000,000 / 10,107,976 scanned
+  10,107,976 / 10,107,976 scanned
+Training rows per class (real only):
+ 0    200000
+1    102538
+2     72271
+3    200000
+4     97868
+5     63486
+6      2103
+
+Training Random Forest
+Training XGBoost
+{'random_forest': 20.602898120880127, 'xgboost': 45.114091634750366} 
+Done.

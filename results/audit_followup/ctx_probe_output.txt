@@ -1,0 +1,46 @@
+Context-window audit — qwen2.5:14B, live probes, model unloaded (keep_alive=0) between every call so no KV-cache reuse contaminates the count.
+
+=== 1a. Effective default num_ctx ===
+Source: %USERPROFILE%\AppData\Local\Ollama\server.log (live server, current session)
+  msg="vram-based default context" total_vram="8.0 GiB" default_num_ctx=4096
+  llama_context: n_ctx = 4096 / n_ctx_seq = 4096 (n_ctx_train = 32768, model's own max)
+  srv load_model: n_slots = 1, n_ctx_slot = 4096
+OLLAMA_CONTEXT_LENGTH=0 in the server's env dump (routes.go "server config" line) -- i.e. never set by the
+project, so Ollama's automatic VRAM-based heuristic picked 4096 on this 8GB-VRAM machine. None of the
+llm_classification_*.py scripts pass num_ctx, so every v3/v4 LLM run (Table II/V/VI, Table I) executed at
+this default: 4096 tokens, not the model's full 32,768-token capacity.
+
+=== 1b. True prompt token count vs default context (row 0 of llm_subset_v4.csv, true label Benign) ===
+
+Config                          num_ctx    prompt_eval_count   eval_count  done_reason
+1-shot                          32768      2619                1           length
+1-shot                          default    2619                1           length
+3-shot (seed 303)               32768      6524                1           length
+3-shot (seed 303)               default    2050                1           length
+
+1-shot: identical count at both settings -> NOT truncated (2619 tokens comfortably fits in 4096).
+
+3-shot (seed 303): TRUNCATED. True prompt is 6,524 tokens; at the default 4096-token context only 2,050
+tokens (31.4%) are actually evaluated -- 4,474 tokens (68.6% of the prompt) are silently dropped before the
+model ever sees them. This happened in every actual v3/v4 3-shot-ablation run (none set num_ctx), and by
+construction of llama.cpp/Ollama's over-length-prompt handling (server log shows n_keep=4, i.e. only the
+first 4 tokens are protected), truncation drops content from the START of the prompt and keeps the tail --
+so the "knowledge" class-definitions block and the EARLIER reference examples (Benign/Bot/Brute
+Force/DoS-DDoS/Infiltration, in that fixed sorted-by-label-id order -- see llm_classification_few_shot_v4
+_3shot_ablation.py:257) are the first content discarded, while the LAST examples in the block (PortScan,
+Web Attack -- label ids 5 and 6, positioned immediately before "Traffic to Classify") and the traffic row
+itself survive intact.
+
+This gives a mechanistic, non-speculative explanation for the "collapse" pattern already reported (Bot/
+Brute Force/DoS-DDoS/Infiltration -> 0% recall in every 3-shot run, predictions concentrating on PortScan/
+Web Attack): the model was answering with a truncated prompt that had structurally lost the class
+definitions and reference examples for exactly the four classes that collapsed, while PortScan and Web
+Attack's examples (being last, right before the row to classify) survived. Corroboration: a same-row probe
+at default settings and num_predict=60 (not 1) in the prior audit session returned raw text "Web Attack"
+for this same true-Benign row -- consistent with the model latching onto whichever example survived nearest
+the end of the truncated prompt, not the correct class.
+
+This reframes CLAUDE.md's "Likely a 'lost in the middle' prompt-length effect rather than a bug" (Sep 12
+entry): it is not a vague attention-distance effect, it is literal, structural context-window truncation
+caused by never setting num_ctx while the true 3-shot prompt (~6.5k tokens) exceeds the server's
+auto-selected 4096-token default.

@@ -1,0 +1,2 @@
+Model,Accuracy,Weighted_Precision,Weighted_Recall,Weighted_F1,Macro_Precision,Macro_Recall,Macro_F1,Inference Time (s),Avg_Seconds_Per_Row,Num_Fallback_Rows,Num_Ctx,Extra_Seed
+"LLM qwen2.5:14B (few-shot, 3shot, v4, run2, num_ctx=8192)",0.7385714285714285,0.721544213845452,0.7385714285714285,0.7170545162178132,0.7215442138454521,0.7385714285714285,0.7170545162178132,863.02,1.2326,0,8192,202

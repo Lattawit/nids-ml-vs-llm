@@ -1,0 +1,2 @@
+Model,Accuracy,Weighted_Precision,Weighted_Recall,Weighted_F1,Macro_Precision,Macro_Recall,Macro_F1,Inference Time (s),Fallback_Count
+"LLM qwen2.5:14B (few-shot, json, v4)",0.6257142857142857,0.6257689514513134,0.6257142857142857,0.5919842587946608,0.6257689514513134,0.6257142857142856,0.5919842587946607,5070.18,0

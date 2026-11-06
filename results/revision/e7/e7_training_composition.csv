@@ -1,0 +1,11 @@
+setting,class,real_rows,balanced_rows,pct_synthetic
+train2018_test2017,Benign,200000,200000,0.0
+train2018_test2017,Bot,144535,200000,27.732500000000005
+train2018_test2017,Brute Force,94094,200000,52.953
+train2018_test2017,DoS/DDoS,200000,200000,0.0
+train2018_test2017,Web Attack,861,200000,99.5695
+control_2018_70_30,Benign,200000,200000,0.0
+control_2018_70_30,Bot,101174,200000,49.413
+control_2018_70_30,Brute Force,65866,200000,67.067
+control_2018_70_30,DoS/DDoS,200000,200000,0.0
+control_2018_70_30,Web Attack,603,200000,99.6985

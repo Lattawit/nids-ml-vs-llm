@@ -1,0 +1,55 @@
+Protocol-sensitivity retrain summary (RF/XGBoost/MLP, no-Protocol variants, same hyperparameters as
+train_models_v4.py, trained on the existing results/split_data_v4/X_train_smote.csv with the "Protocol"
+column dropped). Models saved to results/audit_followup/models_no_protocol/ (models/v4/*.pkl untouched).
+
+=== Overall: baseline vs no-Protocol ===
+
+700-row LLM subset (accuracy):           RF        XGBoost   MLP
+  baseline (with Protocol)               90.57     92.00     90.29
+  no-Protocol                            90.29     92.71     90.57
+  delta (pp)                             -0.28     +0.71     +0.28
+
+Held-out natural-distribution test (macro F1):   RF        XGBoost   MLP
+  baseline (with Protocol)                       77.47     74.22     71.12
+  no-Protocol                                    77.42     74.25     71.37
+  delta (pp)                                     -0.05     +0.03     +0.25
+
+CONCLUSION: dropping Protocol changes accuracy/macro-F1 by at most ~0.7 percentage points in either
+direction, across all three models and both evaluation sets. Despite Protocol being a near-perfect
+dataset-origin fingerprint (0 for 100% of CIC-IDS2017-origin rows, real values for 100% of CSE-CIC-
+IDS2018-origin rows -- see main audit, D.9), none of the models appear to actually rely on it for
+accuracy. This is a real methodological/leakage-disclosure issue (Protocol should arguably be dropped
+or documented alongside the 44 coalesced long/short pairs), but it is NOT inflating the headline v4
+numbers in any material way -- unlike the original v2 44-column leakage bug, which the codebase's own
+before/after macro-F1 comparison (0.869 v2 -> 0.751 v3) shows WAS material.
+
+=== Per-class F1: baseline vs no-Protocol, largest movers ===
+
+700-row subset:
+  MLP       Benign        0.6522 -> 0.6889  (+0.0367)
+  XGBoost   Benign        0.7291 -> 0.7500  (+0.0209)
+  XGBoost   Infiltration  0.7426 -> 0.7586  (+0.0160)
+  MLP       Web Attack    0.9529 -> 0.9424  (-0.0105)
+  MLP       Infiltration  0.7456 -> 0.7359  (-0.0097)
+  RF        Benign        0.7234 -> 0.7124  (-0.0110)
+  Bot, Brute Force, DoS/DDoS, PortScan: unchanged to 3-4 decimal places for RF and XGBoost.
+
+Held-out natural-distribution test:
+  MLP       Bot           0.9498 -> 0.9799  (+0.0302)
+  MLP       Benign        0.8133 -> 0.7975  (-0.0157)
+  RF        DoS/DDoS      0.9974 -> 0.9965  (-0.0009)
+  Bot, Brute Force, DoS/DDoS, PortScan, Infiltration: unchanged to 3-4 decimal places for RF and XGBoost
+  (Infiltration F1 is ~0.09-0.10 for RF/XGBoost either way -- already a near-failure class, untouched by
+  Protocol).
+
+PATTERN: Bot, Brute Force, DoS/DDoS, and PortScan -- the classes with near-perfect F1 already -- are
+essentially insensitive to Protocol for the tree-based models (RF, XGBoost): identical F1 to 3-4 decimal
+places with or without it, meaning trees were never actually splitting on Protocol to separate these
+classes. The classes that move (a few hundredths of an F1 point) are already the weakest/most ambiguous
+ones -- Benign, Infiltration, Web Attack -- and the movement is small and inconsistent in sign across
+models (sometimes better without Protocol, sometimes worse), consistent with ordinary retrain noise
+(different input dimensionality changes weight-init draws for MLP; slightly different tree splits for
+RF/XGBoost) rather than a systematic leakage effect being removed.
+
+Full per-class tables: results/audit_followup/protocol_ablation_class_results.csv
+Full overall tables:   results/audit_followup/protocol_ablation_overall_results.csv

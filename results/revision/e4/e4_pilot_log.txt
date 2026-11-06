@@ -1,0 +1,23 @@
+
+=== results/revision/e4/llm/e4_qwen2.5-14B_dynamic_seed42_t0_np60_ctxdefault  (0 done, 20 to do)
+[1/20] True=Benign Pred=Benign 4.30s
+[2/20] True=Benign Pred=Benign 3.01s
+[3/20] True=Benign Pred=Benign 3.42s
+[4/20] True=Benign Pred=Benign 3.60s
+[5/20] True=Benign Pred=Benign 3.02s
+[6/20] True=Benign Pred=Benign 3.01s
+[7/20] True=Benign Pred=Benign 3.31s
+[8/20] True=Benign Pred=Benign 2.99s
+[9/20] True=Benign Pred=Benign 3.41s
+[10/20] True=Benign Pred=Infiltration 3.70s
+[11/20] True=Benign Pred=Benign 3.27s
+[12/20] True=Benign Pred=Benign 3.46s
+[13/20] True=Benign Pred=Benign 3.49s
+[14/20] True=Benign Pred=Benign 3.68s
+[15/20] True=Benign Pred=Benign 3.66s
+[16/20] True=Benign Pred=Benign 3.55s
+[17/20] True=Benign Pred=Benign 3.44s
+[18/20] True=Benign Pred=Benign 3.48s
+[19/20] True=Benign Pred=Benign 3.00s
+[20/20] True=Benign Pred=Benign 3.32s
+=== session done: 20 rows, 0 unmatched, 68.13 s

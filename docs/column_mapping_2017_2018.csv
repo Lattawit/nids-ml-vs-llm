@@ -1,0 +1,91 @@
+canonical_name,cic_ids2017_name,cse_cic_ids2018_name,handling
+"Dst Port","Destination Port","Dst Port",coalesced
+"Tot Fwd Pkts","Total Fwd Packets","Tot Fwd Pkts",coalesced
+"Tot Bwd Pkts","Total Backward Packets","Tot Bwd Pkts",coalesced
+"TotLen Fwd Pkts","Total Length of Fwd Packets","TotLen Fwd Pkts",coalesced
+"TotLen Bwd Pkts","Total Length of Bwd Packets","TotLen Bwd Pkts",coalesced
+"Fwd Pkt Len Max","Fwd Packet Length Max","Fwd Pkt Len Max",coalesced
+"Fwd Pkt Len Min","Fwd Packet Length Min","Fwd Pkt Len Min",coalesced
+"Fwd Pkt Len Mean","Fwd Packet Length Mean","Fwd Pkt Len Mean",coalesced
+"Fwd Pkt Len Std","Fwd Packet Length Std","Fwd Pkt Len Std",coalesced
+"Bwd Pkt Len Max","Bwd Packet Length Max","Bwd Pkt Len Max",coalesced
+"Bwd Pkt Len Min","Bwd Packet Length Min","Bwd Pkt Len Min",coalesced
+"Bwd Pkt Len Mean","Bwd Packet Length Mean","Bwd Pkt Len Mean",coalesced
+"Bwd Pkt Len Std","Bwd Packet Length Std","Bwd Pkt Len Std",coalesced
+"Flow Byts/s","Flow Bytes/s","Flow Byts/s",coalesced
+"Flow Pkts/s","Flow Packets/s","Flow Pkts/s",coalesced
+"Fwd IAT Tot","Fwd IAT Total","Fwd IAT Tot",coalesced
+"Bwd IAT Tot","Bwd IAT Total","Bwd IAT Tot",coalesced
+"Fwd Header Len","Fwd Header Length","Fwd Header Len",coalesced
+"Bwd Header Len","Bwd Header Length","Bwd Header Len",coalesced
+"Fwd Pkts/s","Fwd Packets/s","Fwd Pkts/s",coalesced
+"Bwd Pkts/s","Bwd Packets/s","Bwd Pkts/s",coalesced
+"Pkt Len Min","Min Packet Length","Pkt Len Min",coalesced
+"Pkt Len Max","Max Packet Length","Pkt Len Max",coalesced
+"Pkt Len Mean","Packet Length Mean","Pkt Len Mean",coalesced
+"Pkt Len Std","Packet Length Std","Pkt Len Std",coalesced
+"Pkt Len Var","Packet Length Variance","Pkt Len Var",coalesced
+"FIN Flag Cnt","FIN Flag Count","FIN Flag Cnt",coalesced
+"SYN Flag Cnt","SYN Flag Count","SYN Flag Cnt",coalesced
+"RST Flag Cnt","RST Flag Count","RST Flag Cnt",coalesced
+"PSH Flag Cnt","PSH Flag Count","PSH Flag Cnt",coalesced
+"ACK Flag Cnt","ACK Flag Count","ACK Flag Cnt",coalesced
+"URG Flag Cnt","URG Flag Count","URG Flag Cnt",coalesced
+"ECE Flag Cnt","ECE Flag Count","ECE Flag Cnt",coalesced
+"Pkt Size Avg","Average Packet Size","Pkt Size Avg",coalesced
+"Fwd Seg Size Avg","Avg Fwd Segment Size","Fwd Seg Size Avg",coalesced
+"Bwd Seg Size Avg","Avg Bwd Segment Size","Bwd Seg Size Avg",coalesced
+"Subflow Fwd Pkts","Subflow Fwd Packets","Subflow Fwd Pkts",coalesced
+"Subflow Fwd Byts","Subflow Fwd Bytes","Subflow Fwd Byts",coalesced
+"Subflow Bwd Pkts","Subflow Bwd Packets","Subflow Bwd Pkts",coalesced
+"Subflow Bwd Byts","Subflow Bwd Bytes","Subflow Bwd Byts",coalesced
+"Init Fwd Win Byts","Init_Win_bytes_forward","Init Fwd Win Byts",coalesced
+"Init Bwd Win Byts","Init_Win_bytes_backward","Init Bwd Win Byts",coalesced
+"Fwd Act Data Pkts","act_data_pkt_fwd","Fwd Act Data Pkts",coalesced
+"Fwd Seg Size Min","min_seg_size_forward","Fwd Seg Size Min",coalesced
+"Flow Duration","Flow Duration","Flow Duration",shared (same name)
+"Flow IAT Mean","Flow IAT Mean","Flow IAT Mean",shared (same name)
+"Flow IAT Std","Flow IAT Std","Flow IAT Std",shared (same name)
+"Flow IAT Max","Flow IAT Max","Flow IAT Max",shared (same name)
+"Flow IAT Min","Flow IAT Min","Flow IAT Min",shared (same name)
+"Fwd IAT Mean","Fwd IAT Mean","Fwd IAT Mean",shared (same name)
+"Fwd IAT Std","Fwd IAT Std","Fwd IAT Std",shared (same name)
+"Fwd IAT Max","Fwd IAT Max","Fwd IAT Max",shared (same name)
+"Fwd IAT Min","Fwd IAT Min","Fwd IAT Min",shared (same name)
+"Bwd IAT Mean","Bwd IAT Mean","Bwd IAT Mean",shared (same name)
+"Bwd IAT Std","Bwd IAT Std","Bwd IAT Std",shared (same name)
+"Bwd IAT Max","Bwd IAT Max","Bwd IAT Max",shared (same name)
+"Bwd IAT Min","Bwd IAT Min","Bwd IAT Min",shared (same name)
+"Fwd PSH Flags","Fwd PSH Flags","Fwd PSH Flags",shared (same name)
+"Fwd URG Flags","Fwd URG Flags","Fwd URG Flags",shared (same name)
+"CWE Flag Count","CWE Flag Count","CWE Flag Count",shared (same name)
+"Down/Up Ratio","Down/Up Ratio","Down/Up Ratio",shared (same name)
+"Active Mean","Active Mean","Active Mean",shared (same name)
+"Active Std","Active Std","Active Std",shared (same name)
+"Active Max","Active Max","Active Max",shared (same name)
+"Active Min","Active Min","Active Min",shared (same name)
+"Idle Mean","Idle Mean","Idle Mean",shared (same name)
+"Idle Std","Idle Std","Idle Std",shared (same name)
+"Idle Max","Idle Max","Idle Max",shared (same name)
+"Idle Min","Idle Min","Idle Min",shared (same name)
+"Protocol",,"Protocol",2018 only (0 for every 2017 row; encodes origin)
+"Timestamp",,,dropped (identifier)
+"Flow ID",,,dropped (identifier)
+"Src IP",,,dropped (identifier)
+"Dst IP",,,dropped (identifier)
+"Src Port",,,dropped (identifier)
+"Fwd Header Length.1",,,dropped (identifier)
+"Fwd Avg Bytes/Bulk",,,dropped (constant zero in both datasets)
+"Fwd Avg Packets/Bulk",,,dropped (constant zero in both datasets)
+"Fwd Avg Bulk Rate",,,dropped (constant zero in both datasets)
+"Bwd Avg Bytes/Bulk",,,dropped (constant zero in both datasets)
+"Bwd Avg Packets/Bulk",,,dropped (constant zero in both datasets)
+"Bwd Avg Bulk Rate",,,dropped (constant zero in both datasets)
+"Fwd Byts/b Avg",,,dropped (constant zero in both datasets)
+"Fwd Pkts/b Avg",,,dropped (constant zero in both datasets)
+"Fwd Blk Rate Avg",,,dropped (constant zero in both datasets)
+"Bwd Byts/b Avg",,,dropped (constant zero in both datasets)
+"Bwd Pkts/b Avg",,,dropped (constant zero in both datasets)
+"Bwd Blk Rate Avg",,,dropped (constant zero in both datasets)
+"Bwd PSH Flags",,,dropped (constant zero in both datasets)
+"Bwd URG Flags",,,dropped (constant zero in both datasets)

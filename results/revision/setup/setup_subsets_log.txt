@@ -1,0 +1,40 @@
+Loading y_test...
+  class 0: 3,798,735 test rows, 500 used across seeds
+  class 1: 43,945 test rows, 500 used across seeds
+  class 2: 30,973 test rows, 500 used across seeds
+  class 3: 388,285 test rows, 500 used across seeds
+  class 4: 41,943 test rows, 500 used across seeds
+  class 5: 27,208 test rows, 500 used across seeds
+  class 6: 901 test rows, 500 used across seeds
+
+Streaming X_test...
+  1,000,000 / 4,331,990 scanned
+  2,000,000 / 4,331,990 scanned
+  3,000,000 / 4,331,990 scanned
+  4,000,000 / 4,331,990 scanned
+  4,331,990 / 4,331,990 scanned
+Saved: results/revision/setup/llm_subset_v4_seed42.csv
+Saved: results/revision/setup/llm_subset_v4_seed1.csv
+Saved: results/revision/setup/llm_subset_v4_seed2.csv
+Saved: results/revision/setup/llm_subset_v4_seed3.csv
+Saved: results/revision/setup/llm_subset_v4_seed4.csv
+
+Seed 42 subset byte-identical to results/llm/llm_subset_v4.csv: True
+
+Loading y_train...
+Streaming X_train (22 features)...
+  1,000,000 / 10,107,976 scanned
+  2,000,000 / 10,107,976 scanned
+  3,000,000 / 10,107,976 scanned
+  4,000,000 / 10,107,976 scanned
+  5,000,000 / 10,107,976 scanned
+  6,000,000 / 10,107,976 scanned
+  7,000,000 / 10,107,976 scanned
+  8,000,000 / 10,107,976 scanned
+  9,000,000 / 10,107,976 scanned
+  10,000,000 / 10,107,976 scanned
+  10,107,976 / 10,107,976 scanned
+Matrix-rendered examples match the original rendering path.
+Saved E4 cache: (10107976, 22)
+
+Done.

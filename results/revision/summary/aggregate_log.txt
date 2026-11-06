@@ -1,0 +1,100 @@
+                           accuracy_mean  ...  unmatched_mean
+system                                    ...                
+XGB [e5_nosmote_weighted]          93.14  ...             0.0
+XGB [v4_70feat]                    92.31  ...             0.0
+XGB [e2_22feat]                    91.37  ...             0.0
+RF [e2_22feat]                     91.00  ...             0.0
+RF [e5_nosmote_weighted]           90.60  ...             0.0
+MLP [v4_70feat]                    89.94  ...             0.0
+RF [v4_70feat]                     89.77  ...             0.0
+MLP [e2_22feat]                    89.06  ...             0.0
+baseline knn5_smote                87.83  ...             0.0
+baseline retrieval_1nn             75.60  ...             0.0
+baseline knn5_real                 75.40  ...             0.0
+qwen2.5-14B dynamic                73.57  ...             0.0
+qwen2.5-14B three                  69.37  ...             0.0
+qwen2.5-14B few                    61.49  ...             0.0
+qwen2.5-7b few                     58.71  ...             0.0
+qwen2.5-14B zero                   16.29  ...             0.0
+qwen2.5-7b zero                     8.34  ...             0.8
+
+[17 rows x 9 columns]
+                  a                      b   seed  a_only_correct  b_only_correct       p_value
+    XGB [v4_70feat]         RF [v4_70feat]     42              33              23  2.288055e-01
+    XGB [v4_70feat]         RF [v4_70feat]      1              46              13  1.916779e-05
+    XGB [v4_70feat]         RF [v4_70feat]      2              38              20  2.474604e-02
+    XGB [v4_70feat]         RF [v4_70feat]      3              31              17  5.946338e-02
+    XGB [v4_70feat]         RF [v4_70feat]      4              32              18  6.490865e-02
+    XGB [v4_70feat]         RF [v4_70feat] pooled             180              91  6.937838e-08
+    qwen2.5-14B few         qwen2.5-7b few     42              41              17  2.232552e-03
+    qwen2.5-14B few         qwen2.5-7b few      1             109              40  1.409350e-08
+    qwen2.5-14B few         qwen2.5-7b few      2              28              49  2.203346e-02
+    qwen2.5-14B few         qwen2.5-7b few      3              42              42  1.000000e+00
+    qwen2.5-14B few         qwen2.5-7b few      4              57              32  1.054690e-02
+    qwen2.5-14B few         qwen2.5-7b few pooled             277             180  6.586185e-06
+    XGB [v4_70feat]    qwen2.5-14B dynamic     42             150              28  2.289036e-21
+    XGB [v4_70feat]    qwen2.5-14B dynamic      1             155              25  4.196039e-24
+    XGB [v4_70feat]    qwen2.5-14B dynamic      2             162              24  2.399903e-26
+    XGB [v4_70feat]    qwen2.5-14B dynamic      3             162              30  4.241586e-23
+    XGB [v4_70feat]    qwen2.5-14B dynamic      4             155              21  1.949127e-26
+    XGB [v4_70feat]    qwen2.5-14B dynamic pooled             784             128 1.167637e-115
+qwen2.5-14B dynamic        qwen2.5-14B few     42             152              90  8.110885e-05
+qwen2.5-14B dynamic        qwen2.5-14B few      1             151              79  2.377459e-06
+qwen2.5-14B dynamic        qwen2.5-14B few      2             164              34  1.277354e-21
+qwen2.5-14B dynamic        qwen2.5-14B few      3             147              20  4.417192e-25
+qwen2.5-14B dynamic        qwen2.5-14B few      4             108              76  2.203514e-02
+qwen2.5-14B dynamic        qwen2.5-14B few pooled             722             299  5.547475e-41
+qwen2.5-14B dynamic baseline retrieval_1nn     42              12              25  4.703103e-02
+qwen2.5-14B dynamic baseline retrieval_1nn      1               8              20  3.569814e-02
+qwen2.5-14B dynamic baseline retrieval_1nn      2               5              26  1.921952e-04
+qwen2.5-14B dynamic baseline retrieval_1nn      3               7              22  8.130059e-03
+qwen2.5-14B dynamic baseline retrieval_1nn      4              11              21  1.101842e-01
+qwen2.5-14B dynamic baseline retrieval_1nn pooled              43             114  1.320695e-08
+  qwen2.5-14B three        qwen2.5-14B few     42              34              15  9.399242e-03
+  qwen2.5-14B three        qwen2.5-14B few      1              81              28  3.778053e-07
+  qwen2.5-14B three        qwen2.5-14B few      2             107               6  5.149177e-25
+  qwen2.5-14B three        qwen2.5-14B few      3             111               4  3.450745e-28
+  qwen2.5-14B three        qwen2.5-14B few      4              45              49  7.571891e-01
+  qwen2.5-14B three        qwen2.5-14B few pooled             378             102  2.611303e-38
+qwen2.5-14B dynamic      qwen2.5-14B three     42             133              90  4.804120e-03
+qwen2.5-14B dynamic      qwen2.5-14B three      1             130             111  2.462043e-01
+qwen2.5-14B dynamic      qwen2.5-14B three      2             131             102  6.637279e-02
+qwen2.5-14B dynamic      qwen2.5-14B three      3             110              90  1.789640e-01
+qwen2.5-14B dynamic      qwen2.5-14B three      4             138             102  2.366764e-02
+qwen2.5-14B dynamic      qwen2.5-14B three pooled             642             495  1.454202e-05
+    XGB [v4_70feat]        qwen2.5-14B few     42             200              16  1.252386e-41
+    XGB [v4_70feat]        qwen2.5-14B few      1             206               4  9.757777e-56
+    XGB [v4_70feat]        qwen2.5-14B few      2             278              10  3.852356e-69
+    XGB [v4_70feat]        qwen2.5-14B few      3             271              12  5.854272e-65
+    XGB [v4_70feat]        qwen2.5-14B few      4             175               9  4.692992e-41
+    XGB [v4_70feat]        qwen2.5-14B few pooled            1130              51 6.653235e-266
+    XGB [v4_70feat]      qwen2.5-14B three     42             178              13  3.270600e-38
+    XGB [v4_70feat]      qwen2.5-14B three      1             171              22  8.962884e-30
+    XGB [v4_70feat]      qwen2.5-14B three      2             178              11  5.557289e-40
+    XGB [v4_70feat]      qwen2.5-14B three      3             170              18  3.302830e-32
+    XGB [v4_70feat]      qwen2.5-14B three      4             188              18  6.969436e-37
+    XGB [v4_70feat]      qwen2.5-14B three pooled             885              82 6.915313e-171
+    XGB [v4_70feat]       qwen2.5-14B zero     42             548              23 1.684927e-131
+    XGB [v4_70feat]       qwen2.5-14B zero      1             559              23 1.285915e-134
+    XGB [v4_70feat]       qwen2.5-14B zero      2             561              22 2.738790e-136
+    XGB [v4_70feat]       qwen2.5-14B zero      3             551              24 2.857661e-131
+    XGB [v4_70feat]       qwen2.5-14B zero      4             553              19 2.000659e-137
+    XGB [v4_70feat]       qwen2.5-14B zero pooled            2772             111  0.000000e+00
+    XGB [v4_70feat]         qwen2.5-7b few     42             228              20  7.017311e-46
+    XGB [v4_70feat]         qwen2.5-7b few      1             282              11  3.700549e-69
+    XGB [v4_70feat]         qwen2.5-7b few      2             261              14  4.033243e-60
+    XGB [v4_70feat]         qwen2.5-7b few      3             272              13  3.362410e-64
+    XGB [v4_70feat]         qwen2.5-7b few      4             203              12  6.010719e-46
+    XGB [v4_70feat]         qwen2.5-7b few pooled            1246              70 4.253444e-279
+    XGB [v4_70feat]        qwen2.5-7b zero     42             593              15 7.117539e-154
+    XGB [v4_70feat]        qwen2.5-7b zero      1             600              14 3.220600e-157
+    XGB [v4_70feat]        qwen2.5-7b zero      2             612              14 1.033500e-160
+    XGB [v4_70feat]        qwen2.5-7b zero      3             599              10 1.718701e-162
+    XGB [v4_70feat]        qwen2.5-7b zero      4             598              10 3.381053e-162
+    XGB [v4_70feat]        qwen2.5-7b zero pooled            3002              63  0.000000e+00
+ seed   n  llm_equals_nearest_pct
+    1 700               95.857143
+    2 700               95.571429
+    3 700               95.285714
+   42 700               94.571429
+    4 700               95.142857

@@ -1,0 +1,45 @@
+Step 5 -- LLM prompt without Protocol, 1-shot, full 700 rows, default context, temperature=0, num_predict=60.
+Script: results/audit_followup/llm_classification_few_shot_v4_noprotocol.py (copy of
+research/llm_classification_few_shot_v4.py with Protocol removed from selected_features, 21 features;
+raw response + fallback flag + per-row seconds added). NOTE: the plain few-shot script has no
+"Protocol: 6 = TCP, 17 = UDP" description line -- that text exists only in the separate
+llm_classification_few_shot_v4_json.py script (Table I variant), not this one, so only the feature-list
+change applies. Same seed-42 reference examples (row selection is independent of feature list).
+
+                    7B baseline   7B no-Protocol   14B baseline   14B no-Protocol
+Accuracy            61.57%        62.29% (+0.72)   65.71%         64.43% (-1.28)
+Macro F1            0.6010        0.6117 (+0.0107) 0.6411         0.6106 (-0.0305)
+Fallback rows       --            0                --             0
+Avg s/row           0.207         0.205            1.118*         0.833
+
+*Step 1's idle-controlled measurement; Table II's own reported 4.52s/row for 14B baseline did not
+reproduce under controlled conditions (see Step 4).
+
+Per-class recall / F1:
+Class          7B base        7B no-Protocol   14B base        14B no-Protocol
+Benign         0.33 / 0.313   0.40 / 0.345     0.31 / 0.298    0.18 / 0.221
+Bot            0.99 / 0.857   1.00 / 0.870     0.99 / 0.966    0.99 / 0.952
+Brute Force    0.94 / 0.949   0.94 / 0.926     0.95 / 0.844    0.99 / 0.825
+DoS/DDoS       0.32 / 0.370   0.24 / 0.314     0.48 / 0.600    0.51 / 0.580
+Infiltration   0.22 / 0.253   0.28 / 0.292     0.24 / 0.294    0.21 / 0.300
+PortScan       0.88 / 0.724   0.87 / 0.777     1.00 / 0.743    1.00 / 0.665
+Web Attack     0.63 / 0.741   0.63 / 0.759     0.63 / 0.741    0.63 / 0.733
+
+Predicted-label counts:
+7B  no-Protocol: Benign 132, Bot 130, PortScan 124, Brute Force 103, Infiltration 92, Web Attack 66, DoS/DDoS 53
+14B no-Protocol: PortScan 201, Brute Force 140, Bot 108, DoS/DDoS 76, Web Attack 72, Benign 63, Infiltration 40
+14B baseline (with Protocol, for comparison): PortScan 169, Brute Force 125, Benign 108, Bot 105, Web Attack 70, Infiltration 63, DoS/DDoS 60
+
+McNemar vs saved original 1-shot predictions:
+7B:  b (no-protocol-only correct) = 25, c (baseline-only correct) = 20  -- not significant
+14B: b (no-protocol-only correct) = 9,  c (baseline-only correct) = 18  -- baseline wins more often, not strongly significant
+
+CONCLUSION: effect of removing Protocol from the LLM prompt is SMALL and DIVERGES BY MODEL SIZE --
+slightly helps 7B (+0.72pp acc, +0.011 macro F1), slightly hurts 14B (-1.28pp acc, -0.031 macro F1). For
+14B, removing Protocol shifts predictions away from Benign/Infiltration toward PortScan/Brute
+Force/DoS-DDoS; PortScan recall stays perfect (1.00) but its F1 drops (0.743->0.665) because precision
+falls -- more non-PortScan rows get called PortScan once the Protocol shortcut is gone. This suggests
+Protocol is not PURELY a spurious origin-fingerprint for the LLM the way Task 2 showed it to be for the
+ML models (RF/XGBoost/MLP retrain showed negligible effect there) -- 14B appears to have been using it as
+a partially genuine (if leakage-correlated) discriminating signal, plausibly because protocol choice
+(TCP/UDP/ICMP) does have some real correlation with attack type independent of dataset origin.

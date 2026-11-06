@@ -1,0 +1,51 @@
+  loaded 1,000,000
+  loaded 2,000,000
+  loaded 3,000,000
+  loaded 4,000,000
+  loaded 5,000,000
+  loaded 6,000,000
+  loaded 7,000,000
+  loaded 8,000,000
+  loaded 9,000,000
+  loaded 10,000,000
+  loaded 11,000,000
+  loaded 12,000,000
+  loaded 13,000,000
+  loaded 14,000,000
+  loaded 14,439,966
+Loaded (14439966, 70) in 93s
+
+Fold 0: balanced (1400000, 70), test (2887994, 70) (31s)
+fold 0 random_forest  acc=0.8587 wF1=0.9141 macroF1=0.7743 fit=68s total=77s
+fold 0 xgboost        acc=0.8177 wF1=0.8892 macroF1=0.7223 fit=82s total=89s
+fold 0 mlp            acc=0.7127 wF1=0.8164 macroF1=0.6859 fit=247s total=253s
+Fold 0 done in 451s
+
+Fold 1: balanced (1400000, 70), test (2887993, 70) (34s)
+fold 1 random_forest  acc=0.8594 wF1=0.9145 macroF1=0.7763 fit=65s total=74s
+fold 1 xgboost        acc=0.8221 wF1=0.8920 macroF1=0.7284 fit=79s total=86s
+fold 1 mlp            acc=0.6911 wF1=0.7992 macroF1=0.6736 fit=215s total=222s
+Fold 1 done in 415s
+
+Fold 2: balanced (1400000, 70), test (2887993, 70) (34s)
+fold 2 random_forest  acc=0.8603 wF1=0.9151 macroF1=0.7741 fit=65s total=74s
+fold 2 xgboost        acc=0.8224 wF1=0.8922 macroF1=0.7226 fit=76s total=83s
+fold 2 mlp            acc=0.7017 wF1=0.8078 macroF1=0.6852 fit=229s total=236s
+Fold 2 done in 427s
+
+Fold 3: balanced (1400000, 70), test (2887993, 70) (32s)
+fold 3 random_forest  acc=0.8594 wF1=0.9145 macroF1=0.7738 fit=66s total=75s
+fold 3 xgboost        acc=0.8264 wF1=0.8947 macroF1=0.7456 fit=80s total=87s
+fold 3 mlp            acc=0.7341 wF1=0.8312 macroF1=0.6936 fit=437s total=444s
+Fold 3 done in 638s
+
+Fold 4: balanced (1400000, 70), test (2887993, 70) (34s)
+fold 4 random_forest  acc=0.8595 wF1=0.9146 macroF1=0.7742 fit=66s total=75s
+fold 4 xgboost        acc=0.8278 wF1=0.8955 macroF1=0.7268 fit=84s total=91s
+fold 4 mlp            acc=0.7100 wF1=0.8151 macroF1=0.6960 fit=379s total=385s
+Fold 4 done in 584s
+               accuracy_mean  accuracy_std  accuracy_min  accuracy_max  weighted_f1_mean  weighted_f1_std  weighted_f1_min  weighted_f1_max  macro_f1_mean  macro_f1_std  macro_f1_min  macro_f1_max  folds
+model                                                                                                                                                                                                      
+mlp                   0.7099        0.0159        0.6911        0.7341            0.8139           0.0118           0.7992           0.8312         0.6869        0.0088        0.6736        0.6960      5
+random_forest         0.8595        0.0006        0.8587        0.8603            0.9146           0.0003           0.9141           0.9151         0.7745        0.0010        0.7738        0.7763      5
+xgboost               0.8233        0.0040        0.8177        0.8278            0.8927           0.0025           0.8892           0.8955         0.7291        0.0096        0.7223        0.7456      5

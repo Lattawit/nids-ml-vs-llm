@@ -1,0 +1,50 @@
+Step 4 -- controlled re-timing of Table II LLM configs, full 700 rows each, fresh model load (unload +
+warmup call before the timed loop so load time is excluded), default context, temperature=0,
+num_predict=60. Scripts: results/audit_followup/llm_classification_{zero,few}_shot_v4_retime.py (copies
+of the originals, MODEL_NAME parametrized via env var, output redirected, raw response/fallback/per-row
+seconds added, /api/ps snapshot captured while loaded). Order run: 7B zero-shot, 7B 1-shot, 14B zero-shot,
+14B 1-shot -- one Ollama job at a time throughout.
+
+Config              Accuracy (new)   Accuracy (Table II)   Time new (s)  Time Table II (s)   Diff vs saved
+7B zero-shot        9.00% (63/700)   8.29%                  135.02        141.81              60/700
+7B 1-shot           61.86% (431/700) 61.57%                 146.92        144.89              30/700
+14B zero-shot       15.71% (110/700) 16.14%                 499.79        659.58              75/700
+14B 1-shot          65.86% (461/700) 65.71%                 576.78        3167.07             32/700
+
+ollama ps (while loaded, this session):
+7B  (both configs): size=4.75GB  size_vram=4.75GB  -> 100% GPU / 0% CPU   context_length=4096
+14B (both configs): size=9.95GB  size_vram=6.20GB  -> 62.3% GPU / 37.7% CPU  context_length=4096
+
+FINDINGS
+
+1. Accuracy reproduces closely for all 4 configs (within ~0.5 pp), confirming the reported Table II
+   accuracy numbers are sound and not an artifact of the original run's conditions.
+
+2. Per-row prediction-level drift exists even though accuracy matches: 30-75 out of 700 individual
+   predictions (4.3%-10.7%) differ from the saved originals despite identical model digest, options, and
+   input order. Drift is larger for 14B (partial CPU/GPU split -- 75 and 32/700) than for 7B (fully
+   GPU-resident -- 60 and 30/700), consistent with known llama.cpp floating-point non-associativity across
+   different batching/scheduling paths at temperature=0 (i.e. temperature=0 gives greedy decoding, not
+   bit-for-bit reproducibility). This means single-run predictions.csv files are not exactly reproducible
+   run-to-run even with an unchanged model and settings -- accuracy is stable, but which specific rows are
+   right/wrong is not guaranteed identical.
+
+3. TIMING: 7B configs reproduce almost exactly (135.02 vs 141.81s; 146.92 vs 144.89s). 14B zero-shot is
+   24% FASTER under controlled idle conditions (499.79 vs 659.58s). 14B 1-shot is 5.5x FASTER
+   (576.78 vs 3167.07s) -- the original Table II number for 14B 1-shot does not reproduce and should not
+   be used as a latency claim without a caveat.
+
+   Investigation: checked git history and file timestamps around the original run (committed 2026-09-11
+   21:40, files written 21:25:22, commit ec7a5b9). No other repository file was written during the ~52-min
+   window the original run occupied, so no concurrent PIPELINE job explains it. However, the pattern
+   across configs is diagnostic: the two fully-GPU-resident configs (7B, 0% CPU offload) show no slowdown,
+   while the two partially-CPU-offloaded configs (14B, 37.7% CPU) do, and the slowdown scales with prompt
+   compute cost (24% for the short zero-shot prompt vs 450% for the longer 1-shot prompt). This gradient
+   points to host-level CPU contention or thermal/power throttling specific to that run -- something
+   competing for the CPU share of the 14B model's mixed GPU+CPU inference, not a bug in the script or a
+   change in the model. No Ollama server log survives from 2026-09-11 (the retained logs only go back to
+   2026-09-17) to confirm directly. RECOMMENDATION: caveat or re-measure the 14B 1-shot timing figure in
+   the paper; do not present 3167.07s / 4.52 s/row as a reliable, reproducible latency claim.
+
+Full logs: results/audit_followup/step4_run{1,2,3,4}_*_log.txt
+Per-config outputs: results/audit_followup/step4_retime_qwen2.5_{7b,14B}_{zero,few}_shot/

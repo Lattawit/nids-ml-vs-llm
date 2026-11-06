@@ -1,0 +1,7 @@
+Loading held-out test set...
+Test shape: (4331990, 70)
+skip v4_70feat: already evaluated
+skip e2_22feat: already evaluated
+e5_nosmote_weighted  random_forest  acc=0.8507 wF1=0.9094 macroF1=0.7897
+e5_nosmote_weighted  xgboost        acc=0.7909 wF1=0.8723 macroF1=0.7619
+Saved: results/revision/heldout

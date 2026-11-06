@@ -1,0 +1,122 @@
+Verifying 2017-first ordering in the merged file...
+  N17 = 2,572,629 of 18,303,717 merged rows (98s)
+Replaying keep-first dedup on the coalesced file...
+Boundary: {'n17_merged': 2572629, 'n_merged': 18303717, 'B_deduped_2017_rows': 2520787, 'n_deduped': 14439966} (242s)
+Source        CIC-IDS2017  CSE-CIC-IDS2018
+Label                                     
+Benign            2095057         10567391
+Bot                  1948           144535
+Brute Force          9150            94094
+DoS/DDoS           321759           972523
+Infiltration           36           139775
+PortScan            90694                0
+Web Attack           2143              861
+  1,000,000 / 14,439,966
+  2,000,000 / 14,439,966
+  3,000,000 / 14,439,966
+  4,000,000 / 14,439,966
+  5,000,000 / 14,439,966
+  6,000,000 / 14,439,966
+  7,000,000 / 14,439,966
+  8,000,000 / 14,439,966
+  9,000,000 / 14,439,966
+  10,000,000 / 14,439,966
+  11,000,000 / 14,439,966
+  12,000,000 / 14,439,966
+  13,000,000 / 14,439,966
+  14,000,000 / 14,439,966
+  14,439,966 / 14,439,966
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+train2018_test2017         random_forest  acc=0.8612 wF1=0.8070 macroF1=0.2534
+train2018_test2017         xgboost        acc=0.8066 wF1=0.7874 macroF1=0.3208
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+train2018_test2017         mlp            acc=0.8180 wF1=0.8248 macroF1=0.2445
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+<repo>/.venv-wsl/lib/python3.14/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+control_2018_70_30         random_forest  acc=0.9989 wF1=0.9991 macroF1=0.8360
+control_2018_70_30         xgboost        acc=0.9993 wF1=0.9996 macroF1=0.8361
+Done.

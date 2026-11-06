@@ -1,0 +1,78 @@
+Loading balanced training data (22 features)...
+Training shape: (1400000, 22)
+
+Training Random Forest
+Finished in 29.99 sec
+
+Training XGBoost
+Finished in 94.49 sec
+
+Training MLP
+Iteration 1, loss = 0.25837437
+Validation score: 0.911350
+Iteration 2, loss = 0.17596774
+Validation score: 0.917793
+Iteration 3, loss = 0.16473614
+Validation score: 0.920850
+Iteration 4, loss = 0.15952955
+Validation score: 0.922357
+Iteration 5, loss = 0.15751640
+Validation score: 0.914264
+Iteration 6, loss = 0.15465635
+Validation score: 0.922157
+Iteration 7, loss = 0.15313341
+Validation score: 0.920921
+Iteration 8, loss = 0.15195618
+Validation score: 0.925050
+Iteration 9, loss = 0.15063498
+Validation score: 0.922650
+Iteration 10, loss = 0.14966299
+Validation score: 0.920700
+Iteration 11, loss = 0.14825797
+Validation score: 0.926757
+Iteration 12, loss = 0.14706966
+Validation score: 0.924343
+Iteration 13, loss = 0.14692681
+Validation score: 0.928521
+Iteration 14, loss = 0.14548572
+Validation score: 0.925564
+Iteration 15, loss = 0.14521802
+Validation score: 0.927457
+Iteration 16, loss = 0.14402547
+Validation score: 0.926279
+Iteration 17, loss = 0.14381799
+Validation score: 0.927200
+Iteration 18, loss = 0.14309399
+Validation score: 0.928664
+Iteration 19, loss = 0.14289401
+Validation score: 0.927779
+Iteration 20, loss = 0.14167235
+Validation score: 0.927921
+Iteration 21, loss = 0.14132694
+Validation score: 0.930164
+Iteration 22, loss = 0.14080405
+Validation score: 0.928650
+Iteration 23, loss = 0.14108228
+Validation score: 0.930293
+Iteration 24, loss = 0.14010121
+Validation score: 0.926821
+Iteration 25, loss = 0.13961429
+Validation score: 0.928450
+Iteration 26, loss = 0.13925392
+Validation score: 0.930757
+Iteration 27, loss = 0.13843786
+Validation score: 0.928700
+Iteration 28, loss = 0.13842823
+Validation score: 0.926836
+Iteration 29, loss = 0.13748872
+Validation score: 0.930214
+Iteration 30, loss = 0.13783168
+Validation score: 0.930650
+Iteration 31, loss = 0.13691720
+Validation score: 0.930279
+Iteration 32, loss = 0.13687149
+Validation score: 0.929179
+Validation score did not improve more than tol=0.000100 for 5 consecutive epochs. Stopping.
+Finished in 558.03 sec
+
+Done.

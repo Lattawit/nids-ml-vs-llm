@@ -1,0 +1,6 @@
+Label_Combination,Vector_Count,Row_Count
+Benign + Infiltration,21772,43544
+Benign + PortScan,564,1128
+Benign + DoS/DDoS,133,266
+Brute Force + DoS/DDoS,12,24
+Benign + Web Attack,5,10

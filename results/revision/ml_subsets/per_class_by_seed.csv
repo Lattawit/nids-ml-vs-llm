@@ -1,0 +1,281 @@
+model_set,model,seed,class,precision,recall,f1
+v4_70feat,random_forest,42,Benign,0.6296296296296297,0.85,0.723404255319149
+v4_70feat,random_forest,42,Bot,1.0,1.0,1.0
+v4_70feat,random_forest,42,Brute Force,1.0,1.0,1.0
+v4_70feat,random_forest,42,DoS/DDoS,0.99,0.99,0.99
+v4_70feat,random_forest,42,Infiltration,0.8076923076923077,0.63,0.7078651685393258
+v4_70feat,random_forest,42,PortScan,1.0,1.0,1.0
+v4_70feat,random_forest,42,Web Attack,1.0,0.87,0.93048128342246
+v4_70feat,xgboost,42,Benign,0.7184466019417476,0.74,0.729064039408867
+v4_70feat,xgboost,42,Bot,1.0,1.0,1.0
+v4_70feat,xgboost,42,Brute Force,1.0,1.0,1.0
+v4_70feat,xgboost,42,DoS/DDoS,1.0,1.0,1.0
+v4_70feat,xgboost,42,Infiltration,0.7352941176470589,0.75,0.7425742574257426
+v4_70feat,xgboost,42,PortScan,1.0,1.0,1.0
+v4_70feat,xgboost,42,Web Attack,1.0,0.95,0.9743589743589743
+v4_70feat,mlp,42,Benign,0.7142857142857143,0.6,0.6521739130434783
+v4_70feat,mlp,42,Bot,1.0,1.0,1.0
+v4_70feat,mlp,42,Brute Force,1.0,0.99,0.9949748743718593
+v4_70feat,mlp,42,DoS/DDoS,0.9897959183673469,0.97,0.9797979797979798
+v4_70feat,mlp,42,Infiltration,0.6640625,0.85,0.7456140350877193
+v4_70feat,mlp,42,PortScan,1.0,1.0,1.0
+v4_70feat,mlp,42,Web Attack,1.0,0.91,0.9528795811518325
+v4_70feat,random_forest,1,Benign,0.541095890410959,0.79,0.6422764227642277
+v4_70feat,random_forest,1,Bot,1.0,0.99,0.9949748743718593
+v4_70feat,random_forest,1,Brute Force,1.0,1.0,1.0
+v4_70feat,random_forest,1,DoS/DDoS,0.9900990099009901,1.0,0.9950248756218906
+v4_70feat,random_forest,1,Infiltration,0.7183098591549296,0.51,0.5964912280701754
+v4_70feat,random_forest,1,PortScan,1.0,0.99,0.9949748743718593
+v4_70feat,random_forest,1,Web Attack,1.0,0.84,0.9130434782608695
+v4_70feat,xgboost,1,Benign,0.7184466019417476,0.74,0.729064039408867
+v4_70feat,xgboost,1,Bot,1.0,1.0,1.0
+v4_70feat,xgboost,1,Brute Force,1.0,1.0,1.0
+v4_70feat,xgboost,1,DoS/DDoS,1.0,1.0,1.0
+v4_70feat,xgboost,1,Infiltration,0.7450980392156863,0.76,0.7524752475247525
+v4_70feat,xgboost,1,PortScan,1.0,1.0,1.0
+v4_70feat,xgboost,1,Web Attack,1.0,0.95,0.9743589743589743
+v4_70feat,mlp,1,Benign,0.6595744680851063,0.62,0.6391752577319587
+v4_70feat,mlp,1,Bot,1.0,1.0,1.0
+v4_70feat,mlp,1,Brute Force,1.0,1.0,1.0
+v4_70feat,mlp,1,DoS/DDoS,0.98989898989899,0.98,0.9849246231155779
+v4_70feat,mlp,1,Infiltration,0.6639344262295082,0.81,0.7297297297297297
+v4_70feat,mlp,1,PortScan,0.99,0.99,0.99
+v4_70feat,mlp,1,Web Attack,1.0,0.85,0.918918918918919
+v4_70feat,random_forest,2,Benign,0.6142857142857143,0.86,0.7166666666666667
+v4_70feat,random_forest,2,Bot,1.0,1.0,1.0
+v4_70feat,random_forest,2,Brute Force,1.0,1.0,1.0
+v4_70feat,random_forest,2,DoS/DDoS,0.9801980198019802,0.99,0.9850746268656716
+v4_70feat,random_forest,2,Infiltration,0.84,0.63,0.72
+v4_70feat,random_forest,2,PortScan,1.0,1.0,1.0
+v4_70feat,random_forest,2,Web Attack,1.0,0.84,0.9130434782608695
+v4_70feat,xgboost,2,Benign,0.75,0.75,0.75
+v4_70feat,xgboost,2,Bot,1.0,1.0,1.0
+v4_70feat,xgboost,2,Brute Force,1.0,1.0,1.0
+v4_70feat,xgboost,2,DoS/DDoS,1.0,1.0,1.0
+v4_70feat,xgboost,2,Infiltration,0.7572815533980582,0.78,0.7684729064039408
+v4_70feat,xgboost,2,PortScan,1.0,1.0,1.0
+v4_70feat,xgboost,2,Web Attack,1.0,0.97,0.9847715736040609
+v4_70feat,mlp,2,Benign,0.6904761904761905,0.58,0.6304347826086957
+v4_70feat,mlp,2,Bot,1.0,1.0,1.0
+v4_70feat,mlp,2,Brute Force,1.0,0.99,0.9949748743718593
+v4_70feat,mlp,2,DoS/DDoS,0.9696969696969697,0.96,0.964824120603015
+v4_70feat,mlp,2,Infiltration,0.6747967479674797,0.83,0.7443946188340808
+v4_70feat,mlp,2,PortScan,1.0,1.0,1.0
+v4_70feat,mlp,2,Web Attack,0.9894736842105263,0.94,0.9641025641025641
+v4_70feat,random_forest,3,Benign,0.6129032258064516,0.76,0.6785714285714286
+v4_70feat,random_forest,3,Bot,1.0,0.98,0.98989898989899
+v4_70feat,random_forest,3,Brute Force,1.0,1.0,1.0
+v4_70feat,random_forest,3,DoS/DDoS,0.9900990099009901,1.0,0.9950248756218906
+v4_70feat,random_forest,3,Infiltration,0.7362637362637363,0.67,0.7015706806282722
+v4_70feat,random_forest,3,PortScan,1.0,1.0,1.0
+v4_70feat,random_forest,3,Web Attack,1.0,0.86,0.9247311827956989
+v4_70feat,xgboost,3,Benign,0.7087378640776699,0.73,0.7192118226600985
+v4_70feat,xgboost,3,Bot,1.0,0.98,0.98989898989899
+v4_70feat,xgboost,3,Brute Force,1.0,1.0,1.0
+v4_70feat,xgboost,3,DoS/DDoS,1.0,1.0,1.0
+v4_70feat,xgboost,3,Infiltration,0.7184466019417476,0.74,0.729064039408867
+v4_70feat,xgboost,3,PortScan,1.0,1.0,1.0
+v4_70feat,xgboost,3,Web Attack,1.0,0.96,0.9795918367346939
+v4_70feat,mlp,3,Benign,0.6989247311827957,0.65,0.6735751295336787
+v4_70feat,mlp,3,Bot,1.0,0.98,0.98989898989899
+v4_70feat,mlp,3,Brute Force,1.0,1.0,1.0
+v4_70feat,mlp,3,DoS/DDoS,0.9894736842105263,0.94,0.9641025641025641
+v4_70feat,mlp,3,Infiltration,0.6885245901639344,0.84,0.7567567567567568
+v4_70feat,mlp,3,PortScan,1.0,1.0,1.0
+v4_70feat,mlp,3,Web Attack,0.9891304347826086,0.91,0.9479166666666666
+v4_70feat,random_forest,4,Benign,0.6390977443609023,0.85,0.7296137339055794
+v4_70feat,random_forest,4,Bot,1.0,1.0,1.0
+v4_70feat,random_forest,4,Brute Force,1.0,1.0,1.0
+v4_70feat,random_forest,4,DoS/DDoS,0.9803921568627451,1.0,0.9900990099009901
+v4_70feat,random_forest,4,Infiltration,0.8354430379746836,0.66,0.7374301675977654
+v4_70feat,random_forest,4,PortScan,1.0,1.0,1.0
+v4_70feat,random_forest,4,Web Attack,1.0,0.86,0.9247311827956989
+v4_70feat,xgboost,4,Benign,0.7383177570093458,0.79,0.7632850241545893
+v4_70feat,xgboost,4,Bot,1.0,1.0,1.0
+v4_70feat,xgboost,4,Brute Force,1.0,1.0,1.0
+v4_70feat,xgboost,4,DoS/DDoS,1.0,1.0,1.0
+v4_70feat,xgboost,4,Infiltration,0.7857142857142857,0.77,0.7777777777777778
+v4_70feat,xgboost,4,PortScan,1.0,1.0,1.0
+v4_70feat,xgboost,4,Web Attack,1.0,0.95,0.9743589743589743
+v4_70feat,mlp,4,Benign,0.6774193548387096,0.63,0.6528497409326425
+v4_70feat,mlp,4,Bot,1.0,1.0,1.0
+v4_70feat,mlp,4,Brute Force,0.9900990099009901,1.0,0.9950248756218906
+v4_70feat,mlp,4,DoS/DDoS,0.9693877551020408,0.95,0.9595959595959596
+v4_70feat,mlp,4,Infiltration,0.6916666666666667,0.83,0.7545454545454545
+v4_70feat,mlp,4,PortScan,1.0,1.0,1.0
+v4_70feat,mlp,4,Web Attack,1.0,0.88,0.9361702127659575
+e2_22feat,random_forest,42,Benign,0.7049180327868853,0.86,0.7747747747747747
+e2_22feat,random_forest,42,Bot,1.0,1.0,1.0
+e2_22feat,random_forest,42,Brute Force,1.0,1.0,1.0
+e2_22feat,random_forest,42,DoS/DDoS,1.0,1.0,1.0
+e2_22feat,random_forest,42,Infiltration,0.8095238095238095,0.68,0.7391304347826086
+e2_22feat,random_forest,42,PortScan,1.0,1.0,1.0
+e2_22feat,random_forest,42,Web Attack,1.0,0.94,0.9690721649484536
+e2_22feat,xgboost,42,Benign,0.7448979591836735,0.73,0.7373737373737373
+e2_22feat,xgboost,42,Bot,1.0,1.0,1.0
+e2_22feat,xgboost,42,Brute Force,1.0,1.0,1.0
+e2_22feat,xgboost,42,DoS/DDoS,1.0,1.0,1.0
+e2_22feat,xgboost,42,Infiltration,0.7407407407407407,0.8,0.7692307692307693
+e2_22feat,xgboost,42,PortScan,1.0,1.0,1.0
+e2_22feat,xgboost,42,Web Attack,1.0,0.94,0.9690721649484536
+e2_22feat,mlp,42,Benign,0.6829268292682927,0.56,0.6153846153846154
+e2_22feat,mlp,42,Bot,1.0,1.0,1.0
+e2_22feat,mlp,42,Brute Force,1.0,0.99,0.9949748743718593
+e2_22feat,mlp,42,DoS/DDoS,0.98989898989899,0.98,0.9849246231155779
+e2_22feat,mlp,42,Infiltration,0.6222222222222222,0.84,0.7148936170212766
+e2_22feat,mlp,42,PortScan,0.9900990099009901,1.0,0.9950248756218906
+e2_22feat,mlp,42,Web Attack,1.0,0.84,0.9130434782608695
+e2_22feat,random_forest,1,Benign,0.578125,0.74,0.6491228070175439
+e2_22feat,random_forest,1,Bot,1.0,1.0,1.0
+e2_22feat,random_forest,1,Brute Force,1.0,1.0,1.0
+e2_22feat,random_forest,1,DoS/DDoS,1.0,1.0,1.0
+e2_22feat,random_forest,1,Infiltration,0.6746987951807228,0.56,0.6120218579234973
+e2_22feat,random_forest,1,PortScan,1.0,1.0,1.0
+e2_22feat,random_forest,1,Web Attack,1.0,0.89,0.9417989417989417
+e2_22feat,xgboost,1,Benign,0.6339285714285714,0.71,0.6698113207547169
+e2_22feat,xgboost,1,Bot,1.0,1.0,1.0
+e2_22feat,xgboost,1,Brute Force,1.0,1.0,1.0
+e2_22feat,xgboost,1,DoS/DDoS,1.0,1.0,1.0
+e2_22feat,xgboost,1,Infiltration,0.6979166666666666,0.67,0.6836734693877551
+e2_22feat,xgboost,1,PortScan,1.0,1.0,1.0
+e2_22feat,xgboost,1,Web Attack,1.0,0.92,0.9583333333333334
+e2_22feat,mlp,1,Benign,0.6483516483516484,0.59,0.6178010471204188
+e2_22feat,mlp,1,Bot,1.0,1.0,1.0
+e2_22feat,mlp,1,Brute Force,1.0,1.0,1.0
+e2_22feat,mlp,1,DoS/DDoS,0.9900990099009901,1.0,0.9950248756218906
+e2_22feat,mlp,1,Infiltration,0.6259541984732825,0.82,0.70995670995671
+e2_22feat,mlp,1,PortScan,0.99,0.99,0.99
+e2_22feat,mlp,1,Web Attack,1.0,0.77,0.8700564971751412
+e2_22feat,random_forest,2,Benign,0.675,0.81,0.7363636363636363
+e2_22feat,random_forest,2,Bot,1.0,1.0,1.0
+e2_22feat,random_forest,2,Brute Force,1.0,1.0,1.0
+e2_22feat,random_forest,2,DoS/DDoS,1.0,1.0,1.0
+e2_22feat,random_forest,2,Infiltration,0.7674418604651163,0.66,0.7096774193548387
+e2_22feat,random_forest,2,PortScan,1.0,1.0,1.0
+e2_22feat,random_forest,2,Web Attack,1.0,0.94,0.9690721649484536
+e2_22feat,xgboost,2,Benign,0.7156862745098039,0.73,0.7227722772277227
+e2_22feat,xgboost,2,Bot,1.0,1.0,1.0
+e2_22feat,xgboost,2,Brute Force,1.0,1.0,1.0
+e2_22feat,xgboost,2,DoS/DDoS,1.0,1.0,1.0
+e2_22feat,xgboost,2,Infiltration,0.7378640776699029,0.76,0.7487684729064039
+e2_22feat,xgboost,2,PortScan,1.0,1.0,1.0
+e2_22feat,xgboost,2,Web Attack,1.0,0.95,0.9743589743589743
+e2_22feat,mlp,2,Benign,0.725,0.58,0.6444444444444445
+e2_22feat,mlp,2,Bot,1.0,1.0,1.0
+e2_22feat,mlp,2,Brute Force,1.0,0.99,0.9949748743718593
+e2_22feat,mlp,2,DoS/DDoS,0.970873786407767,1.0,0.9852216748768473
+e2_22feat,mlp,2,Infiltration,0.6615384615384615,0.86,0.7478260869565218
+e2_22feat,mlp,2,PortScan,1.0,1.0,1.0
+e2_22feat,mlp,2,Web Attack,0.9886363636363636,0.87,0.925531914893617
+e2_22feat,random_forest,3,Benign,0.6198347107438017,0.75,0.6787330316742082
+e2_22feat,random_forest,3,Bot,1.0,0.98,0.98989898989899
+e2_22feat,random_forest,3,Brute Force,1.0,1.0,1.0
+e2_22feat,random_forest,3,DoS/DDoS,1.0,1.0,1.0
+e2_22feat,random_forest,3,Infiltration,0.7159090909090909,0.63,0.6702127659574468
+e2_22feat,random_forest,3,PortScan,1.0,1.0,1.0
+e2_22feat,random_forest,3,Web Attack,1.0,0.93,0.9637305699481865
+e2_22feat,xgboost,3,Benign,0.6486486486486487,0.72,0.6824644549763034
+e2_22feat,xgboost,3,Bot,1.0,0.98,0.98989898989899
+e2_22feat,xgboost,3,Brute Force,1.0,1.0,1.0
+e2_22feat,xgboost,3,DoS/DDoS,1.0,1.0,1.0
+e2_22feat,xgboost,3,Infiltration,0.7142857142857143,0.7,0.7070707070707071
+e2_22feat,xgboost,3,PortScan,1.0,1.0,1.0
+e2_22feat,xgboost,3,Web Attack,1.0,0.93,0.9637305699481865
+e2_22feat,mlp,3,Benign,0.7078651685393258,0.63,0.6666666666666666
+e2_22feat,mlp,3,Bot,1.0,0.98,0.98989898989899
+e2_22feat,mlp,3,Brute Force,0.9900990099009901,1.0,0.9950248756218906
+e2_22feat,mlp,3,DoS/DDoS,0.9702970297029703,0.98,0.9751243781094527
+e2_22feat,mlp,3,Infiltration,0.6585365853658537,0.81,0.726457399103139
+e2_22feat,mlp,3,PortScan,0.9900990099009901,1.0,0.9950248756218906
+e2_22feat,mlp,3,Web Attack,1.0,0.87,0.93048128342246
+e2_22feat,random_forest,4,Benign,0.7083333333333334,0.85,0.7727272727272727
+e2_22feat,random_forest,4,Bot,1.0,1.0,1.0
+e2_22feat,random_forest,4,Brute Force,1.0,1.0,1.0
+e2_22feat,random_forest,4,DoS/DDoS,1.0,1.0,1.0
+e2_22feat,random_forest,4,Infiltration,0.8089887640449438,0.72,0.7619047619047619
+e2_22feat,random_forest,4,PortScan,1.0,1.0,1.0
+e2_22feat,random_forest,4,Web Attack,1.0,0.91,0.9528795811518325
+e2_22feat,xgboost,4,Benign,0.7075471698113207,0.75,0.7281553398058253
+e2_22feat,xgboost,4,Bot,1.0,1.0,1.0
+e2_22feat,xgboost,4,Brute Force,1.0,1.0,1.0
+e2_22feat,xgboost,4,DoS/DDoS,1.0,1.0,1.0
+e2_22feat,xgboost,4,Infiltration,0.7549019607843137,0.77,0.7623762376237624
+e2_22feat,xgboost,4,PortScan,1.0,1.0,1.0
+e2_22feat,xgboost,4,Web Attack,1.0,0.92,0.9583333333333334
+e2_22feat,mlp,4,Benign,0.686046511627907,0.59,0.6344086021505376
+e2_22feat,mlp,4,Bot,0.9900990099009901,1.0,0.9950248756218906
+e2_22feat,mlp,4,Brute Force,0.9803921568627451,1.0,0.9900990099009901
+e2_22feat,mlp,4,DoS/DDoS,0.97,0.97,0.97
+e2_22feat,mlp,4,Infiltration,0.6507936507936508,0.82,0.7256637168141593
+e2_22feat,mlp,4,PortScan,0.9900990099009901,1.0,0.9950248756218906
+e2_22feat,mlp,4,Web Attack,1.0,0.84,0.9130434782608695
+e5_nosmote_weighted,random_forest,42,Benign,0.6511627906976745,0.84,0.7336244541484717
+e5_nosmote_weighted,random_forest,42,Bot,1.0,1.0,1.0
+e5_nosmote_weighted,random_forest,42,Brute Force,1.0,1.0,1.0
+e5_nosmote_weighted,random_forest,42,DoS/DDoS,0.9900990099009901,1.0,0.9950248756218906
+e5_nosmote_weighted,random_forest,42,Infiltration,0.7875,0.63,0.7
+e5_nosmote_weighted,random_forest,42,PortScan,1.0,1.0,1.0
+e5_nosmote_weighted,random_forest,42,Web Attack,1.0,0.9,0.9473684210526315
+e5_nosmote_weighted,xgboost,42,Benign,0.8275862068965517,0.72,0.7700534759358288
+e5_nosmote_weighted,xgboost,42,Bot,1.0,1.0,1.0
+e5_nosmote_weighted,xgboost,42,Brute Force,1.0,1.0,1.0
+e5_nosmote_weighted,xgboost,42,DoS/DDoS,1.0,1.0,1.0
+e5_nosmote_weighted,xgboost,42,Infiltration,0.7435897435897436,0.87,0.8018433179723502
+e5_nosmote_weighted,xgboost,42,PortScan,1.0,1.0,1.0
+e5_nosmote_weighted,xgboost,42,Web Attack,1.0,0.96,0.9795918367346939
+e5_nosmote_weighted,random_forest,1,Benign,0.5669291338582677,0.72,0.6343612334801763
+e5_nosmote_weighted,random_forest,1,Bot,1.0,1.0,1.0
+e5_nosmote_weighted,random_forest,1,Brute Force,1.0,1.0,1.0
+e5_nosmote_weighted,random_forest,1,DoS/DDoS,1.0,1.0,1.0
+e5_nosmote_weighted,random_forest,1,Infiltration,0.6744186046511628,0.58,0.6236559139784946
+e5_nosmote_weighted,random_forest,1,PortScan,1.0,0.99,0.9949748743718593
+e5_nosmote_weighted,random_forest,1,Web Attack,1.0,0.88,0.9361702127659575
+e5_nosmote_weighted,xgboost,1,Benign,0.7640449438202247,0.68,0.7195767195767195
+e5_nosmote_weighted,xgboost,1,Bot,1.0,1.0,1.0
+e5_nosmote_weighted,xgboost,1,Brute Force,1.0,1.0,1.0
+e5_nosmote_weighted,xgboost,1,DoS/DDoS,1.0,1.0,1.0
+e5_nosmote_weighted,xgboost,1,Infiltration,0.6956521739130435,0.8,0.7441860465116279
+e5_nosmote_weighted,xgboost,1,PortScan,1.0,1.0,1.0
+e5_nosmote_weighted,xgboost,1,Web Attack,1.0,0.96,0.9795918367346939
+e5_nosmote_weighted,random_forest,2,Benign,0.6470588235294118,0.88,0.7457627118644068
+e5_nosmote_weighted,random_forest,2,Bot,1.0,1.0,1.0
+e5_nosmote_weighted,random_forest,2,Brute Force,1.0,1.0,1.0
+e5_nosmote_weighted,random_forest,2,DoS/DDoS,1.0,1.0,1.0
+e5_nosmote_weighted,random_forest,2,Infiltration,0.8333333333333334,0.6,0.6976744186046512
+e5_nosmote_weighted,random_forest,2,PortScan,1.0,1.0,1.0
+e5_nosmote_weighted,random_forest,2,Web Attack,1.0,0.92,0.9583333333333334
+e5_nosmote_weighted,xgboost,2,Benign,0.8235294117647058,0.7,0.7567567567567568
+e5_nosmote_weighted,xgboost,2,Bot,1.0,1.0,1.0
+e5_nosmote_weighted,xgboost,2,Brute Force,1.0,1.0,1.0
+e5_nosmote_weighted,xgboost,2,DoS/DDoS,1.0,1.0,1.0
+e5_nosmote_weighted,xgboost,2,Infiltration,0.7350427350427351,0.86,0.7926267281105991
+e5_nosmote_weighted,xgboost,2,PortScan,1.0,1.0,1.0
+e5_nosmote_weighted,xgboost,2,Web Attack,1.0,0.98,0.98989898989899
+e5_nosmote_weighted,random_forest,3,Benign,0.6528925619834711,0.79,0.7149321266968326
+e5_nosmote_weighted,random_forest,3,Bot,1.0,0.98,0.98989898989899
+e5_nosmote_weighted,random_forest,3,Brute Force,1.0,1.0,1.0
+e5_nosmote_weighted,random_forest,3,DoS/DDoS,1.0,1.0,1.0
+e5_nosmote_weighted,random_forest,3,Infiltration,0.7640449438202247,0.68,0.7195767195767195
+e5_nosmote_weighted,random_forest,3,PortScan,1.0,1.0,1.0
+e5_nosmote_weighted,random_forest,3,Web Attack,1.0,0.92,0.9583333333333334
+e5_nosmote_weighted,xgboost,3,Benign,0.7954545454545454,0.7,0.7446808510638298
+e5_nosmote_weighted,xgboost,3,Bot,1.0,0.98,0.98989898989899
+e5_nosmote_weighted,xgboost,3,Brute Force,1.0,1.0,1.0
+e5_nosmote_weighted,xgboost,3,DoS/DDoS,1.0,1.0,1.0
+e5_nosmote_weighted,xgboost,3,Infiltration,0.717948717948718,0.84,0.7741935483870968
+e5_nosmote_weighted,xgboost,3,PortScan,1.0,1.0,1.0
+e5_nosmote_weighted,xgboost,3,Web Attack,1.0,0.97,0.9847715736040609
+e5_nosmote_weighted,random_forest,4,Benign,0.6587301587301587,0.83,0.7345132743362832
+e5_nosmote_weighted,random_forest,4,Bot,1.0,1.0,1.0
+e5_nosmote_weighted,random_forest,4,Brute Force,1.0,1.0,1.0
+e5_nosmote_weighted,random_forest,4,DoS/DDoS,1.0,1.0,1.0
+e5_nosmote_weighted,random_forest,4,Infiltration,0.8023255813953488,0.69,0.7419354838709677
+e5_nosmote_weighted,random_forest,4,PortScan,1.0,1.0,1.0
+e5_nosmote_weighted,random_forest,4,Web Attack,1.0,0.88,0.9361702127659575
+e5_nosmote_weighted,xgboost,4,Benign,0.8152173913043478,0.75,0.78125
+e5_nosmote_weighted,xgboost,4,Bot,1.0,1.0,1.0
+e5_nosmote_weighted,xgboost,4,Brute Force,1.0,1.0,1.0
+e5_nosmote_weighted,xgboost,4,DoS/DDoS,1.0,1.0,1.0
+e5_nosmote_weighted,xgboost,4,Infiltration,0.7727272727272727,0.85,0.8095238095238095
+e5_nosmote_weighted,xgboost,4,PortScan,1.0,1.0,1.0
+e5_nosmote_weighted,xgboost,4,Web Attack,1.0,0.98,0.98989898989899

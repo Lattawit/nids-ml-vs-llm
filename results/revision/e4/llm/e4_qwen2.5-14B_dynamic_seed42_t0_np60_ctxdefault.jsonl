@@ -1,0 +1,700 @@
+{"row": 0, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 4.2962, "prompt_eval_count": 2609, "eval_count": 3}
+{"row": 1, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.0115, "prompt_eval_count": 2273, "eval_count": 3}
+{"row": 2, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4204, "prompt_eval_count": 2481, "eval_count": 3}
+{"row": 3, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5951, "prompt_eval_count": 2660, "eval_count": 3}
+{"row": 4, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.017, "prompt_eval_count": 2298, "eval_count": 3}
+{"row": 5, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.0052, "prompt_eval_count": 2295, "eval_count": 3}
+{"row": 6, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3088, "prompt_eval_count": 2333, "eval_count": 3}
+{"row": 7, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9867, "prompt_eval_count": 2243, "eval_count": 3}
+{"row": 8, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4065, "prompt_eval_count": 2449, "eval_count": 3}
+{"row": 9, "true": 0, "pred": 4, "matched": true, "raw": "Infiltration", "secs": 3.6957, "prompt_eval_count": 2684, "eval_count": 4}
+{"row": 10, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.2676, "prompt_eval_count": 2306, "eval_count": 3}
+{"row": 11, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4637, "prompt_eval_count": 2511, "eval_count": 3}
+{"row": 12, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4885, "prompt_eval_count": 2544, "eval_count": 3}
+{"row": 13, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6757, "prompt_eval_count": 2739, "eval_count": 3}
+{"row": 14, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6634, "prompt_eval_count": 2698, "eval_count": 3}
+{"row": 15, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5519, "prompt_eval_count": 2600, "eval_count": 3}
+{"row": 16, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4363, "prompt_eval_count": 2465, "eval_count": 3}
+{"row": 17, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4805, "prompt_eval_count": 2500, "eval_count": 3}
+{"row": 18, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9955, "prompt_eval_count": 2253, "eval_count": 3}
+{"row": 19, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3235, "prompt_eval_count": 2364, "eval_count": 3}
+{"row": 20, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5054, "prompt_eval_count": 2509, "eval_count": 3}
+{"row": 21, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.0076, "prompt_eval_count": 2288, "eval_count": 3}
+{"row": 22, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5122, "prompt_eval_count": 2613, "eval_count": 3}
+{"row": 23, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.999, "prompt_eval_count": 2286, "eval_count": 3}
+{"row": 24, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4111, "prompt_eval_count": 2481, "eval_count": 3}
+{"row": 25, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5537, "prompt_eval_count": 2590, "eval_count": 3}
+{"row": 26, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5453, "prompt_eval_count": 2586, "eval_count": 3}
+{"row": 27, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5248, "prompt_eval_count": 2562, "eval_count": 3}
+{"row": 28, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.0198, "prompt_eval_count": 2293, "eval_count": 3}
+{"row": 29, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4996, "prompt_eval_count": 2566, "eval_count": 3}
+{"row": 30, "true": 0, "pred": 4, "matched": true, "raw": "Infiltration", "secs": 3.4981, "prompt_eval_count": 2411, "eval_count": 4}
+{"row": 31, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6427, "prompt_eval_count": 2716, "eval_count": 3}
+{"row": 32, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.54, "prompt_eval_count": 2602, "eval_count": 3}
+{"row": 33, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4894, "prompt_eval_count": 2549, "eval_count": 3}
+{"row": 34, "true": 0, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.3728, "prompt_eval_count": 2294, "eval_count": 5}
+{"row": 35, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3306, "prompt_eval_count": 2385, "eval_count": 3}
+{"row": 36, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5762, "prompt_eval_count": 2649, "eval_count": 3}
+{"row": 37, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4916, "prompt_eval_count": 2540, "eval_count": 3}
+{"row": 38, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.0057, "prompt_eval_count": 2255, "eval_count": 3}
+{"row": 39, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4111, "prompt_eval_count": 2476, "eval_count": 3}
+{"row": 40, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5789, "prompt_eval_count": 2668, "eval_count": 3}
+{"row": 41, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4151, "prompt_eval_count": 2439, "eval_count": 3}
+{"row": 42, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.405, "prompt_eval_count": 2464, "eval_count": 3}
+{"row": 43, "true": 0, "pred": 4, "matched": true, "raw": "Infiltration", "secs": 3.6805, "prompt_eval_count": 2631, "eval_count": 4}
+{"row": 44, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4038, "prompt_eval_count": 2446, "eval_count": 3}
+{"row": 45, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9987, "prompt_eval_count": 2284, "eval_count": 3}
+{"row": 46, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9754, "prompt_eval_count": 2286, "eval_count": 3}
+{"row": 47, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9989, "prompt_eval_count": 2282, "eval_count": 3}
+{"row": 48, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4173, "prompt_eval_count": 2490, "eval_count": 3}
+{"row": 49, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4371, "prompt_eval_count": 2457, "eval_count": 3}
+{"row": 50, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3854, "prompt_eval_count": 2437, "eval_count": 3}
+{"row": 51, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.447, "prompt_eval_count": 2544, "eval_count": 3}
+{"row": 52, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9659, "prompt_eval_count": 2237, "eval_count": 3}
+{"row": 53, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4969, "prompt_eval_count": 2579, "eval_count": 3}
+{"row": 54, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9915, "prompt_eval_count": 2285, "eval_count": 3}
+{"row": 55, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6514, "prompt_eval_count": 2754, "eval_count": 3}
+{"row": 56, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6115, "prompt_eval_count": 2692, "eval_count": 3}
+{"row": 57, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4026, "prompt_eval_count": 2437, "eval_count": 3}
+{"row": 58, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9705, "prompt_eval_count": 2275, "eval_count": 3}
+{"row": 59, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3708, "prompt_eval_count": 2452, "eval_count": 3}
+{"row": 60, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6218, "prompt_eval_count": 2699, "eval_count": 3}
+{"row": 61, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5108, "prompt_eval_count": 2581, "eval_count": 3}
+{"row": 62, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4943, "prompt_eval_count": 2568, "eval_count": 3}
+{"row": 63, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4972, "prompt_eval_count": 2581, "eval_count": 3}
+{"row": 64, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4143, "prompt_eval_count": 2468, "eval_count": 3}
+{"row": 65, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4886, "prompt_eval_count": 2563, "eval_count": 3}
+{"row": 66, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3977, "prompt_eval_count": 2458, "eval_count": 3}
+{"row": 67, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5327, "prompt_eval_count": 2582, "eval_count": 3}
+{"row": 68, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5612, "prompt_eval_count": 2646, "eval_count": 3}
+{"row": 69, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3945, "prompt_eval_count": 2465, "eval_count": 3}
+{"row": 70, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3991, "prompt_eval_count": 2466, "eval_count": 3}
+{"row": 71, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4796, "prompt_eval_count": 2578, "eval_count": 3}
+{"row": 72, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4414, "prompt_eval_count": 2530, "eval_count": 3}
+{"row": 73, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4971, "prompt_eval_count": 2561, "eval_count": 3}
+{"row": 74, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4819, "prompt_eval_count": 2568, "eval_count": 3}
+{"row": 75, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.43, "prompt_eval_count": 2532, "eval_count": 3}
+{"row": 76, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4602, "prompt_eval_count": 2541, "eval_count": 3}
+{"row": 77, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5566, "prompt_eval_count": 2659, "eval_count": 3}
+{"row": 78, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5531, "prompt_eval_count": 2646, "eval_count": 3}
+{"row": 79, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4972, "prompt_eval_count": 2540, "eval_count": 3}
+{"row": 80, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4134, "prompt_eval_count": 2501, "eval_count": 3}
+{"row": 81, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9747, "prompt_eval_count": 2291, "eval_count": 3}
+{"row": 82, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3693, "prompt_eval_count": 2453, "eval_count": 3}
+{"row": 83, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5112, "prompt_eval_count": 2623, "eval_count": 3}
+{"row": 84, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9671, "prompt_eval_count": 2260, "eval_count": 3}
+{"row": 85, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6075, "prompt_eval_count": 2723, "eval_count": 3}
+{"row": 86, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6509, "prompt_eval_count": 2325, "eval_count": 3}
+{"row": 87, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3018, "prompt_eval_count": 2396, "eval_count": 3}
+{"row": 88, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4512, "prompt_eval_count": 2553, "eval_count": 3}
+{"row": 89, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.391, "prompt_eval_count": 2457, "eval_count": 3}
+{"row": 90, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3696, "prompt_eval_count": 2428, "eval_count": 3}
+{"row": 91, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4179, "prompt_eval_count": 2464, "eval_count": 3}
+{"row": 92, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4509, "prompt_eval_count": 2511, "eval_count": 3}
+{"row": 93, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9664, "prompt_eval_count": 2280, "eval_count": 3}
+{"row": 94, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6246, "prompt_eval_count": 2314, "eval_count": 3}
+{"row": 95, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3732, "prompt_eval_count": 2460, "eval_count": 3}
+{"row": 96, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9675, "prompt_eval_count": 2277, "eval_count": 3}
+{"row": 97, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3744, "prompt_eval_count": 2450, "eval_count": 3}
+{"row": 98, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5431, "prompt_eval_count": 2634, "eval_count": 3}
+{"row": 99, "true": 0, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.395, "prompt_eval_count": 2423, "eval_count": 3}
+{"row": 100, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 3.2963, "prompt_eval_count": 2516, "eval_count": 2}
+{"row": 101, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.8592, "prompt_eval_count": 2281, "eval_count": 2}
+{"row": 102, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 3.293, "prompt_eval_count": 2514, "eval_count": 2}
+{"row": 103, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 3.3934, "prompt_eval_count": 2595, "eval_count": 2}
+{"row": 104, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9309, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 105, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9356, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 106, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9429, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 107, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9301, "prompt_eval_count": 2604, "eval_count": 2}
+{"row": 108, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9277, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 109, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9267, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 110, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9273, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 111, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9394, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 112, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9215, "prompt_eval_count": 2604, "eval_count": 2}
+{"row": 113, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9395, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 114, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 3.3966, "prompt_eval_count": 2602, "eval_count": 2}
+{"row": 115, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 3.3964, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 116, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 3.4242, "prompt_eval_count": 2606, "eval_count": 2}
+{"row": 117, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 3.4366, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 118, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9286, "prompt_eval_count": 2603, "eval_count": 2}
+{"row": 119, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 3.4303, "prompt_eval_count": 2606, "eval_count": 2}
+{"row": 120, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 3.4245, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 121, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9359, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 122, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9233, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 123, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9284, "prompt_eval_count": 2603, "eval_count": 2}
+{"row": 124, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9308, "prompt_eval_count": 2604, "eval_count": 2}
+{"row": 125, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9333, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 126, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9279, "prompt_eval_count": 2603, "eval_count": 2}
+{"row": 127, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.934, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 128, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.926, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 129, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9251, "prompt_eval_count": 2604, "eval_count": 2}
+{"row": 130, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9194, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 131, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9302, "prompt_eval_count": 2603, "eval_count": 2}
+{"row": 132, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9335, "prompt_eval_count": 2601, "eval_count": 2}
+{"row": 133, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9292, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 134, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9273, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 135, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9352, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 136, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9366, "prompt_eval_count": 2603, "eval_count": 2}
+{"row": 137, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9324, "prompt_eval_count": 2603, "eval_count": 2}
+{"row": 138, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9256, "prompt_eval_count": 2604, "eval_count": 2}
+{"row": 139, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9242, "prompt_eval_count": 2603, "eval_count": 2}
+{"row": 140, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9642, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 141, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9415, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 142, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9236, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 143, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.928, "prompt_eval_count": 2604, "eval_count": 2}
+{"row": 144, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9272, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 145, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9325, "prompt_eval_count": 2604, "eval_count": 2}
+{"row": 146, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9251, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 147, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 3.4455, "prompt_eval_count": 2611, "eval_count": 2}
+{"row": 148, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 3.433, "prompt_eval_count": 2603, "eval_count": 2}
+{"row": 149, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9366, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 150, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9285, "prompt_eval_count": 2602, "eval_count": 2}
+{"row": 151, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9306, "prompt_eval_count": 2603, "eval_count": 2}
+{"row": 152, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9374, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 153, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9345, "prompt_eval_count": 2603, "eval_count": 2}
+{"row": 154, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9314, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 155, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9387, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 156, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9399, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 157, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9262, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 158, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9318, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 159, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9425, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 160, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9289, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 161, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9326, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 162, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.929, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 163, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9252, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 164, "true": 1, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 2.9708, "prompt_eval_count": 2246, "eval_count": 3}
+{"row": 165, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 3.3975, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 166, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9499, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 167, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9371, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 168, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.933, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 169, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 3.4272, "prompt_eval_count": 2604, "eval_count": 2}
+{"row": 170, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9355, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 171, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 3.4293, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 172, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9346, "prompt_eval_count": 2603, "eval_count": 2}
+{"row": 173, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9304, "prompt_eval_count": 2601, "eval_count": 2}
+{"row": 174, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9292, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 175, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9291, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 176, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9231, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 177, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9279, "prompt_eval_count": 2604, "eval_count": 2}
+{"row": 178, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9356, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 179, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9303, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 180, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 3.3876, "prompt_eval_count": 2604, "eval_count": 2}
+{"row": 181, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 3.4105, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 182, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9317, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 183, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9293, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 184, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9361, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 185, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 3.4216, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 186, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 3.4295, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 187, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9247, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 188, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9319, "prompt_eval_count": 2603, "eval_count": 2}
+{"row": 189, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9259, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 190, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9217, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 191, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9321, "prompt_eval_count": 2603, "eval_count": 2}
+{"row": 192, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 3.396, "prompt_eval_count": 2604, "eval_count": 2}
+{"row": 193, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 3.4102, "prompt_eval_count": 2603, "eval_count": 2}
+{"row": 194, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9248, "prompt_eval_count": 2604, "eval_count": 2}
+{"row": 195, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9317, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 196, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9378, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 197, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9248, "prompt_eval_count": 2601, "eval_count": 2}
+{"row": 198, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9525, "prompt_eval_count": 2605, "eval_count": 2}
+{"row": 199, "true": 1, "pred": 1, "matched": true, "raw": "Bot", "secs": 2.9412, "prompt_eval_count": 2601, "eval_count": 2}
+{"row": 200, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.5335, "prompt_eval_count": 2457, "eval_count": 4}
+{"row": 201, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 2.8606, "prompt_eval_count": 2457, "eval_count": 4}
+{"row": 202, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.4469, "prompt_eval_count": 2410, "eval_count": 4}
+{"row": 203, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 2.8877, "prompt_eval_count": 2454, "eval_count": 4}
+{"row": 204, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 2.814, "prompt_eval_count": 2445, "eval_count": 4}
+{"row": 205, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 2.8198, "prompt_eval_count": 2444, "eval_count": 4}
+{"row": 206, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.6345, "prompt_eval_count": 2626, "eval_count": 4}
+{"row": 207, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 2.9849, "prompt_eval_count": 2617, "eval_count": 4}
+{"row": 208, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0896, "prompt_eval_count": 2243, "eval_count": 4}
+{"row": 209, "true": 2, "pred": 4, "matched": true, "raw": "Infiltration", "secs": 3.6293, "prompt_eval_count": 2604, "eval_count": 4}
+{"row": 210, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.6945, "prompt_eval_count": 2656, "eval_count": 4}
+{"row": 211, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0231, "prompt_eval_count": 2656, "eval_count": 4}
+{"row": 212, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.1076, "prompt_eval_count": 2674, "eval_count": 4}
+{"row": 213, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.7501, "prompt_eval_count": 2703, "eval_count": 4}
+{"row": 214, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0947, "prompt_eval_count": 2656, "eval_count": 4}
+{"row": 215, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0466, "prompt_eval_count": 2679, "eval_count": 4}
+{"row": 216, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0672, "prompt_eval_count": 2658, "eval_count": 4}
+{"row": 217, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0625, "prompt_eval_count": 2658, "eval_count": 4}
+{"row": 218, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.7773, "prompt_eval_count": 2711, "eval_count": 4}
+{"row": 219, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0844, "prompt_eval_count": 2658, "eval_count": 4}
+{"row": 220, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.6852, "prompt_eval_count": 2660, "eval_count": 4}
+{"row": 221, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.1214, "prompt_eval_count": 2669, "eval_count": 4}
+{"row": 222, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 2.9996, "prompt_eval_count": 2661, "eval_count": 4}
+{"row": 223, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.1091, "prompt_eval_count": 2672, "eval_count": 4}
+{"row": 224, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0577, "prompt_eval_count": 2679, "eval_count": 4}
+{"row": 225, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0713, "prompt_eval_count": 2649, "eval_count": 4}
+{"row": 226, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0768, "prompt_eval_count": 2695, "eval_count": 4}
+{"row": 227, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.6973, "prompt_eval_count": 2669, "eval_count": 4}
+{"row": 228, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0872, "prompt_eval_count": 2656, "eval_count": 4}
+{"row": 229, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.4819, "prompt_eval_count": 2670, "eval_count": 4}
+{"row": 230, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.1307, "prompt_eval_count": 2660, "eval_count": 4}
+{"row": 231, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0597, "prompt_eval_count": 2695, "eval_count": 4}
+{"row": 232, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0536, "prompt_eval_count": 2661, "eval_count": 4}
+{"row": 233, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 2.9995, "prompt_eval_count": 2669, "eval_count": 4}
+{"row": 234, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0767, "prompt_eval_count": 2645, "eval_count": 4}
+{"row": 235, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.6873, "prompt_eval_count": 2658, "eval_count": 4}
+{"row": 236, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0835, "prompt_eval_count": 2702, "eval_count": 4}
+{"row": 237, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0055, "prompt_eval_count": 2695, "eval_count": 4}
+{"row": 238, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.7993, "prompt_eval_count": 2713, "eval_count": 4}
+{"row": 239, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0853, "prompt_eval_count": 2695, "eval_count": 4}
+{"row": 240, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0859, "prompt_eval_count": 2669, "eval_count": 4}
+{"row": 241, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0568, "prompt_eval_count": 2692, "eval_count": 4}
+{"row": 242, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0549, "prompt_eval_count": 2652, "eval_count": 4}
+{"row": 243, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0772, "prompt_eval_count": 2702, "eval_count": 4}
+{"row": 244, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0528, "prompt_eval_count": 2695, "eval_count": 4}
+{"row": 245, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0969, "prompt_eval_count": 2672, "eval_count": 4}
+{"row": 246, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0295, "prompt_eval_count": 2674, "eval_count": 4}
+{"row": 247, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.083, "prompt_eval_count": 2695, "eval_count": 4}
+{"row": 248, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0744, "prompt_eval_count": 2694, "eval_count": 4}
+{"row": 249, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 2.9908, "prompt_eval_count": 2695, "eval_count": 4}
+{"row": 250, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0271, "prompt_eval_count": 2695, "eval_count": 4}
+{"row": 251, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0245, "prompt_eval_count": 2694, "eval_count": 4}
+{"row": 252, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0165, "prompt_eval_count": 2695, "eval_count": 4}
+{"row": 253, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.1166, "prompt_eval_count": 2674, "eval_count": 4}
+{"row": 254, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0646, "prompt_eval_count": 2695, "eval_count": 4}
+{"row": 255, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.7006, "prompt_eval_count": 2673, "eval_count": 4}
+{"row": 256, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0902, "prompt_eval_count": 2641, "eval_count": 4}
+{"row": 257, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0724, "prompt_eval_count": 2703, "eval_count": 4}
+{"row": 258, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0774, "prompt_eval_count": 2695, "eval_count": 4}
+{"row": 259, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0696, "prompt_eval_count": 2694, "eval_count": 4}
+{"row": 260, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0885, "prompt_eval_count": 2694, "eval_count": 4}
+{"row": 261, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0004, "prompt_eval_count": 2695, "eval_count": 4}
+{"row": 262, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.7164, "prompt_eval_count": 2660, "eval_count": 4}
+{"row": 263, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0918, "prompt_eval_count": 2693, "eval_count": 4}
+{"row": 264, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0645, "prompt_eval_count": 2653, "eval_count": 4}
+{"row": 265, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0595, "prompt_eval_count": 2695, "eval_count": 4}
+{"row": 266, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0063, "prompt_eval_count": 2695, "eval_count": 4}
+{"row": 267, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0241, "prompt_eval_count": 2695, "eval_count": 4}
+{"row": 268, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0826, "prompt_eval_count": 2641, "eval_count": 4}
+{"row": 269, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0675, "prompt_eval_count": 2644, "eval_count": 4}
+{"row": 270, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0664, "prompt_eval_count": 2695, "eval_count": 4}
+{"row": 271, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0752, "prompt_eval_count": 2693, "eval_count": 4}
+{"row": 272, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0683, "prompt_eval_count": 2695, "eval_count": 4}
+{"row": 273, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.4901, "prompt_eval_count": 2702, "eval_count": 4}
+{"row": 274, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0889, "prompt_eval_count": 2654, "eval_count": 4}
+{"row": 275, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0011, "prompt_eval_count": 2661, "eval_count": 4}
+{"row": 276, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0937, "prompt_eval_count": 2702, "eval_count": 4}
+{"row": 277, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.7602, "prompt_eval_count": 2712, "eval_count": 4}
+{"row": 278, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.1114, "prompt_eval_count": 2694, "eval_count": 4}
+{"row": 279, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0647, "prompt_eval_count": 2655, "eval_count": 4}
+{"row": 280, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0612, "prompt_eval_count": 2661, "eval_count": 4}
+{"row": 281, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0647, "prompt_eval_count": 2695, "eval_count": 4}
+{"row": 282, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0871, "prompt_eval_count": 2702, "eval_count": 4}
+{"row": 283, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0787, "prompt_eval_count": 2703, "eval_count": 4}
+{"row": 284, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.056, "prompt_eval_count": 2658, "eval_count": 4}
+{"row": 285, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0802, "prompt_eval_count": 2658, "eval_count": 4}
+{"row": 286, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0651, "prompt_eval_count": 2650, "eval_count": 4}
+{"row": 287, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0619, "prompt_eval_count": 2660, "eval_count": 4}
+{"row": 288, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0775, "prompt_eval_count": 2695, "eval_count": 4}
+{"row": 289, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.094, "prompt_eval_count": 2669, "eval_count": 4}
+{"row": 290, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.074, "prompt_eval_count": 2695, "eval_count": 4}
+{"row": 291, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0024, "prompt_eval_count": 2695, "eval_count": 4}
+{"row": 292, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0171, "prompt_eval_count": 2693, "eval_count": 4}
+{"row": 293, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0907, "prompt_eval_count": 2657, "eval_count": 4}
+{"row": 294, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0059, "prompt_eval_count": 2657, "eval_count": 4}
+{"row": 295, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.7774, "prompt_eval_count": 2713, "eval_count": 4}
+{"row": 296, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0676, "prompt_eval_count": 2652, "eval_count": 4}
+{"row": 297, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0553, "prompt_eval_count": 2693, "eval_count": 4}
+{"row": 298, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.004, "prompt_eval_count": 2695, "eval_count": 4}
+{"row": 299, "true": 2, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.09, "prompt_eval_count": 2659, "eval_count": 4}
+{"row": 300, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.5387, "prompt_eval_count": 2383, "eval_count": 5}
+{"row": 301, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.8066, "prompt_eval_count": 2671, "eval_count": 5}
+{"row": 302, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.8386, "prompt_eval_count": 2676, "eval_count": 5}
+{"row": 303, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.578, "prompt_eval_count": 2397, "eval_count": 5}
+{"row": 304, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.7835, "prompt_eval_count": 2614, "eval_count": 5}
+{"row": 305, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.7786, "prompt_eval_count": 2624, "eval_count": 5}
+{"row": 306, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.7977, "prompt_eval_count": 2599, "eval_count": 5}
+{"row": 307, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.7054, "prompt_eval_count": 2615, "eval_count": 5}
+{"row": 308, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.5628, "prompt_eval_count": 2397, "eval_count": 5}
+{"row": 309, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.8376, "prompt_eval_count": 2686, "eval_count": 5}
+{"row": 310, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.8061, "prompt_eval_count": 2616, "eval_count": 5}
+{"row": 311, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.5642, "prompt_eval_count": 2388, "eval_count": 5}
+{"row": 312, "true": 3, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3021, "prompt_eval_count": 2357, "eval_count": 3}
+{"row": 313, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.7655, "prompt_eval_count": 2603, "eval_count": 5}
+{"row": 314, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.8177, "prompt_eval_count": 2673, "eval_count": 5}
+{"row": 315, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.8771, "prompt_eval_count": 2716, "eval_count": 5}
+{"row": 316, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.8268, "prompt_eval_count": 2656, "eval_count": 5}
+{"row": 317, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.7357, "prompt_eval_count": 2710, "eval_count": 5}
+{"row": 318, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.8132, "prompt_eval_count": 2667, "eval_count": 5}
+{"row": 319, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.3902, "prompt_eval_count": 2313, "eval_count": 5}
+{"row": 320, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.8291, "prompt_eval_count": 2654, "eval_count": 5}
+{"row": 321, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.7233, "prompt_eval_count": 2663, "eval_count": 5}
+{"row": 322, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6941, "prompt_eval_count": 2639, "eval_count": 5}
+{"row": 323, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.1954, "prompt_eval_count": 2678, "eval_count": 5}
+{"row": 324, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.2122, "prompt_eval_count": 2696, "eval_count": 5}
+{"row": 325, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.189, "prompt_eval_count": 2689, "eval_count": 5}
+{"row": 326, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.8115, "prompt_eval_count": 2656, "eval_count": 5}
+{"row": 327, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.7438, "prompt_eval_count": 2660, "eval_count": 5}
+{"row": 328, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.1962, "prompt_eval_count": 2244, "eval_count": 5}
+{"row": 329, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.6536, "prompt_eval_count": 2551, "eval_count": 5}
+{"row": 330, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.2112, "prompt_eval_count": 2258, "eval_count": 5}
+{"row": 331, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.8646, "prompt_eval_count": 2688, "eval_count": 5}
+{"row": 332, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.4417, "prompt_eval_count": 2258, "eval_count": 5}
+{"row": 333, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.1543, "prompt_eval_count": 2240, "eval_count": 5}
+{"row": 334, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.7609, "prompt_eval_count": 2599, "eval_count": 5}
+{"row": 335, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.7864, "prompt_eval_count": 2609, "eval_count": 5}
+{"row": 336, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.2021, "prompt_eval_count": 2246, "eval_count": 5}
+{"row": 337, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.173, "prompt_eval_count": 2242, "eval_count": 5}
+{"row": 338, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.2108, "prompt_eval_count": 2247, "eval_count": 5}
+{"row": 339, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.1753, "prompt_eval_count": 2242, "eval_count": 5}
+{"row": 340, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.757, "prompt_eval_count": 2598, "eval_count": 5}
+{"row": 341, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.3097, "prompt_eval_count": 2598, "eval_count": 5}
+{"row": 342, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6927, "prompt_eval_count": 2594, "eval_count": 5}
+{"row": 343, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6792, "prompt_eval_count": 2598, "eval_count": 5}
+{"row": 344, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.2685, "prompt_eval_count": 2598, "eval_count": 5}
+{"row": 345, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6664, "prompt_eval_count": 2596, "eval_count": 5}
+{"row": 346, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6063, "prompt_eval_count": 2596, "eval_count": 5}
+{"row": 347, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6701, "prompt_eval_count": 2595, "eval_count": 5}
+{"row": 348, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6589, "prompt_eval_count": 2597, "eval_count": 5}
+{"row": 349, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6578, "prompt_eval_count": 2596, "eval_count": 5}
+{"row": 350, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6535, "prompt_eval_count": 2596, "eval_count": 5}
+{"row": 351, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6006, "prompt_eval_count": 2598, "eval_count": 5}
+{"row": 352, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6246, "prompt_eval_count": 2596, "eval_count": 5}
+{"row": 353, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.679, "prompt_eval_count": 2598, "eval_count": 5}
+{"row": 354, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6491, "prompt_eval_count": 2596, "eval_count": 5}
+{"row": 355, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6532, "prompt_eval_count": 2598, "eval_count": 5}
+{"row": 356, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.5313, "prompt_eval_count": 2332, "eval_count": 5}
+{"row": 357, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.4821, "prompt_eval_count": 2332, "eval_count": 5}
+{"row": 358, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6728, "prompt_eval_count": 2598, "eval_count": 5}
+{"row": 359, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.5249, "prompt_eval_count": 2332, "eval_count": 5}
+{"row": 360, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.5186, "prompt_eval_count": 2328, "eval_count": 5}
+{"row": 361, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.4386, "prompt_eval_count": 2332, "eval_count": 5}
+{"row": 362, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.4304, "prompt_eval_count": 2331, "eval_count": 5}
+{"row": 363, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6677, "prompt_eval_count": 2597, "eval_count": 5}
+{"row": 364, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.282, "prompt_eval_count": 2597, "eval_count": 5}
+{"row": 365, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.681, "prompt_eval_count": 2596, "eval_count": 5}
+{"row": 366, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.5015, "prompt_eval_count": 2332, "eval_count": 5}
+{"row": 367, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6414, "prompt_eval_count": 2596, "eval_count": 5}
+{"row": 368, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.5061, "prompt_eval_count": 2331, "eval_count": 5}
+{"row": 369, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.4941, "prompt_eval_count": 2332, "eval_count": 5}
+{"row": 370, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6509, "prompt_eval_count": 2598, "eval_count": 5}
+{"row": 371, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.487, "prompt_eval_count": 2328, "eval_count": 5}
+{"row": 372, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.439, "prompt_eval_count": 2332, "eval_count": 5}
+{"row": 373, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.7508, "prompt_eval_count": 2598, "eval_count": 5}
+{"row": 374, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.5281, "prompt_eval_count": 2332, "eval_count": 5}
+{"row": 375, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6376, "prompt_eval_count": 2597, "eval_count": 5}
+{"row": 376, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.5063, "prompt_eval_count": 2332, "eval_count": 5}
+{"row": 377, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6597, "prompt_eval_count": 2597, "eval_count": 5}
+{"row": 378, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.5233, "prompt_eval_count": 2330, "eval_count": 5}
+{"row": 379, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.5008, "prompt_eval_count": 2332, "eval_count": 5}
+{"row": 380, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.8629, "prompt_eval_count": 2329, "eval_count": 5}
+{"row": 381, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.5401, "prompt_eval_count": 2328, "eval_count": 5}
+{"row": 382, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.4324, "prompt_eval_count": 2332, "eval_count": 5}
+{"row": 383, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.5128, "prompt_eval_count": 2332, "eval_count": 5}
+{"row": 384, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 1.2017, "prompt_eval_count": 2330, "eval_count": 5}
+{"row": 385, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.5144, "prompt_eval_count": 2331, "eval_count": 5}
+{"row": 386, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 1.1631, "prompt_eval_count": 2332, "eval_count": 5}
+{"row": 387, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.4482, "prompt_eval_count": 2328, "eval_count": 5}
+{"row": 388, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.2078, "prompt_eval_count": 2252, "eval_count": 5}
+{"row": 389, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.7162, "prompt_eval_count": 2569, "eval_count": 5}
+{"row": 390, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.2906, "prompt_eval_count": 2570, "eval_count": 5}
+{"row": 391, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6449, "prompt_eval_count": 2253, "eval_count": 5}
+{"row": 392, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6391, "prompt_eval_count": 2551, "eval_count": 5}
+{"row": 393, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.2817, "prompt_eval_count": 2558, "eval_count": 5}
+{"row": 394, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6922, "prompt_eval_count": 2555, "eval_count": 5}
+{"row": 395, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6102, "prompt_eval_count": 2569, "eval_count": 5}
+{"row": 396, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.7355, "prompt_eval_count": 2563, "eval_count": 5}
+{"row": 397, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 2.6638, "prompt_eval_count": 2567, "eval_count": 5}
+{"row": 398, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.7529, "prompt_eval_count": 2564, "eval_count": 5}
+{"row": 399, "true": 3, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.7462, "prompt_eval_count": 2567, "eval_count": 5}
+{"row": 400, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3315, "prompt_eval_count": 2358, "eval_count": 3}
+{"row": 401, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5508, "prompt_eval_count": 2643, "eval_count": 3}
+{"row": 402, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3282, "prompt_eval_count": 2367, "eval_count": 3}
+{"row": 403, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3584, "prompt_eval_count": 2410, "eval_count": 3}
+{"row": 404, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3656, "prompt_eval_count": 2421, "eval_count": 3}
+{"row": 405, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3966, "prompt_eval_count": 2411, "eval_count": 3}
+{"row": 406, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.383, "prompt_eval_count": 2434, "eval_count": 3}
+{"row": 407, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5574, "prompt_eval_count": 2656, "eval_count": 3}
+{"row": 408, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5683, "prompt_eval_count": 2639, "eval_count": 3}
+{"row": 409, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4127, "prompt_eval_count": 2479, "eval_count": 3}
+{"row": 410, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.415, "prompt_eval_count": 2448, "eval_count": 3}
+{"row": 411, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5675, "prompt_eval_count": 2655, "eval_count": 3}
+{"row": 412, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6704, "prompt_eval_count": 2713, "eval_count": 3}
+{"row": 413, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4029, "prompt_eval_count": 2428, "eval_count": 3}
+{"row": 414, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6175, "prompt_eval_count": 2686, "eval_count": 3}
+{"row": 415, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3579, "prompt_eval_count": 2419, "eval_count": 3}
+{"row": 416, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3916, "prompt_eval_count": 2432, "eval_count": 3}
+{"row": 417, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9755, "prompt_eval_count": 2239, "eval_count": 3}
+{"row": 418, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4033, "prompt_eval_count": 2460, "eval_count": 3}
+{"row": 419, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6516, "prompt_eval_count": 2683, "eval_count": 3}
+{"row": 420, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6916, "prompt_eval_count": 2769, "eval_count": 3}
+{"row": 421, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9789, "prompt_eval_count": 2261, "eval_count": 3}
+{"row": 422, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5023, "prompt_eval_count": 2613, "eval_count": 3}
+{"row": 423, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5532, "prompt_eval_count": 2627, "eval_count": 3}
+{"row": 424, "true": 4, "pred": 4, "matched": true, "raw": "Infiltration", "secs": 3.5094, "prompt_eval_count": 2424, "eval_count": 4}
+{"row": 425, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4226, "prompt_eval_count": 2496, "eval_count": 3}
+{"row": 426, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.387, "prompt_eval_count": 2415, "eval_count": 3}
+{"row": 427, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4305, "prompt_eval_count": 2469, "eval_count": 3}
+{"row": 428, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4535, "prompt_eval_count": 2537, "eval_count": 3}
+{"row": 429, "true": 4, "pred": 4, "matched": true, "raw": "Infiltration", "secs": 3.5492, "prompt_eval_count": 2495, "eval_count": 4}
+{"row": 430, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6552, "prompt_eval_count": 2710, "eval_count": 3}
+{"row": 431, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5977, "prompt_eval_count": 2670, "eval_count": 3}
+{"row": 432, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6094, "prompt_eval_count": 2655, "eval_count": 3}
+{"row": 433, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4005, "prompt_eval_count": 2425, "eval_count": 3}
+{"row": 434, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9715, "prompt_eval_count": 2261, "eval_count": 3}
+{"row": 435, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3288, "prompt_eval_count": 2412, "eval_count": 3}
+{"row": 436, "true": 4, "pred": 4, "matched": true, "raw": "Infiltration", "secs": 3.5164, "prompt_eval_count": 2461, "eval_count": 4}
+{"row": 437, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4564, "prompt_eval_count": 2534, "eval_count": 3}
+{"row": 438, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9872, "prompt_eval_count": 2259, "eval_count": 3}
+{"row": 439, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4228, "prompt_eval_count": 2513, "eval_count": 3}
+{"row": 440, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3747, "prompt_eval_count": 2409, "eval_count": 3}
+{"row": 441, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4053, "prompt_eval_count": 2454, "eval_count": 3}
+{"row": 442, "true": 4, "pred": 4, "matched": true, "raw": "Infiltration", "secs": 3.7732, "prompt_eval_count": 2708, "eval_count": 4}
+{"row": 443, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4028, "prompt_eval_count": 2440, "eval_count": 3}
+{"row": 444, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3782, "prompt_eval_count": 2418, "eval_count": 3}
+{"row": 445, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4009, "prompt_eval_count": 2460, "eval_count": 3}
+{"row": 446, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6294, "prompt_eval_count": 2726, "eval_count": 3}
+{"row": 447, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5662, "prompt_eval_count": 2679, "eval_count": 3}
+{"row": 448, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3492, "prompt_eval_count": 2410, "eval_count": 3}
+{"row": 449, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4384, "prompt_eval_count": 2475, "eval_count": 3}
+{"row": 450, "true": 4, "pred": 4, "matched": true, "raw": "Infiltration", "secs": 3.108, "prompt_eval_count": 2264, "eval_count": 4}
+{"row": 451, "true": 4, "pred": 4, "matched": true, "raw": "Infiltration", "secs": 3.0745, "prompt_eval_count": 2265, "eval_count": 4}
+{"row": 452, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.949, "prompt_eval_count": 2221, "eval_count": 3}
+{"row": 453, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4383, "prompt_eval_count": 2531, "eval_count": 3}
+{"row": 454, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3256, "prompt_eval_count": 2381, "eval_count": 3}
+{"row": 455, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9885, "prompt_eval_count": 2286, "eval_count": 3}
+{"row": 456, "true": 4, "pred": 4, "matched": true, "raw": "Infiltration", "secs": 3.0984, "prompt_eval_count": 2268, "eval_count": 4}
+{"row": 457, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5292, "prompt_eval_count": 2634, "eval_count": 3}
+{"row": 458, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9838, "prompt_eval_count": 2268, "eval_count": 3}
+{"row": 459, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3458, "prompt_eval_count": 2403, "eval_count": 3}
+{"row": 460, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3087, "prompt_eval_count": 2352, "eval_count": 3}
+{"row": 461, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.412, "prompt_eval_count": 2508, "eval_count": 3}
+{"row": 462, "true": 4, "pred": 4, "matched": true, "raw": "Infiltration", "secs": 3.1158, "prompt_eval_count": 2277, "eval_count": 4}
+{"row": 463, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6435, "prompt_eval_count": 2710, "eval_count": 3}
+{"row": 464, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4487, "prompt_eval_count": 2483, "eval_count": 3}
+{"row": 465, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5647, "prompt_eval_count": 2641, "eval_count": 3}
+{"row": 466, "true": 4, "pred": 4, "matched": true, "raw": "Infiltration", "secs": 3.7928, "prompt_eval_count": 2731, "eval_count": 4}
+{"row": 467, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4335, "prompt_eval_count": 2419, "eval_count": 3}
+{"row": 468, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5667, "prompt_eval_count": 2680, "eval_count": 3}
+{"row": 469, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3645, "prompt_eval_count": 2376, "eval_count": 3}
+{"row": 470, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3842, "prompt_eval_count": 2431, "eval_count": 3}
+{"row": 471, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9725, "prompt_eval_count": 2268, "eval_count": 3}
+{"row": 472, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3954, "prompt_eval_count": 2486, "eval_count": 3}
+{"row": 473, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5371, "prompt_eval_count": 2636, "eval_count": 3}
+{"row": 474, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4622, "prompt_eval_count": 2539, "eval_count": 3}
+{"row": 475, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6273, "prompt_eval_count": 2720, "eval_count": 3}
+{"row": 476, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4623, "prompt_eval_count": 2517, "eval_count": 3}
+{"row": 477, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9841, "prompt_eval_count": 2279, "eval_count": 3}
+{"row": 478, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4358, "prompt_eval_count": 2549, "eval_count": 3}
+{"row": 479, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4359, "prompt_eval_count": 2475, "eval_count": 3}
+{"row": 480, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3818, "prompt_eval_count": 2439, "eval_count": 3}
+{"row": 481, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5555, "prompt_eval_count": 2668, "eval_count": 3}
+{"row": 482, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4447, "prompt_eval_count": 2504, "eval_count": 3}
+{"row": 483, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9912, "prompt_eval_count": 2266, "eval_count": 3}
+{"row": 484, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9898, "prompt_eval_count": 2265, "eval_count": 3}
+{"row": 485, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9708, "prompt_eval_count": 2287, "eval_count": 3}
+{"row": 486, "true": 4, "pred": 4, "matched": true, "raw": "Infiltration", "secs": 3.0961, "prompt_eval_count": 2283, "eval_count": 4}
+{"row": 487, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9818, "prompt_eval_count": 2268, "eval_count": 3}
+{"row": 488, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4732, "prompt_eval_count": 2424, "eval_count": 3}
+{"row": 489, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.2173, "prompt_eval_count": 2267, "eval_count": 3}
+{"row": 490, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.0267, "prompt_eval_count": 2268, "eval_count": 3}
+{"row": 491, "true": 4, "pred": 4, "matched": true, "raw": "Infiltration", "secs": 3.0994, "prompt_eval_count": 2268, "eval_count": 4}
+{"row": 492, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.547, "prompt_eval_count": 2642, "eval_count": 3}
+{"row": 493, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.009, "prompt_eval_count": 2283, "eval_count": 3}
+{"row": 494, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.966, "prompt_eval_count": 2268, "eval_count": 3}
+{"row": 495, "true": 4, "pred": 4, "matched": true, "raw": "Infiltration", "secs": 3.1697, "prompt_eval_count": 2268, "eval_count": 4}
+{"row": 496, "true": 4, "pred": 4, "matched": true, "raw": "Infiltration", "secs": 3.0839, "prompt_eval_count": 2262, "eval_count": 4}
+{"row": 497, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.47, "prompt_eval_count": 2544, "eval_count": 3}
+{"row": 498, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3804, "prompt_eval_count": 2414, "eval_count": 3}
+{"row": 499, "true": 4, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.7341, "prompt_eval_count": 2733, "eval_count": 3}
+{"row": 500, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3305, "prompt_eval_count": 2352, "eval_count": 3}
+{"row": 501, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.298, "prompt_eval_count": 2354, "eval_count": 3}
+{"row": 502, "true": 5, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.2976, "prompt_eval_count": 2354, "eval_count": 3}
+{"row": 503, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3267, "prompt_eval_count": 2308, "eval_count": 3}
+{"row": 504, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3203, "prompt_eval_count": 2308, "eval_count": 3}
+{"row": 505, "true": 5, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.2995, "prompt_eval_count": 2358, "eval_count": 3}
+{"row": 506, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.2897, "prompt_eval_count": 2354, "eval_count": 3}
+{"row": 507, "true": 5, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.7178, "prompt_eval_count": 2329, "eval_count": 3}
+{"row": 508, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3024, "prompt_eval_count": 2356, "eval_count": 3}
+{"row": 509, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3136, "prompt_eval_count": 2405, "eval_count": 3}
+{"row": 510, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3003, "prompt_eval_count": 2355, "eval_count": 3}
+{"row": 511, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3115, "prompt_eval_count": 2363, "eval_count": 3}
+{"row": 512, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.2812, "prompt_eval_count": 2352, "eval_count": 3}
+{"row": 513, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.2871, "prompt_eval_count": 2351, "eval_count": 3}
+{"row": 514, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.6171, "prompt_eval_count": 2321, "eval_count": 3}
+{"row": 515, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.2919, "prompt_eval_count": 2377, "eval_count": 3}
+{"row": 516, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3095, "prompt_eval_count": 2355, "eval_count": 3}
+{"row": 517, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3044, "prompt_eval_count": 2355, "eval_count": 3}
+{"row": 518, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.2984, "prompt_eval_count": 2359, "eval_count": 3}
+{"row": 519, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.2912, "prompt_eval_count": 2351, "eval_count": 3}
+{"row": 520, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3021, "prompt_eval_count": 2352, "eval_count": 3}
+{"row": 521, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.2962, "prompt_eval_count": 2360, "eval_count": 3}
+{"row": 522, "true": 5, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.2895, "prompt_eval_count": 2363, "eval_count": 3}
+{"row": 523, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.278, "prompt_eval_count": 2354, "eval_count": 3}
+{"row": 524, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3005, "prompt_eval_count": 2363, "eval_count": 3}
+{"row": 525, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.2797, "prompt_eval_count": 2340, "eval_count": 3}
+{"row": 526, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.2827, "prompt_eval_count": 2354, "eval_count": 3}
+{"row": 527, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3069, "prompt_eval_count": 2352, "eval_count": 3}
+{"row": 528, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3028, "prompt_eval_count": 2355, "eval_count": 3}
+{"row": 529, "true": 5, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.2936, "prompt_eval_count": 2342, "eval_count": 3}
+{"row": 530, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.294, "prompt_eval_count": 2354, "eval_count": 3}
+{"row": 531, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3114, "prompt_eval_count": 2397, "eval_count": 3}
+{"row": 532, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3207, "prompt_eval_count": 2363, "eval_count": 3}
+{"row": 533, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3023, "prompt_eval_count": 2351, "eval_count": 3}
+{"row": 534, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.2912, "prompt_eval_count": 2363, "eval_count": 3}
+{"row": 535, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.2879, "prompt_eval_count": 2354, "eval_count": 3}
+{"row": 536, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3011, "prompt_eval_count": 2354, "eval_count": 3}
+{"row": 537, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.2843, "prompt_eval_count": 2363, "eval_count": 3}
+{"row": 538, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.2952, "prompt_eval_count": 2373, "eval_count": 3}
+{"row": 539, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3182, "prompt_eval_count": 2342, "eval_count": 3}
+{"row": 540, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3129, "prompt_eval_count": 2396, "eval_count": 3}
+{"row": 541, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3328, "prompt_eval_count": 2412, "eval_count": 3}
+{"row": 542, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 1.4544, "prompt_eval_count": 2418, "eval_count": 3}
+{"row": 543, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 2.2833, "prompt_eval_count": 2398, "eval_count": 3}
+{"row": 544, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 2.1947, "prompt_eval_count": 2398, "eval_count": 3}
+{"row": 545, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 2.2145, "prompt_eval_count": 2396, "eval_count": 3}
+{"row": 546, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3165, "prompt_eval_count": 2388, "eval_count": 3}
+{"row": 547, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 1.6421, "prompt_eval_count": 2395, "eval_count": 3}
+{"row": 548, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 2.1865, "prompt_eval_count": 2396, "eval_count": 3}
+{"row": 549, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 2.093, "prompt_eval_count": 2396, "eval_count": 3}
+{"row": 550, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.302, "prompt_eval_count": 2400, "eval_count": 3}
+{"row": 551, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3414, "prompt_eval_count": 2395, "eval_count": 3}
+{"row": 552, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 1.6568, "prompt_eval_count": 2396, "eval_count": 3}
+{"row": 553, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 1.904, "prompt_eval_count": 2401, "eval_count": 3}
+{"row": 554, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 1.6376, "prompt_eval_count": 2422, "eval_count": 3}
+{"row": 555, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 2.2649, "prompt_eval_count": 2396, "eval_count": 3}
+{"row": 556, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 2.0876, "prompt_eval_count": 2421, "eval_count": 3}
+{"row": 557, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3272, "prompt_eval_count": 2400, "eval_count": 3}
+{"row": 558, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 2.2808, "prompt_eval_count": 2390, "eval_count": 3}
+{"row": 559, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.2873, "prompt_eval_count": 2374, "eval_count": 3}
+{"row": 560, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 1.6501, "prompt_eval_count": 2396, "eval_count": 3}
+{"row": 561, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 2.2553, "prompt_eval_count": 2396, "eval_count": 3}
+{"row": 562, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3, "prompt_eval_count": 2391, "eval_count": 3}
+{"row": 563, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 2.2969, "prompt_eval_count": 2392, "eval_count": 3}
+{"row": 564, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3198, "prompt_eval_count": 2395, "eval_count": 3}
+{"row": 565, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 1.6584, "prompt_eval_count": 2392, "eval_count": 3}
+{"row": 566, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 2.2533, "prompt_eval_count": 2401, "eval_count": 3}
+{"row": 567, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 1.6376, "prompt_eval_count": 2396, "eval_count": 3}
+{"row": 568, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 2.2617, "prompt_eval_count": 2395, "eval_count": 3}
+{"row": 569, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 2.0845, "prompt_eval_count": 2426, "eval_count": 3}
+{"row": 570, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3303, "prompt_eval_count": 2426, "eval_count": 3}
+{"row": 571, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 1.6806, "prompt_eval_count": 2424, "eval_count": 3}
+{"row": 572, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 7.319, "prompt_eval_count": 2303, "eval_count": 3}
+{"row": 573, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 1.6524, "prompt_eval_count": 2380, "eval_count": 3}
+{"row": 574, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 1.4411, "prompt_eval_count": 2396, "eval_count": 3}
+{"row": 575, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 2.2495, "prompt_eval_count": 2396, "eval_count": 3}
+{"row": 576, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 1.6379, "prompt_eval_count": 2396, "eval_count": 3}
+{"row": 577, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 1.6308, "prompt_eval_count": 2422, "eval_count": 3}
+{"row": 578, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 1.4583, "prompt_eval_count": 2416, "eval_count": 3}
+{"row": 579, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 2.0746, "prompt_eval_count": 2421, "eval_count": 3}
+{"row": 580, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 1.6331, "prompt_eval_count": 2422, "eval_count": 3}
+{"row": 581, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 2.2512, "prompt_eval_count": 2395, "eval_count": 3}
+{"row": 582, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 1.6426, "prompt_eval_count": 2414, "eval_count": 3}
+{"row": 583, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 2.5409, "prompt_eval_count": 2416, "eval_count": 3}
+{"row": 584, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 1.898, "prompt_eval_count": 2421, "eval_count": 3}
+{"row": 585, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 1.6368, "prompt_eval_count": 2396, "eval_count": 3}
+{"row": 586, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 1.6429, "prompt_eval_count": 2424, "eval_count": 3}
+{"row": 587, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3319, "prompt_eval_count": 2421, "eval_count": 3}
+{"row": 588, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 1.6655, "prompt_eval_count": 2398, "eval_count": 3}
+{"row": 589, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 2.0835, "prompt_eval_count": 2413, "eval_count": 3}
+{"row": 590, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 2.2579, "prompt_eval_count": 2392, "eval_count": 3}
+{"row": 591, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 1.6474, "prompt_eval_count": 2407, "eval_count": 3}
+{"row": 592, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 1.6296, "prompt_eval_count": 2424, "eval_count": 3}
+{"row": 593, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 2.3952, "prompt_eval_count": 2404, "eval_count": 3}
+{"row": 594, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.2789, "prompt_eval_count": 2353, "eval_count": 3}
+{"row": 595, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3125, "prompt_eval_count": 2355, "eval_count": 3}
+{"row": 596, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.3068, "prompt_eval_count": 2354, "eval_count": 3}
+{"row": 597, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.2916, "prompt_eval_count": 2354, "eval_count": 3}
+{"row": 598, "true": 5, "pred": 5, "matched": true, "raw": "PortScan", "secs": 3.2973, "prompt_eval_count": 2354, "eval_count": 3}
+{"row": 599, "true": 5, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3002, "prompt_eval_count": 2363, "eval_count": 3}
+{"row": 600, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.7151, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 601, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.629, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 602, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6249, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 603, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6474, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 604, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6353, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 605, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 1.2579, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 606, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6146, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 607, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.641, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 608, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.637, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 609, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6428, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 610, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6331, "prompt_eval_count": 2328, "eval_count": 3}
+{"row": 611, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6312, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 612, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6469, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 613, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.63, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 614, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6406, "prompt_eval_count": 2331, "eval_count": 3}
+{"row": 615, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 1.1354, "prompt_eval_count": 2329, "eval_count": 3}
+{"row": 616, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5977, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 617, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6402, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 618, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6223, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 619, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6185, "prompt_eval_count": 2328, "eval_count": 3}
+{"row": 620, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.648, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 621, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.626, "prompt_eval_count": 2329, "eval_count": 3}
+{"row": 622, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6588, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 623, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6002, "prompt_eval_count": 2328, "eval_count": 3}
+{"row": 624, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6382, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 625, "true": 6, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 3.4726, "prompt_eval_count": 2580, "eval_count": 3}
+{"row": 626, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6779, "prompt_eval_count": 2326, "eval_count": 3}
+{"row": 627, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6416, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 628, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.628, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 629, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6305, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 630, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 1.1348, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 631, "true": 6, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 3.5634, "prompt_eval_count": 2650, "eval_count": 3}
+{"row": 632, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6385, "prompt_eval_count": 2329, "eval_count": 3}
+{"row": 633, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6372, "prompt_eval_count": 2329, "eval_count": 3}
+{"row": 634, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6305, "prompt_eval_count": 2329, "eval_count": 3}
+{"row": 635, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6499, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 636, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6581, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 637, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6426, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 638, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6463, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 639, "true": 6, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 1.5035, "prompt_eval_count": 2649, "eval_count": 3}
+{"row": 640, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.663, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 641, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.622, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 642, "true": 6, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 3.0683, "prompt_eval_count": 2244, "eval_count": 4}
+{"row": 643, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.729, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 644, "true": 6, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 1.4961, "prompt_eval_count": 2647, "eval_count": 3}
+{"row": 645, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6438, "prompt_eval_count": 2329, "eval_count": 3}
+{"row": 646, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6559, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 647, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9587, "prompt_eval_count": 2240, "eval_count": 3}
+{"row": 648, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6942, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 649, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6162, "prompt_eval_count": 2329, "eval_count": 3}
+{"row": 650, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6657, "prompt_eval_count": 2331, "eval_count": 3}
+{"row": 651, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6126, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 652, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6577, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 653, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6254, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 654, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6346, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 655, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 1.2469, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 656, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.621, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 657, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.63, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 658, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6266, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 659, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6456, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 660, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6257, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 661, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6122, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 662, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 0.9183, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 663, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5948, "prompt_eval_count": 2328, "eval_count": 3}
+{"row": 664, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 1.1284, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 665, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6235, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 666, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 1.2479, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 667, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6329, "prompt_eval_count": 2331, "eval_count": 3}
+{"row": 668, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.6299, "prompt_eval_count": 2330, "eval_count": 3}
+{"row": 669, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9436, "prompt_eval_count": 2234, "eval_count": 3}
+{"row": 670, "true": 6, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 3.5939, "prompt_eval_count": 2693, "eval_count": 3}
+{"row": 671, "true": 6, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 3.5978, "prompt_eval_count": 2676, "eval_count": 3}
+{"row": 672, "true": 6, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 1.2956, "prompt_eval_count": 2682, "eval_count": 3}
+{"row": 673, "true": 6, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 3.663, "prompt_eval_count": 2751, "eval_count": 3}
+{"row": 674, "true": 6, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 3.559, "prompt_eval_count": 2641, "eval_count": 3}
+{"row": 675, "true": 6, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 2.9681, "prompt_eval_count": 2243, "eval_count": 3}
+{"row": 676, "true": 6, "pred": 2, "matched": true, "raw": "Brute Force", "secs": 2.8692, "prompt_eval_count": 2244, "eval_count": 4}
+{"row": 677, "true": 6, "pred": 3, "matched": true, "raw": "DoS/DDoS", "secs": 3.1866, "prompt_eval_count": 2241, "eval_count": 5}
+{"row": 678, "true": 6, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 3.6266, "prompt_eval_count": 2702, "eval_count": 3}
+{"row": 679, "true": 6, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 0.7961, "prompt_eval_count": 2702, "eval_count": 3}
+{"row": 680, "true": 6, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 3.0029, "prompt_eval_count": 2249, "eval_count": 3}
+{"row": 681, "true": 6, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 1.532, "prompt_eval_count": 2703, "eval_count": 3}
+{"row": 682, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.5301, "prompt_eval_count": 2625, "eval_count": 3}
+{"row": 683, "true": 6, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 3.5821, "prompt_eval_count": 2646, "eval_count": 3}
+{"row": 684, "true": 6, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 1.5724, "prompt_eval_count": 2746, "eval_count": 3}
+{"row": 685, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9504, "prompt_eval_count": 2243, "eval_count": 3}
+{"row": 686, "true": 6, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 1.4823, "prompt_eval_count": 2641, "eval_count": 3}
+{"row": 687, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.4333, "prompt_eval_count": 2535, "eval_count": 3}
+{"row": 688, "true": 6, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 1.5151, "prompt_eval_count": 2681, "eval_count": 3}
+{"row": 689, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 0.9833, "prompt_eval_count": 2535, "eval_count": 3}
+{"row": 690, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 3.3115, "prompt_eval_count": 2379, "eval_count": 3}
+{"row": 691, "true": 6, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 1.5639, "prompt_eval_count": 2755, "eval_count": 3}
+{"row": 692, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9618, "prompt_eval_count": 2243, "eval_count": 3}
+{"row": 693, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 0.994, "prompt_eval_count": 2535, "eval_count": 3}
+{"row": 694, "true": 6, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 1.4937, "prompt_eval_count": 2682, "eval_count": 3}
+{"row": 695, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 0.9846, "prompt_eval_count": 2534, "eval_count": 3}
+{"row": 696, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9655, "prompt_eval_count": 2249, "eval_count": 3}
+{"row": 697, "true": 6, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 1.539, "prompt_eval_count": 2700, "eval_count": 3}
+{"row": 698, "true": 6, "pred": 6, "matched": true, "raw": "Web Attack", "secs": 1.3385, "prompt_eval_count": 2703, "eval_count": 3}
+{"row": 699, "true": 6, "pred": 0, "matched": true, "raw": "Benign", "secs": 2.9556, "prompt_eval_count": 2243, "eval_count": 3}

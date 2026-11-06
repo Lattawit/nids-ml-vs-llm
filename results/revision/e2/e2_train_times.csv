@@ -1,0 +1,4 @@
+model,train_seconds
+random_forest,29.99
+xgboost,94.49
+mlp,558.03

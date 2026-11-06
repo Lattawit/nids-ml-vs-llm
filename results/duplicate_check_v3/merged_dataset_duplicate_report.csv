@@ -1,0 +1,8 @@
+Class,Total_Rows,Duplicate_Groups,Excess_Duplicate_Rows,Pct_Excess_Duplicate
+Benign,15524565,545666,2862117,18.4361
+DoS/DDoS,2074216,77889,779934,37.6014
+Bot,284258,980,137775,48.4683
+Brute Force,165818,138,62574,37.7366
+Infiltration,161095,8227,21284,13.2121
+PortScan,90694,0,0,0.0
+Web Attack,3071,38,67,2.1817

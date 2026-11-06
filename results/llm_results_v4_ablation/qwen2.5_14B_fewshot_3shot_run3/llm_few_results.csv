@@ -1,0 +1,2 @@
+Model,Accuracy,Weighted_Precision,Weighted_Recall,Weighted_F1,Macro_Precision,Macro_Recall,Macro_F1,Inference Time (s)
+"LLM qwen2.5:14B (few-shot, 3shot, v4, run3)",0.31142857142857144,0.14670504457613545,0.31142857142857144,0.1829578127450468,0.14670504457613548,0.3114285714285714,0.1829578127450468,1722.83

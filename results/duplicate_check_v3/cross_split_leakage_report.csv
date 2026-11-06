@@ -1,0 +1,8 @@
+Class,Test_Rows,Leaked_Test_Rows_Also_In_Train,Pct_Leaked
+Benign,4657370,1120258,24.0534
+DoS/DDoS,622265,254674,40.9269
+Bot,85278,41774,48.9857
+Brute Force,49745,18700,37.5917
+Infiltration,48329,7761,16.0587
+PortScan,27208,0,0.0
+Web Attack,921,27,2.9316

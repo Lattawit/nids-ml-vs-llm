@@ -1,0 +1,701 @@
+True Label,Predicted Label,Confidence,Reason,Fallback,Correct
+Benign,Infiltration,70,"The flow shows a long duration with low packet rates and significant packet size variability, indicative of stealthy data exfiltration or lateral movement typical of infiltration attacks.",False,False
+Benign,PortScan,85,"The traffic flow shows a single packet exchange to a high port number, indicative of port scanning behavior.",False,False
+Benign,Benign,80,"The traffic flow shows a low packet rate and size, typical of normal user behavior.",False,True
+Benign,Brute Force,85,High number of packets and flags directed at a common port (22) indicative of repeated login attempts.,False,False
+Benign,PortScan,85,"The traffic flow shows a very short duration with a low number of packets, typical of port scanning activity.",False,False
+Benign,Web Attack,80,"The flow shows a low packet rate and byte rate, typical of a probing or malicious request to a web service.",False,False
+Benign,PortScan,85,"The traffic flow shows a very short duration with a low number of packets, typical of port scanning activity.",False,False
+Benign,Web Attack,80,"The flow shows a single ACK flag with no backward packets and very low packet and byte rates, indicative of a potential web attack attempt.",False,False
+Benign,Benign,85,The traffic flow shows typical characteristics of normal communication with no signs of malicious activity.,False,True
+Benign,Infiltration,85,"The flow shows a long duration with a high number of packets and bytes, low packet and byte rates, and significant idle time, indicative of lateral movement or data exfiltration.",False,False
+Benign,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, indicative of port scanning behavior.",False,False
+Benign,Benign,85,The traffic flow shows typical characteristics of normal DNS traffic with UDP protocol and small packet exchanges.,False,True
+Benign,Benign,85,"The traffic flow shows a typical pattern of normal DNS query traffic with UDP protocol, short duration, and minimal packet exchange.",False,True
+Benign,Brute Force,70,"The traffic flow shows a low packet rate over a long duration, typical of repeated login attempts on port 3389, indicative of a brute force attack.",False,False
+Benign,Infiltration,70,The traffic shows a high flow duration and packet size variability typical of lateral movement or data exfiltration activities.,False,False
+Benign,DoS/DDoS,85,"The flow shows a very low packet rate and byte rate over an extremely long duration, indicative of a DoS/DDoS attack.",False,False
+Benign,DoS/DDoS,85,Long flow duration and low packet rates suggest a potential DoS/DDoS attack.,False,False
+Benign,Benign,85,The traffic flow shows a typical pattern of normal DNS query traffic with UDP protocol and a short duration.,False,True
+Benign,Web Attack,85,"The flow shows minimal packets and bytes transferred with a single ACK flag, typical of a probing or malicious request pattern.",False,False
+Benign,PortScan,85,"The traffic flow shows a very short duration with a low number of packets, indicative of port scanning behavior.",False,False
+Benign,Brute Force,70,"The traffic flow shows a low packet rate and a high duration, typical of repeated login attempts on port 445.",False,False
+Benign,PortScan,85,"The traffic flow shows a very short duration with a low number of packets, typical of port scanning activity.",False,False
+Benign,Benign,85,The traffic flow shows typical characteristics of normal communication with a low packet count and standard port usage.,False,True
+Benign,PortScan,85,"The traffic flow shows a single packet exchange with high packet rate, typical of port scanning activity.",False,False
+Benign,Benign,85,The traffic flow shows a typical pattern of normal DNS query traffic with minimal packets and a short duration.,False,True
+Benign,DoS/DDoS,70,"The flow has a very high duration and low packet rates, indicative of a potential DoS/DDoS attack.",False,False
+Benign,PortScan,85,"The flow shows a very short duration and a low number of packets, indicative of port scanning behavior.",False,False
+Benign,PortScan,85,"The flow shows a very short duration and a low number of packets, indicative of port scanning behavior.",False,False
+Benign,PortScan,85,"The traffic flow shows a single packet exchange with a high packet rate, typical of port scanning activity.",False,False
+Benign,Benign,85,"The traffic flow shows typical characteristics of normal DNS traffic with UDP protocol, small packet count, and no signs of malicious activity.",False,True
+Benign,PortScan,85,"The traffic flow shows a very short duration with a low number of packets, indicative of port scanning behavior.",False,False
+Benign,DoS/DDoS,80,High flow duration and low packet rates suggest a potential DoS/DDoS attack.,False,False
+Benign,Brute Force,75,"The traffic flow shows a low packet rate and a high duration, typical of repeated login attempts on port 3389.",False,False
+Benign,Benign,85,"The traffic flow shows typical characteristics of normal DNS traffic with UDP protocol, small packet count, and no signs of malicious activity.",False,True
+Benign,PortScan,85,"The traffic flow shows a very short duration with minimal packets and bytes, indicative of port scanning behavior.",False,False
+Benign,PortScan,85,"The flow has a very short duration and a high packet rate, indicative of port scanning activity.",False,False
+Benign,Infiltration,70,"The flow shows a high packet length variability and a significant flow duration, indicative of an infiltration attempt.",False,False
+Benign,DoS/DDoS,80,"The flow shows a very low packet rate and byte rate over a long duration, indicative of a potential DoS/DDoS attack.",False,False
+Benign,PortScan,85,"The traffic flow shows a single packet exchange with a high packet rate, typical of port scanning activity.",False,False
+Benign,Benign,85,"The traffic flow shows a typical pattern of normal DNS query traffic with UDP protocol, short duration, and minimal packet exchange.",False,True
+Benign,Benign,80,The traffic flow shows characteristics similar to benign traffic with a single RST flag and a normal download-to-upload ratio.,False,True
+Benign,DoS/DDoS,85,"The flow has a very high duration and low packet rates, indicative of a potential DoS/DDoS attack.",False,False
+Benign,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, indicative of port scanning behavior.",False,False
+Benign,Brute Force,70,The low flow packet rate and the small number of packets over a long duration suggest a potential brute force attack on a service running on port 445.,False,False
+Benign,Benign,85,"The traffic flow shows typical characteristics of normal DNS traffic with UDP protocol, short duration, and balanced forward and backward packets.",False,True
+Benign,PortScan,85,"The traffic flow shows a very short duration with a low number of packets, typical of port scanning activity.",False,False
+Benign,PortScan,85,"The traffic flow shows a single packet exchange with a high packet rate, typical of port scanning activity.",False,False
+Benign,PortScan,85,"The traffic flow shows a single packet exchange with high packet rate, typical of port scanning activity.",False,False
+Benign,Benign,85,The traffic flow shows minimal packet exchange typical of normal DNS queries.,False,True
+Benign,Benign,85,The traffic flow shows minimal packet exchange typical of normal DNS queries.,False,True
+Benign,Benign,85,The traffic flow shows typical characteristics of normal DNS traffic with UDP protocol and short duration.,False,True
+Benign,Infiltration,70,"The flow shows a low packet rate and high idle time, typical of stealthy activities like infiltration.",False,False
+Benign,PortScan,85,"The flow has a very short duration and a high packet rate, indicative of port scanning activity.",False,False
+Benign,Benign,80,The traffic flow shows a single UDP packet exchange with typical characteristics of normal DNS traffic.,False,True
+Benign,PortScan,85,"The traffic flow shows a very short duration with a low number of packets, typical of port scanning activity.",False,False
+Benign,Brute Force,85,"The traffic flow shows a low packet rate and a high duration, typical of repeated login attempts on port 3389.",False,False
+Benign,Infiltration,70,"The flow shows a long duration with a low packet rate and significant packet size variability, indicative of stealthy data exfiltration or lateral movement typical of infiltration attacks.",False,False
+Benign,PortScan,85,"The traffic flow shows a single packet exchange with a high packet rate, indicative of port scanning behavior.",False,False
+Benign,PortScan,85,"The traffic flow shows a high number of packets with no backward packets and zero byte rate, indicative of port scanning behavior.",False,False
+Benign,Benign,85,The traffic flow shows a typical pattern of normal DNS query activity with minimal packets and balanced forward and backward traffic.,False,True
+Benign,Brute Force,85,"The traffic flow shows a low packet rate over a long duration, typical of repeated login attempts on port 3389, indicative of a brute force attack.",False,False
+Benign,Infiltration,70,"The flow shows a low packet rate and byte rate over a long duration, typical of stealthy data exfiltration or lateral movement.",False,False
+Benign,Benign,95,"The traffic flow shows typical characteristics of normal communication with a high flow byte rate and packet rate, and no signs of malicious activity.",False,True
+Benign,Brute Force,85,"The traffic flow shows a low packet rate and a high duration, typical of repeated login attempts on port 3389.",False,False
+Benign,PortScan,85,"The traffic flow shows a single packet exchange with a high packet rate, indicative of port scanning behavior.",False,False
+Benign,Benign,95,"The traffic flow shows typical characteristics of normal communication with a high flow byte rate and packet rate, and no signs of malicious activity.",False,True
+Benign,Benign,85,"The traffic flow shows a typical pattern of benign DNS query traffic with UDP protocol, short duration, and minimal packet exchange.",False,True
+Benign,PortScan,85,"The traffic flow shows a single packet exchange with a high packet rate, typical of port scanning activity.",False,False
+Benign,Infiltration,70,"The flow shows a long duration with a low packet rate and significant idle time, indicative of stealthy data exfiltration or lateral movement typical of infiltration attacks.",False,False
+Benign,PortScan,85,"The traffic flow shows a very short duration with minimal packets and bytes exchanged, indicative of port scanning behavior.",False,False
+Benign,PortScan,85,"The traffic flow shows a very short duration with minimal packets and bytes exchanged, indicative of port scanning behavior.",False,False
+Benign,Brute Force,70,The low flow packet rate and the small number of packets directed to a common service port (445) suggest a potential brute force attack on a service like SMB.,False,False
+Benign,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning behavior.",False,False
+Benign,Bot,70,"The flow shows characteristics similar to botnet activity, including a high packet rate and a non-standard destination port.",False,False
+Benign,Benign,80,"The flow shows typical characteristics of normal traffic with a high packet rate and standard deviation in packet length, indicating normal communication rather than malicious activity.",False,True
+Benign,PortScan,85,"The traffic flow shows a very short duration with a low number of packets, indicative of port scanning behavior.",False,False
+Benign,Benign,85,The traffic flow shows typical characteristics of normal DNS traffic with UDP protocol and small packet exchanges.,False,True
+Benign,Infiltration,70,"The flow shows a long duration with a low packet rate and significant idle time, similar to the Infiltration example.",False,False
+Benign,Brute Force,70,"The traffic flow shows a low packet rate over a long duration, typical of repeated login attempts on port 3389, indicative of a brute force attack.",False,False
+Benign,Brute Force,75,"The traffic flow shows a low packet rate over a long duration, typical of repeated login attempts on port 3389, indicative of a brute force attack.",False,False
+Benign,Benign,85,"The traffic flow shows a typical pattern of normal DNS query traffic with UDP protocol, short duration, and minimal packet exchange.",False,True
+Benign,PortScan,85,"The flow has a short duration, equal numbers of forward and backward packets, and a high packet rate, which are characteristics of a port scan.",False,False
+Benign,PortScan,85,"The traffic flow shows a very short duration with minimal packets and bytes exchanged, typical of port scanning activity.",False,False
+Benign,Brute Force,75,"The traffic flow shows a low packet rate over a long duration, typical of repeated login attempts on port 3389, indicative of a brute force attack.",False,False
+Benign,PortScan,85,"The flow shows a very short duration with a low number of packets, typical of port scanning activity.",False,False
+Benign,Infiltration,85,"The flow shows a long duration with a low packet rate and significant idle time, similar to the Infiltration example.",False,False
+Benign,PortScan,85,"The traffic flow shows a very short duration with minimal packets exchanged, typical of port scanning activity.",False,False
+Benign,PortScan,85,"The traffic flow shows a very short duration with a low number of packets, indicative of port scanning behavior.",False,False
+Benign,Benign,95,The traffic flow shows typical characteristics of normal HTTP traffic with no signs of malicious activity.,False,True
+Benign,Benign,85,The traffic flow shows a typical pattern of normal DNS query traffic with UDP protocol and equal forward and backward packets.,False,True
+Benign,Benign,85,"The traffic flow shows typical characteristics of normal DNS traffic with UDP protocol, small packet sizes, and no signs of malicious activity.",False,True
+Benign,Benign,85,The traffic flow shows a typical pattern of normal DNS query traffic with minimal packets and balanced forward and backward communication.,False,True
+Benign,Benign,85,The traffic flow shows a single UDP packet exchange with typical characteristics of normal DNS queries.,False,True
+Benign,PortScan,85,"The traffic flow shows a very short duration with minimal packets and bytes, indicative of port scanning behavior.",False,False
+Benign,PortScan,85,"The traffic flow shows a very short duration with minimal packets exchanged, typical of port scanning behavior.",False,False
+Benign,PortScan,85,"The traffic flow shows a very short duration with minimal packets and bytes exchanged, typical of port scanning activity.",False,False
+Benign,PortScan,85,"The traffic flow shows a single packet exchange with a high packet rate, typical of port scanning activity.",False,False
+Benign,PortScan,85,"The traffic flow shows a very short duration with equal forward and backward packets, typical of port scanning activity.",False,False
+Benign,Brute Force,70,"The traffic flow shows a low packet rate over a long duration, typical of repeated login attempts on port 3389, indicative of a brute force attack.",False,False
+Benign,PortScan,85,"The traffic flow shows a single packet exchange with equal forward and backward packets, typical of port scanning behavior.",False,False
+Bot,Bot,70,"The traffic flow shows characteristics similar to botnet activity, including a high packet rate over a longer duration and a common destination port used by bots.",False,True
+Bot,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, indicative of port scanning behavior.",False,False
+Bot,Bot,70,"The traffic flow shows characteristics similar to bot activity, including a high flow duration and low packet rates typical of botnet command and control traffic.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet rates, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to the Bot example, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet count, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet count, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet count, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet count, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,70,"The flow shows characteristics similar to botnet activity, including a high packet rate and a non-standard destination port.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to the Bot example, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet count, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet count, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet count, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet count, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet count, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high packet rate, low total packets, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to the Bot example, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet rate, and a common destination port used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet count, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to the Bot example, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to the Bot example, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet count, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to the Bot example, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high packet rate, low total packets, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet count, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to the Bot example, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to the Bot example, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,80,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to the Bot example, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet count, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to the Bot example, including a high flow duration, low packet count, and a specific destination port (8080).",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to the Bot example, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to the Bot example, including a high flow duration, low packet count, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet count, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Web Attack,50,"The flow shows a very low byte rate and high packet rate, typical of a probing or attack behavior targeting port 8080.",False,False
+Bot,Bot,85,"The traffic flow shows characteristics similar to the Bot example, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to the Bot example, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow packet rate, low total packets, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to the Bot example, including a high flow duration, low packet count, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet count, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet count, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet count, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet count, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,70,"The flow shows characteristics similar to botnet activity, including a high packet rate and a non-standard destination port.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet count, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet count, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to the Bot example, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow packet rate, low total packets, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,70,"The flow shows characteristics similar to botnet activity, including a high packet rate and a non-standard destination port.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet count, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high packet rate, low total packets, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot attack, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet rate, and a destination port commonly used for botnet command and control.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow duration, low packet rate, and a specific destination port (8080) commonly used by bots.",False,True
+Bot,Bot,85,"The traffic flow shows characteristics similar to a bot, including a high flow packet rate, low total packets, and a destination port commonly used by bots.",False,True
+Brute Force,PortScan,85,"The traffic flow shows a low number of packets and bytes exchanged over a short duration, typical of port scanning activities.",False,False
+Brute Force,PortScan,85,"The traffic flow shows a low number of packets and bytes exchanged over a short duration, typical of port scanning activity.",False,False
+Brute Force,PortScan,85,"The traffic flow shows a very short duration with a low number of packets, indicative of port scanning behavior.",False,False
+Brute Force,Brute Force,70,"The traffic shows a low packet rate over a long duration, typical of repeated login attempts on port 21.",False,True
+Brute Force,Brute Force,70,"The traffic shows a low packet rate over a long duration, typical of repeated login attempts on port 21.",False,True
+Brute Force,Brute Force,70,"The traffic shows a low packet rate over a long duration, typical of repeated login attempts on port 21.",False,True
+Brute Force,Brute Force,85,"The traffic shows a high number of packets directed at port 22 over a long duration, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"The traffic shows a high number of packets directed at port 22 over a long duration, indicative of repeated login attempts.",False,True
+Brute Force,PortScan,85,"The traffic flow shows a single packet exchange to a specific port, indicative of port scanning behavior.",False,False
+Brute Force,Brute Force,85,"High number of packets and bytes over a long duration targeting a common port (22) used for SSH, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"The traffic shows a high number of packets directed at port 22 over a long duration with low byte rate, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,High number of packets and low duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,High number of packets and low duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"The traffic shows a high number of packets directed at port 22 over a long duration with low byte rate, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"The traffic shows a high number of packets directed at port 22 over a long duration, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"The traffic shows a high number of packets directed at port 22 over a long duration with low byte rate, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,High number of packets and low flow duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,"High number of packets and flags directed at port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,High number of packets and low duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,"High number of packets and low duration, typical of repeated login attempts on port 22.",False,True
+Brute Force,Brute Force,85,"High number of packets and bytes per second with repeated connection attempts to port 22, indicative of brute force attacks.",False,True
+Brute Force,Brute Force,85,High number of packets and low flow duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,"The traffic flow shows a high number of packets directed at port 22 over a long duration with low byte rate, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"The traffic shows a high number of packets directed at port 22 over a long duration, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"The traffic shows a high number of packets directed at port 22 over a long duration with low byte rate, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and low duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,High number of packets and low flow duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,High number of packets and low flow duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,High number of packets and low duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"The traffic shows a high number of packets directed at port 22 over a long duration with low byte rate, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"The traffic shows a high number of packets directed at port 22 over a long duration with low byte rate, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,High number of packets and low duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,High number of packets and low duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,"High number of packets and low duration, typical of repeated login attempts on port 22.",False,True
+Brute Force,Brute Force,85,High number of packets and low duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a prolonged period targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and flags exchanged over a prolonged period targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,High number of packets and low flow duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and low duration, typical of repeated login attempts on port 22.",False,True
+Brute Force,Brute Force,85,"High number of packets and low duration, typical of repeated login attempts on port 22.",False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,High number of packets and low duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,High number of packets and low duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and low duration, typical of repeated login attempts on port 22.",False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and low duration, typical of repeated login attempts on port 22.",False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and low flow duration to port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and low flow duration to port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,High number of packets and low duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,High number of packets and low duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,"High number of packets and flags exchanged over a prolonged period targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,High number of packets and low duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,High number of packets and low duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,High number of packets and low flow duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and low duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"The traffic shows a high number of packets directed at port 22 over a long duration with low byte rate, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"The traffic shows a high number of packets directed at port 22 over a long duration, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and flags exchanged over a prolonged period targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and low flow duration to port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,High number of packets and low duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and low duration, typical of repeated login attempts on port 22.",False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,High number of packets and low duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,High number of packets and low duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and flags directed at port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,High number of packets and low duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,High number of packets and low duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,"High number of packets and low duration, typical of repeated login attempts on port 22.",False,True
+Brute Force,Brute Force,85,High number of packets and low duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,"High number of packets and bytes exchanged over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"The traffic shows a high number of packets over a long duration targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and flags directed at port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and flags exchanged over a prolonged period targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,"High number of packets and flags exchanged over a prolonged period targeting port 22, indicative of repeated login attempts.",False,True
+Brute Force,Brute Force,85,High number of packets and low duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,High number of packets and low duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,"High number of packets and bytes per second with repeated connection attempts to port 22, indicative of brute force attacks.",False,True
+Brute Force,Brute Force,85,High number of packets and low flow duration with repeated connection attempts to port 22.,False,True
+Brute Force,Brute Force,85,High number of packets and flags exchanged over a prolonged period targeting a common port (22) indicative of brute force attempts.,False,True
+Brute Force,Brute Force,85,High number of packets and low duration targeting a common port (22) indicative of repeated login attempts.,False,True
+Brute Force,Brute Force,85,High number of packets and low duration with repeated connection attempts to port 22.,False,True
+DoS/DDoS,Web Attack,80,"The flow shows a very low packet rate and byte rate, typical of a web attack where an attacker might be testing for vulnerabilities or attempting to inject malicious content.",False,False
+DoS/DDoS,DoS/DDoS,85,"The flow shows a very low packet rate and byte rate over a long duration, typical of a DoS/DDoS attack.",False,True
+DoS/DDoS,DoS/DDoS,85,"The flow shows a very long duration with a low packet rate, indicative of a DoS/DDoS attack.",False,True
+DoS/DDoS,DoS/DDoS,80,"The flow shows a very low packet rate and byte rate over a long duration, indicative of a potential DoS/DDoS attack.",False,True
+DoS/DDoS,DoS/DDoS,70,High flow duration and low packet rates suggest a potential DoS/DDoS attack.,False,True
+DoS/DDoS,DoS/DDoS,70,High flow duration and low packet rates suggest a potential DoS/DDoS attack.,False,True
+DoS/DDoS,DoS/DDoS,70,"The flow shows a very low packet rate and byte rate over a long duration, indicative of a potential DoS/DDoS attack.",False,True
+DoS/DDoS,DoS/DDoS,70,High flow duration and low packet rates suggest a potential DoS/DDoS attack.,False,True
+DoS/DDoS,Web Attack,70,"Low packet rate and byte rate, single direction traffic, and connection to port 80 suggest a potential web attack.",False,False
+DoS/DDoS,DoS/DDoS,85,"The flow shows a very long duration with a low packet rate, typical of a DoS/DDoS attack.",False,True
+DoS/DDoS,DoS/DDoS,70,High flow duration and low packet rates suggest a potential DoS/DDoS attack.,False,True
+DoS/DDoS,DoS/DDoS,80,"The flow shows a very low packet rate and byte rate over a long duration, indicative of a potential DoS/DDoS attack.",False,True
+DoS/DDoS,Web Attack,85,"The flow shows minimal packets and bytes transferred, typical of a probing or malicious request to a web server.",False,False
+DoS/DDoS,DoS/DDoS,70,High flow duration and low packet rates suggest a potential DoS/DDoS attack.,False,True
+DoS/DDoS,DoS/DDoS,85,"The flow shows a very long duration with low packet rates and high packet sizes, indicative of a DoS/DDoS attack.",False,True
+DoS/DDoS,DoS/DDoS,85,"The flow shows a very long duration with a low packet rate, typical of a DoS/DDoS attack.",False,True
+DoS/DDoS,DoS/DDoS,85,"The flow shows a very long duration with a low packet rate, indicative of a potential DoS/DDoS attack.",False,True
+DoS/DDoS,DoS/DDoS,85,"The flow shows a very long duration with low packet rates and high byte rates, indicative of a DoS/DDoS attack.",False,True
+DoS/DDoS,DoS/DDoS,85,"The flow shows a very long duration with a low packet rate, typical of a DoS/DDoS attack.",False,True
+DoS/DDoS,PortScan,85,"The traffic flow shows a very short duration with an equal number of forward and backward packets, indicative of port scanning behavior.",False,False
+DoS/DDoS,DoS/DDoS,85,"The flow shows a very long duration with a low packet rate, typical of a DoS/DDoS attack.",False,True
+DoS/DDoS,DoS/DDoS,85,High flow duration and low packet rates suggest a potential DoS/DDoS attack.,False,True
+DoS/DDoS,DoS/DDoS,85,"The flow shows a very long duration with low packet rates and high byte rates, indicative of a DoS/DDoS attack.",False,True
+DoS/DDoS,DoS/DDoS,85,"The flow shows a very long duration with a low packet rate, indicative of a potential DoS/DDoS attack.",False,True
+DoS/DDoS,DoS/DDoS,85,"The flow shows a very long duration with a low packet rate, typical of a DoS/DDoS attack.",False,True
+DoS/DDoS,DoS/DDoS,85,"The flow shows a very long duration with a low packet rate, indicative of a potential DoS/DDoS attack.",False,True
+DoS/DDoS,DoS/DDoS,85,"The flow shows a very long duration with a low packet rate, typical of DoS/DDoS attacks.",False,True
+DoS/DDoS,DoS/DDoS,85,"The flow shows a very long duration with a low packet rate, indicative of a potential DoS/DDoS attack.",False,True
+DoS/DDoS,Web Attack,70,"The flow shows a high packet rate with no backward packets and a single ACK flag, similar to a web attack attempt.",False,False
+DoS/DDoS,DoS/DDoS,85,"The flow shows a very long duration with minimal packets and bytes, indicative of a potential DoS/DDoS attack.",False,True
+DoS/DDoS,Web Attack,80,"The flow shows a very low packet rate and byte rate, typical of a probing or malicious request to a web server.",False,False
+DoS/DDoS,DoS/DDoS,60,The flow duration and low packet rates are indicative of a potential DoS/DDoS attack.,False,True
+DoS/DDoS,Web Attack,85,"The flow shows characteristics similar to a web attack, including a single destination port (80), minimal packet exchange, and low flow byte rate.",False,False
+DoS/DDoS,Web Attack,70,"The flow shows a single ACK flag with no backward packets and minimal packet activity, indicative of a potential web attack reconnaissance attempt.",False,False
+DoS/DDoS,Benign,85,"The traffic flow shows typical characteristics of normal communication with a web server, including a standard destination port (80) and packet rates within normal range.",False,False
+DoS/DDoS,Benign,85,The traffic flow shows typical characteristics of normal web traffic with a low packet count and a standard destination port of 80.,False,False
+DoS/DDoS,Web Attack,70,"The flow shows a low packet rate and byte rate, with a single ACK flag and no backward packets, similar to a probing or initial phase of a web attack.",False,False
+DoS/DDoS,Web Attack,70,"The flow shows a low packet rate and byte rate, with a single ACK flag and no backward packets, similar to a probing or initial phase of a web attack.",False,False
+DoS/DDoS,Web Attack,70,"The flow shows a low packet rate and byte rate, typical of a web attack where the attacker is probing or attempting to exploit the server.",False,False
+DoS/DDoS,Web Attack,70,"The flow shows a very low packet rate and byte rate, typical of a web attack where the attacker is probing or attempting to exploit the server.",False,False
+DoS/DDoS,Benign,80,The traffic flow shows characteristics similar to benign traffic with a low packet rate and normal port usage.,False,False
+DoS/DDoS,Benign,80,The traffic flow shows characteristics similar to benign traffic with a low packet rate and a standard TCP connection attempt.,False,False
+DoS/DDoS,Benign,80,"The flow shows characteristics similar to benign traffic with a low packet rate and a single RST flag, indicating a normal TCP connection attempt.",False,False
+DoS/DDoS,Benign,80,The flow shows characteristics similar to benign traffic with a low packet rate and normal port usage.,False,False
+DoS/DDoS,Benign,80,"The traffic flow shows a low packet rate and a standard RST flag count, typical of benign activity.",False,False
+DoS/DDoS,Benign,80,"The flow shows characteristics similar to benign traffic with a low packet rate and a single RST flag, indicating a normal TCP connection attempt.",False,False
+DoS/DDoS,Benign,80,The flow shows characteristics similar to benign traffic with a single RST flag and a normal download-to-upload ratio.,False,False
+DoS/DDoS,Benign,80,The flow shows characteristics similar to benign traffic with a low packet rate and normal port usage.,False,False
+DoS/DDoS,Benign,80,The traffic flow shows characteristics similar to benign traffic with a single RST flag and a normal download-to-upload ratio.,False,False
+DoS/DDoS,Benign,80,"The flow shows characteristics similar to benign traffic with a low packet rate and a single RST flag, indicating a normal TCP connection attempt.",False,False
+DoS/DDoS,Benign,80,The flow shows characteristics similar to benign traffic with a low packet rate and normal port usage.,False,False
+DoS/DDoS,Benign,80,The flow shows characteristics similar to benign traffic with a low packet rate and normal port usage.,False,False
+DoS/DDoS,Benign,80,The flow shows characteristics similar to benign traffic with a low packet rate and normal port usage.,False,False
+DoS/DDoS,Benign,80,The flow shows characteristics similar to benign traffic with a low packet rate and normal port usage.,False,False
+DoS/DDoS,Benign,80,"The flow shows characteristics similar to benign traffic with a low packet rate and a single RST flag, indicating a normal TCP connection attempt.",False,False
+DoS/DDoS,Benign,80,The flow shows characteristics similar to benign traffic with a low packet rate and normal port usage.,False,False
+DoS/DDoS,Web Attack,85,"The flow shows minimal packets and bytes transferred with a high idle time, typical of a probing or malicious activity targeting web services.",False,False
+DoS/DDoS,Web Attack,80,"The flow shows a very low packet rate and byte rate, with a single ACK flag and no backward packets, similar to the Web Attack example.",False,False
+DoS/DDoS,Benign,80,The flow shows characteristics similar to benign traffic with a low packet rate and a standard web port destination.,False,False
+DoS/DDoS,Web Attack,85,"The flow shows a low packet rate and byte rate, with a single ACK flag and no backward packets, similar to the Web Attack example.",False,False
+DoS/DDoS,Web Attack,80,"The flow shows a very low packet rate and byte rate, with a single ACK flag and no backward packets, similar to a probing or initial phase of a web attack.",False,False
+DoS/DDoS,Web Attack,85,"The flow shows a very low packet rate and byte rate, with a single ACK flag and no backward packets, similar to the Web Attack example.",False,False
+DoS/DDoS,Web Attack,85,"The flow shows a very low packet rate and byte rate, with a single ACK flag and no backward packets, similar to the Web Attack example.",False,False
+DoS/DDoS,Benign,80,The flow shows characteristics similar to benign traffic with a low packet rate and a standard HTTP port (80) usage.,False,False
+DoS/DDoS,Benign,80,The flow shows characteristics similar to benign traffic with a low packet rate and normal port usage.,False,False
+DoS/DDoS,Benign,80,The flow shows characteristics similar to benign traffic with a low packet rate and normal port usage.,False,False
+DoS/DDoS,DoS/DDoS,80,Long flow duration and low packet rate suggest a potential DoS/DDoS attack.,False,True
+DoS/DDoS,Benign,80,The flow shows characteristics similar to benign traffic with a low packet rate and normal port usage.,False,False
+DoS/DDoS,Web Attack,85,"The flow shows a very low packet rate and byte rate, with a single ACK flag and no backward packets, indicative of a potential web attack signature.",False,False
+DoS/DDoS,Web Attack,85,"The flow shows a very low packet rate and byte rate, with a single ACK flag and no backward packets, similar to a probing or initial phase of a web attack.",False,False
+DoS/DDoS,Benign,80,The flow shows characteristics similar to benign traffic with a low packet rate and a standard HTTP port (80) usage.,False,False
+DoS/DDoS,Web Attack,80,"The flow shows a very low packet rate and byte rate, with a single ACK flag and no backward packets, similar to a probing or initial phase of a web attack.",False,False
+DoS/DDoS,Web Attack,85,"The flow shows a very low packet rate and byte rate, with a single ACK flag and no backward packets, similar to the Web Attack example.",False,False
+DoS/DDoS,Benign,80,The flow shows characteristics similar to benign traffic with a low packet rate and normal port usage.,False,False
+DoS/DDoS,Web Attack,85,"The flow shows a very low packet rate and byte rate, with a single ACK flag and no backward packets, indicative of a potential web attack signature.",False,False
+DoS/DDoS,Benign,80,The flow shows characteristics similar to benign traffic with a low packet rate and a standard HTTP port (80) usage.,False,False
+DoS/DDoS,DoS/DDoS,85,Long flow duration and low packet rates are indicative of a DoS/DDoS attack.,False,True
+DoS/DDoS,Benign,80,The flow shows characteristics similar to benign traffic with a low packet rate and a standard HTTP port (80) usage.,False,False
+DoS/DDoS,DoS/DDoS,85,Long flow duration and low packet rates suggest a potential DoS/DDoS attack.,False,True
+DoS/DDoS,Web Attack,85,"The flow shows a very low packet rate and byte rate, with a single ACK flag and no backward packets, indicative of a potential web attack signature.",False,False
+DoS/DDoS,Web Attack,80,"The flow shows a very low packet rate and byte rate, with a single ACK flag and no backward packets, similar to a probing or initial phase of a web attack.",False,False
+DoS/DDoS,Web Attack,80,"The flow shows a very low packet rate and byte rate, with a single ACK flag and no backward packets, similar to a probing or initial phase of a web attack.",False,False
+DoS/DDoS,Web Attack,85,"The flow shows a very low packet rate and byte rate, with a single ACK flag and no backward packets, indicative of a potential web attack signature.",False,False
+DoS/DDoS,Web Attack,80,"The flow shows a single ACK flag with no packets in either direction, resembling a failed or interrupted connection attempt typical of web attacks.",False,False
+DoS/DDoS,DoS/DDoS,85,Long flow duration and low packet rates are indicative of a DoS/DDoS attack.,False,True
+DoS/DDoS,DoS/DDoS,85,Long flow duration and low packet rates are indicative of a DoS/DDoS attack.,False,True
+DoS/DDoS,DoS/DDoS,80,"The flow shows a very long duration with minimal packets and bytes, indicative of a potential DoS/DDoS attack.",False,True
+DoS/DDoS,Web Attack,80,"The flow shows a very low packet rate and byte rate, with a single ACK flag and no backward packets, similar to a probing or initial phase of a web attack.",False,False
+DoS/DDoS,Benign,85,"The traffic flow shows minimal packet exchange with a single ACK flag, typical of normal TCP handshake attempts.",False,False
+DoS/DDoS,Benign,80,The flow shows characteristics similar to benign traffic with a typical HTTP port (80) and normal packet rates.,False,False
+DoS/DDoS,Benign,80,The flow shows typical benign characteristics with a standard HTTP port (80) and no signs of malicious activity such as high packet rates or unusual flag counts.,False,False
+DoS/DDoS,Benign,85,"The traffic flow shows minimal packet exchange with a single ACK flag, typical of normal TCP handshake attempts.",False,False
+DoS/DDoS,Benign,80,The flow shows typical characteristics of normal traffic with a standard destination port (80) and no signs of malicious activity.,False,False
+DoS/DDoS,Benign,85,The traffic flow shows characteristics similar to benign traffic with a typical HTTP port (80) and normal packet rates.,False,False
+DoS/DDoS,Benign,85,"The traffic flow shows characteristics similar to benign traffic with a high flow packet rate and byte rate, typical of normal HTTP traffic to port 80.",False,False
+DoS/DDoS,Benign,85,The flow shows typical characteristics of normal traffic with a standard destination port (80) and no signs of malicious activity.,False,False
+DoS/DDoS,Benign,85,"The flow shows typical characteristics of normal traffic with a high packet rate and standard deviation in packet length, similar to the benign example provided.",False,False
+DoS/DDoS,Benign,80,The flow shows typical characteristics of normal traffic with a single RST flag and a balanced packet exchange.,False,False
+DoS/DDoS,Benign,85,The traffic flow shows characteristics similar to normal benign traffic with a high flow rate and typical packet sizes.,False,False
+DoS/DDoS,Benign,80,The flow shows typical characteristics of normal traffic with a single RST flag and a balanced packet exchange.,False,False
+Infiltration,Benign,85,The traffic flow shows typical characteristics of normal communication with a low packet count and standard protocol behavior.,False,False
+Infiltration,Infiltration,70,"High flow duration and packet size variability, along with a high number of backward packets, suggest covert communication typical of infiltration activities.",False,True
+Infiltration,PortScan,85,"The traffic flow shows a very short duration with a low number of packets, indicative of port scanning behavior.",False,False
+Infiltration,Benign,85,"The traffic flow shows a single UDP packet exchange, typical of normal DNS queries.",False,False
+Infiltration,Benign,85,The traffic flow shows a single UDP packet exchange with typical characteristics of normal DNS traffic.,False,False
+Infiltration,Benign,85,The traffic flow shows typical characteristics of normal DNS queries with UDP protocol and small packet exchanges.,False,False
+Infiltration,Benign,85,The traffic flow shows typical characteristics of normal DNS query traffic.,False,False
+Infiltration,Brute Force,75,"The traffic flow shows a low packet rate over a long duration, typical of repeated login attempts on port 3389, indicative of a brute force attack.",False,False
+Infiltration,Brute Force,75,"The traffic flow shows a low packet rate over a long duration, typical of repeated login attempts on port 3389, indicative of a Brute Force attack.",False,False
+Infiltration,Benign,85,"The traffic flow shows a typical pattern of normal DNS query traffic with UDP protocol, short duration, and minimal packet exchange.",False,False
+Infiltration,Benign,85,The traffic flow shows a single UDP packet exchange with typical characteristics of normal DNS traffic.,False,False
+Infiltration,Infiltration,85,"The flow shows a high flow duration with a significant number of packets and bytes exchanged, typical of an infiltration attempt.",False,True
+Infiltration,Infiltration,85,"The flow shows a high duration with a balanced number of forward and backward packets, low packet rates, and significant idle times, indicative of stealthy data exfiltration or lateral movement typical of infiltration attacks.",False,True
+Infiltration,Benign,85,"The traffic flow shows typical characteristics of normal DNS traffic with UDP protocol, small packet count, and no unusual flags or high activity rates.",False,False
+Infiltration,Brute Force,85,"The traffic shows a low packet rate over a long duration, typical of repeated login attempts on port 3389, indicative of a brute force attack.",False,False
+Infiltration,Benign,85,The traffic flow shows typical characteristics of normal communication with a low packet count and standard protocol flags.,False,False
+Infiltration,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,False
+Infiltration,Benign,85,The traffic flow shows a typical benign connection attempt with a single ACK flag and no backward packets.,False,False
+Infiltration,Benign,85,The traffic flow shows a single UDP packet exchange with typical characteristics of normal DNS queries.,False,False
+Infiltration,Brute Force,75,"The traffic flow shows a low packet rate and a high duration, typical of repeated login attempts on port 3389.",False,False
+Infiltration,DoS/DDoS,85,"The flow shows a very low packet rate and byte rate over a long duration, indicative of a potential DoS/DDoS attack.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a very short duration with a high packet rate and no backward packets, indicative of port scanning behavior.",False,False
+Infiltration,Infiltration,70,"The traffic flow shows a high flow duration and significant packet size variability, similar to the infiltration example.",False,True
+Infiltration,Infiltration,70,"The flow shows a high packet length variability and a significant flow duration, indicative of an infiltration attempt.",False,True
+Infiltration,DoS/DDoS,85,Long flow duration and low packet rates suggest a potential DoS/DDoS attack.,False,False
+Infiltration,Benign,85,"The traffic flow shows a single UDP packet exchange, typical of normal DNS queries.",False,False
+Infiltration,Benign,85,"The traffic flow shows typical characteristics of normal DNS traffic with UDP protocol, small packet count, and no signs of malicious activity.",False,False
+Infiltration,DoS/DDoS,70,High flow duration and low packet rates suggest a potential DoS/DDoS attack.,False,False
+Infiltration,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,False
+Infiltration,DoS/DDoS,80,"The flow has a very high flow duration and low packet rates, indicative of a potential DoS/DDoS attack.",False,False
+Infiltration,Infiltration,85,"The flow shows a high duration with a balanced number of forward and backward packets, low packet rates, and significant idle times, indicative of stealthy data exfiltration or lateral movement typical of infiltration attacks.",False,True
+Infiltration,Infiltration,85,"The flow shows a long duration with a low packet rate and significant idle time, similar to the Infiltration example.",False,True
+Infiltration,Infiltration,85,"The flow shows a high flow duration with a significant number of packets and bytes exchanged, typical of an infiltration attempt.",False,True
+Infiltration,Benign,85,The traffic flow shows a single UDP packet exchange with typical characteristics of normal DNS queries.,False,False
+Infiltration,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, indicative of port scanning behavior.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a single packet exchange with a high packet rate, typical of port scanning activity.",False,False
+Infiltration,PortScan,85,"The flow shows a very short duration with minimal packets and bytes, indicative of port scanning behavior.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a single packet exchange to a common port (53), indicative of port scanning behavior.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, indicative of port scanning behavior.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a single packet exchange to a common port (53), indicative of port scanning behavior.",False,False
+Infiltration,Benign,85,"The traffic flow shows typical characteristics of normal DNS traffic with UDP protocol, small packet sizes, and no signs of malicious activity.",False,False
+Infiltration,Infiltration,70,"The flow shows a high idle mean and low packet rates, similar to an infiltration attempt.",False,True
+Infiltration,Infiltration,85,"The flow shows a high duration with low packet rates and a significant idle time, similar to the Infiltration example.",False,True
+Infiltration,Benign,85,The traffic flow shows minimal packet exchange typical of normal DNS queries.,False,False
+Infiltration,PortScan,85,"The traffic flow shows a single packet exchange with a short duration, typical of port scanning activity.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a very short duration with a low number of packets, typical of port scanning activities.",False,False
+Infiltration,DoS/DDoS,85,"The flow shows a very long duration with low packet rates and high packet size variability, indicative of a DoS/DDoS attack.",False,False
+Infiltration,Brute Force,85,"The traffic flow shows a low packet rate over a long duration, typical of repeated login attempts on port 3389, indicative of a brute force attack.",False,False
+Infiltration,Benign,85,"The traffic flow shows typical characteristics of normal communication with UDP protocol, small packet count, and no signs of malicious activity.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a single packet exchange with equal forward and backward packets, typical of port scanning behavior.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, indicative of port scanning behavior.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a very short duration with a single forward and backward packet, indicative of port scanning behavior.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, indicative of port scanning behavior.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a single direction packet transmission with a high packet rate and uniform packet sizes, indicative of port scanning behavior.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a very short duration with a low number of packets, indicative of port scanning behavior.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a single packet exchange to an unusual port, indicative of port scanning behavior.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a single packet exchange to an unusual port, indicative of port scanning behavior.",False,False
+Infiltration,Brute Force,70,"The traffic flow shows a low packet rate over a long duration, typical of repeated login attempts on port 3389, indicative of a Brute Force attack.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a single packet exchange to an uncommon port, indicative of port scanning behavior.",False,False
+Infiltration,Benign,85,The traffic flow shows a single UDP packet exchange with typical characteristics of normal DNS traffic.,False,False
+Infiltration,PortScan,85,"The flow has a very short duration and a high packet rate, indicative of port scanning activity.",False,False
+Infiltration,Benign,85,"The traffic flow shows a typical pattern of normal DNS query traffic with UDP protocol, short duration, and minimal packet exchange.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a single packet exchange to a high port number, indicative of port scanning behavior.",False,False
+Infiltration,Infiltration,85,"The flow shows a long duration with a low packet rate and significant idle time, similar to the infiltration example.",False,True
+Infiltration,DoS/DDoS,85,"The flow shows a very low packet rate and byte rate over a long duration, indicative of a potential DoS/DDoS attack.",False,False
+Infiltration,Brute Force,85,"The traffic flow shows a low packet rate and a high duration, typical of repeated login attempts on port 3389.",False,False
+Infiltration,Infiltration,85,"The flow shows a long duration, low packet rate, and high packet size variability, typical of stealthy data exfiltration activities.",False,True
+Infiltration,Benign,85,The traffic flow shows typical characteristics of normal communication with a low volume of packets and a standard protocol interaction.,False,False
+Infiltration,Infiltration,85,"The flow shows a long duration with a low packet rate and significant idle time, similar to the Infiltration example.",False,True
+Infiltration,PortScan,85,"The flow has a very short duration and a high packet rate, indicative of port scanning activity.",False,False
+Infiltration,Benign,85,"The traffic flow shows typical characteristics of normal DNS traffic with UDP protocol, small packet count, and no signs of malicious activity.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a single packet exchange to a non-standard port, indicative of port scanning behavior.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a very short duration with equal forward and backward packets, typical of port scanning activity.",False,False
+Infiltration,Brute Force,85,"The traffic shows a low number of packets over a relatively long duration targeting a common port (22) used for SSH, indicative of repeated login attempts.",False,False
+Infiltration,Benign,85,The traffic flow shows a typical pattern of normal DNS query traffic with minimal packets and balanced forward and backward communication.,False,False
+Infiltration,Infiltration,85,"The flow shows a long duration with a low packet rate and significant idle time, similar to the Infiltration example.",False,True
+Infiltration,Benign,85,The traffic flow shows a typical pattern of normal DNS query traffic with minimal packets and balanced forward and backward packets.,False,False
+Infiltration,PortScan,85,"The traffic flow shows a very short duration with a low number of packets, typical of port scanning activity.",False,False
+Infiltration,Brute Force,70,"The traffic flow shows a low packet rate and a high duration, typical of repeated login attempts on port 3389.",False,False
+Infiltration,Brute Force,70,"The flow shows a high number of packets over a long duration targeting a common port (3389) used for remote desktop services, indicative of repeated login attempts.",False,False
+Infiltration,Benign,85,The traffic flow shows a single UDP packet exchange with typical characteristics of normal DNS traffic.,False,False
+Infiltration,Brute Force,70,"The traffic flow shows a low packet rate over a long duration, typical of repeated login attempts on port 3389, indicative of a brute force attack.",False,False
+Infiltration,Benign,85,"The traffic flow shows typical characteristics of normal DNS traffic with UDP protocol, short duration, and minimal packet exchange.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a very short duration with a single packet in each direction, indicative of port scanning behavior.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a very short duration with a single packet in each direction, typical of port scanning behavior.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a single packet exchange with a high packet rate, typical of port scanning activity.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a very short duration with minimal packets and bytes exchanged, indicative of port scanning behavior.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a single packet exchange to an uncommon port, indicative of port scanning behavior.",False,False
+Infiltration,Benign,85,"The traffic flow shows typical characteristics of normal communication with UDP protocol, short duration, and balanced forward and backward packets.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a single packet exchange to an unusual port, indicative of port scanning behavior.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a single packet exchange with a high packet rate, typical of port scanning activity.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, indicative of port scanning behavior.",False,False
+Infiltration,Brute Force,85,"The traffic flow shows a low packet rate and a high duration, typical of repeated login attempts on port 3389.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a single packet exchange with high packet rate, typical of port scanning activity.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, indicative of port scanning behavior.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a single packet exchange to a non-standard port, indicative of port scanning behavior.",False,False
+Infiltration,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, indicative of port scanning behavior.",False,False
+Infiltration,Brute Force,75,"The flow shows a low packet rate over a long duration, typical of repeated login attempts on port 3389.",False,False
+Infiltration,Benign,85,The traffic flow shows typical characteristics of normal communication with a low packet count and standard protocol flags.,False,False
+Infiltration,Infiltration,85,"The flow shows a long duration with a low packet rate and significant idle time, similar to the infiltration example.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a single forward and backward packet, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a single forward and backward packet, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a single packet in each direction, typical of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a single packet in each direction, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a single packet in each direction, typical of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a single packet in each direction, typical of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a small number of packets exchanged, typical of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a small number of packets exchanged, typical of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a single forward and backward packet, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a single forward and backward packet, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a single forward and backward packet, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a single forward and backward packet, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a small number of packets exchanged, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a single forward and backward packet, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a small number of packets exchanged, typical of port scanning activities.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a single forward and backward packet, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a single packet in each direction, typical of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a single forward and backward packet, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with an equal number of forward and backward packets, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a low number of packets exchanged, typical of port scanning activities.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with an equal number of forward and backward packets, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a small number of packets exchanged, typical of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with an equal number of forward and backward packets, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with an equal number of forward and backward packets, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a single forward and backward packet, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a small number of packets exchanged, typical of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with an equal number of forward and backward packets, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with an equal number of forward and backward packets, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a minimal number of packets exchanged, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a minimal number of packets exchanged, typical of port scanning activity.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a small number of packets exchanged, typical of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a single forward and backward packet, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with an equal number of forward and backward packets, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with an equal number of forward and backward packets, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with an equal number of forward and backward packets, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with an equal number of forward and backward packets, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a low number of packets exchanged, typical of port scanning activities.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a single forward and backward packet, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a single packet in each direction, typical of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with an equal number of forward and backward packets, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a single packet in each direction, typical of port scanning behavior.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with an equal number of forward and backward packets, typical of port scanning activities.",False,True
+PortScan,PortScan,95,"The traffic flow shows a very short duration with a single forward and backward packet, indicative of port scanning behavior.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with a single forward and backward packet, typical of port scanning activity.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with an equal number of forward and backward packets, typical of port scanning activities.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,95,"The traffic flow shows a very short duration with a single forward and backward packet, indicative of port scanning behavior.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with a single forward and backward packet, typical of port scanning activity.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,95,"The traffic flow shows a very short duration with a single forward and backward packet, indicative of port scanning behavior.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,95,"The traffic flow shows a very short duration with a single forward and backward packet, indicative of port scanning behavior.",False,True
+PortScan,PortScan,95,"The traffic flow shows a very short duration with a single forward and backward packet, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with a minimal number of packets exchanged, typical of port scanning activities.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,95,"The traffic flow shows a very short duration with a single forward and backward packet, indicative of port scanning behavior.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with a single forward and backward packet, typical of port scanning activity.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,95,"The traffic flow shows a very short duration with a minimal number of packets exchanged, typical of port scanning activities.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,95,"The traffic flow shows a very short duration with a single forward and backward packet, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,95,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning behavior.",False,True
+PortScan,PortScan,95,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,95,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,95,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,95,"The traffic flow shows a very short duration with a single forward and backward packet, indicative of port scanning behavior.",False,True
+PortScan,PortScan,95,"The traffic flow shows a very short duration with a single forward and backward packet, indicative of port scanning behavior.",False,True
+PortScan,PortScan,95,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning behavior.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with a single packet in each direction, typical of port scanning activity.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with a single packet in each direction, typical of port scanning activity.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with a single packet in each direction, typical of port scanning activity.",False,True
+PortScan,PortScan,95,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning behavior.",False,True
+PortScan,PortScan,95,"The traffic flow shows a very short duration with a single packet in each direction, typical of port scanning behavior.",False,True
+PortScan,PortScan,95,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with minimal packets exchanged, typical of port scanning activity.",False,True
+PortScan,PortScan,95,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with a small number of packets exchanged, typical of port scanning behavior.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,100,"The traffic flow shows a very short duration with equal numbers of forward and backward packets, typical of port scanning activity.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a low number of packets exchanged, typical of port scanning activities.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with an equal number of forward and backward packets, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a low number of packets exchanged, typical of port scanning activities.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a minimal number of packets exchanged, indicative of port scanning behavior.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a low number of packets exchanged, typical of port scanning activities.",False,True
+PortScan,PortScan,85,"The traffic flow shows a very short duration with a minimal number of packets exchanged, indicative of port scanning behavior.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred, directed at port 80, with no significant activity, which is indicative of a potential web attack signature.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred, directed at port 80, with characteristics similar to a web attack example.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred over a long duration, typical of a probing or attack reconnaissance phase targeting port 80.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows a very low packet rate and byte rate, directed at a common web port (80), which is characteristic of a web attack.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packets and bytes transferred with a focus on port 80, typical of web-based attacks.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred, directed at port 80, with characteristics similar to a web attack example.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred, directed to port 80, with characteristics similar to the provided Web Attack example.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packets and bytes transferred with a focus on port 80, typical of web-based attacks.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred, directed at port 80, with characteristics similar to a web attack example.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred over a long duration, typical of a probing or malicious activity targeting web services.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange to port 80 with zero byte rate, similar to a web attack signature.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred, directed at port 80, with no significant activity, which is indicative of a potential web attack signature.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange to port 80 with very low byte and packet rates, indicative of a potential web attack signature.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred, typical of a web attack where the attacker is probing or attempting to exploit vulnerabilities without significant data transfer.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packets and bytes transferred with a focus on port 80, typical of web-based attacks.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packets and bytes transferred with a focus on port 80, typical of web-based attacks.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packets and bytes transferred with a focus on port 80, typical of web-based attacks.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred, directed to port 80, and lacks typical benign traffic characteristics.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange to port 80 with very low byte and packet rates, indicative of a potential web attack signature.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred, directed at port 80, with no packet length variability, which is indicative of a potential web attack signature.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred, directed at port 80, with characteristics similar to a web attack example.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred, directed to port 80, and no significant activity, which is indicative of a potential web attack signature.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange to port 80 with zero byte rate, similar to a web attack signature.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange to port 80 with very low byte and packet rates, indicative of a potential web attack signature.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred over a long duration, typical of a web attack signature.",False,True
+Web Attack,DoS/DDoS,70,The flow duration and low packet rates per second are indicative of a potential DoS/DDoS attack.,False,False
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange to port 80 with very low byte and packet rates, indicative of a potential web attack signature.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange to port 80 with very low byte and packet rates, indicative of a potential web attack signature.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange to port 80 with zero byte rate, similar to a web attack signature.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange to port 80 with zero byte rate, similar to a web attack signature.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packets and bytes transferred with a focus on port 80, similar to the provided Web Attack example.",False,True
+Web Attack,DoS/DDoS,85,"The flow shows a very long duration with a low packet rate, indicative of a potential DoS/DDoS attack.",False,False
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred over a long duration, typical of a probing or malicious request pattern.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packets and bytes transferred with a focus on port 80, typical of web-based attacks.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange with a destination port of 80, typical for web traffic, and very low byte and packet rates, similar to the Web Attack example.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange to port 80 with very low byte and packet rates, indicative of a potential web attack signature.",False,True
+Web Attack,Web Attack,85,"The flow shows characteristics similar to a web attack, including low packet and byte rates, and a single destination port of 80.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred, directed to port 80, and no significant packet activity, which is indicative of a potential web attack signature.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange to port 80 with zero byte rate, similar to the Web Attack example.",False,True
+Web Attack,DoS/DDoS,70,"The flow shows a very long duration with a low packet rate, indicative of a potential DoS/DDoS attack.",False,False
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred, directed at port 80, with characteristics similar to a web attack example.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred over a long duration, similar to the Web Attack example.",False,True
+Web Attack,Web Attack,70,"The flow shows a single ACK flag with no data packets, typical of initial connection attempts in web attacks.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred, directed to port 80, and no significant packet or byte rate, which is indicative of a web attack signature.",False,True
+Web Attack,DoS/DDoS,85,"The flow shows a very long duration with a low packet rate, indicative of a potential DoS/DDoS attack.",False,False
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange with a web server port (80), no data transfer, and very low packet rates, indicative of a potential web attack reconnaissance or probing activity.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange to port 80 with very low byte and packet rates, indicative of a potential web attack signature.",False,True
+Web Attack,Web Attack,70,"The flow shows a single ACK flag with no backward packets and minimal packet activity, indicative of a potential web attack reconnaissance attempt.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange to port 80 with very low byte and packet rates, indicative of a potential web attack signature.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange with a destination port of 80, typical for web traffic, and very low byte and packet rates, similar to the Web Attack example.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred, directed to port 80, and lacks typical benign traffic characteristics.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows a low packet rate and byte rate, directed at port 80, which is typical of web attacks attempting to exploit vulnerabilities.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange with a destination port of 80, typical for web traffic, and very low byte and packet rates, similar to the Web Attack example.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange to port 80 with zero byte rate, similar to a web attack signature.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred, directed to port 80, with characteristics similar to a web attack example.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange with a destination port of 80, typical for web traffic, and very low byte and packet rates, similar to the Web Attack example.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange with a destination port of 80, typical for web traffic, and very low byte and packet rates, similar to the Web Attack example.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred over a long duration, typical of a probing or attack reconnaissance phase targeting HTTP services.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred with a focus on port 80, consistent with a web attack signature.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred over a long duration, similar to the Web Attack example.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange to port 80 with zero byte rate, similar to a web attack signature.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange to port 80 with zero byte rate, similar to the Web Attack example.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows a low packet rate and byte rate, directed at port 80, which is typical of web attacks attempting to exploit vulnerabilities.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange to port 80 with zero byte rate, similar to a web attack signature.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange with a destination port of 80, typical for web traffic, and very low byte and packet rates, similar to the Web Attack example.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred, directed to port 80, and no significant activity, which is indicative of a web attack signature.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange to port 80 with very low byte and packet rates, indicative of a potential web attack signature.",False,True
+Web Attack,Web Attack,85,"The traffic flow shows minimal packets and bytes transferred over a long duration, typical of a web attack where attempts are made to exploit vulnerabilities without significant data transfer.",False,True
+Web Attack,Web Attack,85,"The flow shows minimal packet exchange to port 80 with very low byte and packet rates, indicative of a potential web attack signature.",False,True
+Web Attack,PortScan,85,"The traffic flow shows a very short duration with equal forward and backward packets, indicative of port scanning behavior.",False,False
+Web Attack,DoS/DDoS,70,"The flow shows a low packet rate and high flow duration, indicative of a potential DoS/DDoS attack.",False,False
+Web Attack,Benign,80,"The traffic flow shows a low packet rate and a standard TCP connection pattern with a RST flag, indicative of a normal connection attempt termination.",False,False
+Web Attack,Web Attack,60,"The low flow packet rate and byte rate, coupled with a single destination port (80) commonly used for web traffic, suggest a potential web attack.",False,True
+Web Attack,DoS/DDoS,85,The flow duration and low packet rates per second suggest a potential DoS/DDoS attack.,False,False
+Web Attack,Benign,80,"The traffic flow shows a low packet rate and a standard web port (80) usage, resembling benign activity.",False,False
+Web Attack,Web Attack,70,"The flow shows a single ACK flag with no backward packets and zero bytes per second, indicative of a potential web attack signature.",False,True
+Web Attack,Web Attack,70,"The flow shows a single ACK flag with no backward packets and zero bytes per second, similar to a probing or initial phase of a web attack.",False,True
+Web Attack,Benign,80,"The flow shows a single ACK flag with no backward packets and a very short duration, typical of benign traffic.",False,False
+Web Attack,DoS/DDoS,85,High flow duration and low packet rates suggest a potential DoS/DDoS attack.,False,False
+Web Attack,DoS/DDoS,85,High flow duration and low packet rates suggest a potential DoS/DDoS attack.,False,False
+Web Attack,Benign,85,"The traffic flow shows a single ACK flag with no backward packets and a typical HTTP port (80) usage, indicating normal communication.",False,False
+Web Attack,DoS/DDoS,85,High flow duration and low packet rates suggest a potential DoS/DDoS attack.,False,False
+Web Attack,Benign,80,"The traffic flow shows a low packet rate and a standard web port (80) interaction, similar to benign traffic.",False,False
+Web Attack,Benign,80,The flow shows characteristics similar to benign traffic with a single RST flag and no signs of aggressive behavior.,False,False
+Web Attack,DoS/DDoS,85,The flow duration and low packet rates per second suggest a potential DoS/DDoS attack.,False,False
+Web Attack,Benign,80,"The traffic flow shows a single ACK flag with no backward packets and a very short duration, typical of benign HTTP requests.",False,False
+Web Attack,Benign,80,"The traffic flow shows a low packet rate and a standard TCP connection pattern with a RST flag, indicative of a normal connection termination.",False,False
+Web Attack,DoS/DDoS,85,"The flow shows a very long duration with minimal packets and bytes, indicative of a potential DoS/DDoS attack.",False,False
+Web Attack,Web Attack,60,"The low packet rate and byte rate, along with the connection to port 80, suggest a potential web attack.",False,True
+Web Attack,DoS/DDoS,85,"The flow shows a very long duration with minimal packets and bytes, indicative of a potential DoS/DDoS attack.",False,False
+Web Attack,DoS/DDoS,70,Long flow duration and low packet rate suggest a potential DoS/DDoS attack.,False,False
+Web Attack,DoS/DDoS,85,"The flow shows a very long duration with a low packet rate, indicative of a potential DoS/DDoS attack.",False,False
+Web Attack,PortScan,85,"The flow has a very short duration, low packet count, and high packet rate, which are indicative of port scanning activities.",False,False
+Web Attack,DoS/DDoS,85,"The flow shows a very long duration with minimal packets and bytes, indicative of a potential DoS/DDoS attack.",False,False
+Web Attack,Benign,80,The flow shows typical characteristics of normal traffic with a low packet rate and a common destination port of 80.,False,False
+Web Attack,DoS/DDoS,85,"The flow shows a very long duration with minimal packets and bytes, indicative of a potential DoS/DDoS attack.",False,False
+Web Attack,Benign,80,"The flow shows a single ACK flag with no backward packets and a short duration, typical of benign traffic.",False,False
+Web Attack,DoS/DDoS,85,High flow duration and low packet rates suggest a potential DoS/DDoS attack.,False,False
+Web Attack,DoS/DDoS,85,High flow duration and low packet rates suggest a potential DoS/DDoS attack.,False,False
+Web Attack,Benign,80,"The flow shows a single ACK flag with no backward packets and a typical HTTP port (80) usage, resembling benign traffic.",False,False

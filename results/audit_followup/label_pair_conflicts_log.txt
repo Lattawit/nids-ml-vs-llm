@@ -1,0 +1,51 @@
+  chunk 1: 1,000,000 rows, 1 conflicting hashes so far
+  chunk 2: 2,000,000 rows, 568 conflicting hashes so far
+  chunk 3: 3,000,000 rows, 697 conflicting hashes so far
+  chunk 4: 4,000,000 rows, 697 conflicting hashes so far
+  chunk 5: 5,000,000 rows, 709 conflicting hashes so far
+  chunk 6: 6,000,000 rows, 709 conflicting hashes so far
+  chunk 7: 7,000,000 rows, 709 conflicting hashes so far
+  chunk 8: 8,000,000 rows, 709 conflicting hashes so far
+  chunk 9: 9,000,000 rows, 709 conflicting hashes so far
+  chunk 10: 10,000,000 rows, 709 conflicting hashes so far
+  chunk 11: 11,000,000 rows, 709 conflicting hashes so far
+  chunk 12: 12,000,000 rows, 709 conflicting hashes so far
+  chunk 13: 13,000,000 rows, 713 conflicting hashes so far
+  chunk 14: 14,000,000 rows, 20,361 conflicting hashes so far
+  chunk 15: 14,439,966 rows, 22,486 conflicting hashes so far
+
+=== DONE SCANNING ===
+Total rows: 14,439,966
+Conflicting feature-vectors (>1 distinct label): 22,486
+Total rows involved in conflicting vectors: 44,972
+
+=== TOP 10 LABEL-COMBINATION CONFLICTS (by row count) ===
+  Benign + Infiltration                    vectors=21,772  rows= 43,544
+  Benign + PortScan                        vectors=   564  rows=  1,128
+  Benign + DoS/DDoS                        vectors=   133  rows=    266
+  Brute Force + DoS/DDoS                   vectors=    12  rows=     24
+  Benign + Web Attack                      vectors=     5  rows=     10
+
+=== ALL label combinations (not just top 10) ===
+  Benign + Infiltration                    vectors=21,772  rows= 43,544
+  Benign + PortScan                        vectors=   564  rows=  1,128
+  Benign + DoS/DDoS                        vectors=   133  rows=    266
+  Brute Force + DoS/DDoS                   vectors=    12  rows=     24
+  Benign + Web Attack                      vectors=     5  rows=     10
+
+=== SHARE OF EACH CLASS'S ROWS THAT BELONG TO A CONFLICTING VECTOR ===
+  Benign          total_rows=12,662,448  conflicting_rows=22,474  share=0.1775%
+  Infiltration    total_rows=139,811  conflicting_rows=21,772  share=15.5725%
+
+All class totals (deduped file):
+  Benign          total=12,662,448  conflicting=  22,474  (0.1775%)
+  DoS/DDoS        total= 1,294,282  conflicting=     145  (0.0112%)
+  Bot             total=   146,483  conflicting=       0  (0.0000%)
+  Infiltration    total=   139,811  conflicting=  21,772  (15.5725%)
+  Brute Force     total=   103,244  conflicting=      12  (0.0116%)
+  PortScan        total=    90,694  conflicting=     564  (0.6219%)
+  Web Attack      total=     3,004  conflicting=       5  (0.1664%)
+
+Saved:
+  results/audit_followup/label_pair_conflicts_top10.csv
+  results/audit_followup/label_pair_conflicts_all.csv
